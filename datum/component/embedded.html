@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;datum&#x2F;component&#x2F;embedded - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="datum/component/embedded.html#var">Var Details</a> - <a href="datum/component/embedded.html#proc">Proc Details</a></header>
+<main>
+<h1>/<a href="datum.html">datum</a>/<a href="datum/component.html">component</a>/<a href="datum/component/embedded.html">embedded</a>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L33">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 33"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="datum/component/embedded.html#var/harmful">harmful</a></th><td>if both our pain multiplier and jostle pain multiplier are 0, we're harmless and can omit most of the damage related stuff</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/Topic">Topic</a></th><td>Someone is ripping out the item from the turf by hand</td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/fallOutHuman">fallOutHuman</a></th><td>Called when then item randomly falls out of a human. This handles the damage and descriptors, then calls safe_remove()</td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/initHuman">initHuman</a></th><td>//////////HUMAN PROCS////////////////</td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/initTurf">initTurf</a></th><td>///////////TURF PROCS////////////////</td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/itemMoved">itemMoved</a></th><td>This proc handles if something knocked the invisible item loose from the turf somehow (probably an explosion). Just make it visible and say it fell loose, then get outta here.</td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/jostleCheck">jostleCheck</a></th><td>Called every time a human with a harmful embed moves, rolling a chance for the item to cause pain. The chance is halved if the human is crawling or walking.</td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/processHuman">processHuman</a></th><td>Items embedded/stuck to humans both check whether they randomly fall out (if applicable), as well as if the target mob and limb still exists.
+Items harmfully embedded in humans have an additional check for random pain (if applicable)</td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/ripOutHuman">ripOutHuman</a></th><td>Called when a human with an object embedded/stuck to them inspects themselves and clicks the appropriate link to begin ripping the item out. This handles the ripping attempt, descriptors, and dealing damage, then calls safe_remove()</td></tr>
+            <tr><th><a href="datum/component/embedded.html#proc/safeRemoveHuman">safeRemoveHuman</a></th><td>This proc handles the final step and actual removal of an embedded/stuck item from a human, whether or not it was actually removed safely.
+Pass TRUE for to_hands if we want it to go to the victim's hands when they pull it out</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/harmful"><aside class="declaration">var </aside>harmful
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L52">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 52"/></a></h3>
+        <p>if both our pain multiplier and jostle pain multiplier are 0, we're harmless and can omit most of the damage related stuff</p><h2 id="proc">Proc Details</h2><h3 id="proc/Topic"><aside class="parent"><a title="/datum" href="datum.html#proc/Topic">&uarr;</a></aside>Topic<aside>(/<a href="datum.html">datum</a>/source, href_list) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L292">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 292"/></a></aside>
+        </h3>
+        <p>Someone is ripping out the item from the turf by hand</p><h3 id="proc/fallOutHuman"><aside class="declaration">proc </aside>fallOutHuman<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L159">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 159"/></a></aside>
+        </h3>
+        <p>Called when then item randomly falls out of a human. This handles the damage and descriptors, then calls safe_remove()</p><h3 id="proc/initHuman"><aside class="declaration">proc </aside>initHuman<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L125">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 125"/></a></aside>
+        </h3>
+        <p>//////////HUMAN PROCS////////////////</p>
+<p>Set up an instance of embedding for a human. This is basically an extension of Initialize() so not much to say</p><h3 id="proc/initTurf"><aside class="declaration">proc </aside>initTurf<aside>(/<a href="datum.html">datum</a>/thrownthing/throwingdatum) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L241">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 241"/></a></aside>
+        </h3>
+        <p>///////////TURF PROCS////////////////</p>
+<p>Turfs are much lower maintenance, since we don't care if they're in pain, but since they don't bleed or scream, we draw an overlay to show their status.
+The only difference pointy/sticky items make here is text descriptors and pointy objects making a spark shower on impact.</p><h3 id="proc/itemMoved"><aside class="declaration">proc </aside>itemMoved<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L306">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 306"/></a></aside>
+        </h3>
+        <p>This proc handles if something knocked the invisible item loose from the turf somehow (probably an explosion). Just make it visible and say it fell loose, then get outta here.</p><h3 id="proc/jostleCheck"><aside class="declaration">proc </aside>jostleCheck<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L145">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 145"/></a></aside>
+        </h3>
+        <p>Called every time a human with a harmful embed moves, rolling a chance for the item to cause pain. The chance is halved if the human is crawling or walking.</p><h3 id="proc/processHuman"><aside class="declaration">proc </aside>processHuman<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L216">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 216"/></a></aside>
+        </h3>
+        <p>Items embedded/stuck to humans both check whether they randomly fall out (if applicable), as well as if the target mob and limb still exists.
+Items harmfully embedded in humans have an additional check for random pain (if applicable)</p><h3 id="proc/ripOutHuman"><aside class="declaration">proc </aside>ripOutHuman<aside>() 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L173">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 173"/></a></aside>
+        </h3>
+        <p>Called when a human with an object embedded/stuck to them inspects themselves and clicks the appropriate link to begin ripping the item out. This handles the ripping attempt, descriptors, and dealing damage, then calls safe_remove()</p><h3 id="proc/safeRemoveHuman"><aside class="declaration">proc </aside>safeRemoveHuman<aside>(to_hands) 
+        
+    
+            <a href="https://github.com/tgstation/tgstation/blob/d80fc64315e9cfbe7f36581ceba39d743f933b0d/code/datums/components/embedded.dm#L195">
+        <img src="git.png" width="16" height="16" title="code&#x2F;datums&#x2F;components&#x2F;embedded.dm 195"/></a></aside>
+        </h3>
+        <p>This proc handles the final step and actual removal of an embedded/stuck item from a human, whether or not it was actually removed safely.
+Pass TRUE for to_hands if we want it to go to the victim's hands when they pull it out</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/tgstation/tgstation/tree/d80fc64315e9cfbe7f36581ceba39d743f933b0d">d80fc64</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.2.0</a></footer>
+</body>
+</html>
