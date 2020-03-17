@@ -1,14 +1,14 @@
 /datum/job/rd
-	title = "Research Director"
+	title = "Prefect Scientia"
 	flag = RD_JF
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list("Captain")
+	department_head = list("Proconsul")
 	department_flag = MEDSCI
 	head_announce = list("Science")
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the proconsul"
 	selection_color = "#ffddff"
 	req_admin_notify = 1
 	minimal_player_age = 7
@@ -34,7 +34,7 @@
 	display_order = JOB_DISPLAY_ORDER_RESEARCH_DIRECTOR
 
 /datum/outfit/job/rd
-	name = "Research Director"
+	name = "Prefect Scientia"
 	jobtype = /datum/job/rd
 
 	id = /obj/item/card/id/silver
@@ -53,7 +53,7 @@
 	chameleon_extras = /obj/item/stamp/rd
 
 /datum/outfit/job/rd/rig
-	name = "Research Director (Hardsuit)"
+	name = "Prefect Scientia (Hardsuit)"
 
 	l_hand = null
 	mask = /obj/item/clothing/mask/breath

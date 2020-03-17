@@ -81,7 +81,7 @@
 	item_state = "banner_security"
 	lefthand_file = 'icons/mob/inhands/equipment/banners_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/banners_righthand.dmi'
-	job_loyalties = list("Security Officer", "Warden", "Detective", "Head of Security")
+	job_loyalties = list("Security Officer", "Warden", "Detective", "Prefect Vigilum")
 	warcry = "EVERYONE DOWN ON THE GROUND!!"
 
 /obj/item/banner/security/mundane
@@ -102,7 +102,7 @@
 	item_state = "banner_medical"
 	lefthand_file = 'icons/mob/inhands/equipment/banners_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/banners_righthand.dmi'
-	job_loyalties = list("Medical Doctor", "Chemist", "Virologist", "Chief Medical Officer")
+	job_loyalties = list("Medical Doctor", "Chemist", "Virologist", "Prefect Medicus")
 	warcry = "No wounds cannot be healed!"
 
 /obj/item/banner/medical/mundane
@@ -131,7 +131,7 @@
 	item_state = "banner_science"
 	lefthand_file = 'icons/mob/inhands/equipment/banners_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/banners_righthand.dmi'
-	job_loyalties = list("Scientist", "Roboticist", "Research Director", "Geneticist",)
+	job_loyalties = list("Scientist", "Roboticist", "Prefect Scientia", "Geneticist",)
 	warcry = "For Cuban Pete!"
 
 /obj/item/banner/science/mundane
@@ -176,7 +176,7 @@
 	item_state = "banner_engineering"
 	lefthand_file = 'icons/mob/inhands/equipment/banners_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/banners_righthand.dmi'
-	job_loyalties = list("Station Engineer", "Atmospheric Technician", "Chief Engineer")
+	job_loyalties = list("Station Engineer", "Atmospheric Technician", "Prefect Fectum")
 	warcry = "All hail lord Singuloth!!"
 
 /obj/item/banner/engineering/mundane
@@ -197,7 +197,7 @@
 	name = "command banner"
 	desc = "The banner of Command, a staunch and ancient line of bueraucratic kings and queens."
 	//No icon state here since the default one is the NT banner
-	job_loyalties = list("Captain", "Head of Personnel", "Chief Engineer", "Head of Security", "Research Director", "Chief Medical Officer")
+	job_loyalties = list("Proconsul", "Prefect Pretorio", "Prefect Fectum", "Prefect Vigilum", "Prefect Scientia", "Prefect Medicus")
 	warcry = "Hail Nanotrasen!"
 
 /obj/item/banner/command/mundane

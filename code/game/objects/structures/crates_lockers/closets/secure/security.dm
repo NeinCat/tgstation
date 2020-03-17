@@ -1,5 +1,5 @@
 /obj/structure/closet/secure_closet/captains
-	name = "\proper captain's locker"
+	name = "\proper Proconsul's locker"
 	req_access = list(ACCESS_CAPTAIN)
 	icon_state = "cap"
 
@@ -32,10 +32,10 @@
 	new /obj/item/gun/energy/e_gun(src)
 	new /obj/item/door_remote/captain(src)
 	new /obj/item/card/id/captains_spare(src)
-	new /obj/item/storage/photo_album/Captain(src)
+	new /obj/item/storage/photo_album/captain(src)
 
 /obj/structure/closet/secure_closet/hop
-	name = "\proper head of personnel's locker"
+	name = "\proper Prefect Pretorio's locker"
 	req_access = list(ACCESS_HOP)
 	icon_state = "hop"
 
@@ -63,7 +63,7 @@
 	new /obj/item/storage/photo_album/HoP(src)
 
 /obj/structure/closet/secure_closet/hos
-	name = "\proper head of security's locker"
+	name = "\proper Prefect Vigilum's locker"
 	req_access = list(ACCESS_HOS)
 	icon_state = "hos"
 

@@ -29,12 +29,12 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 		"AI",
 		"Assistant",
 		"Cyborg",
-		"Captain",
-		"Head of Personnel",
-		"Head of Security",
-		"Chief Engineer",
-		"Research Director",
-		"Chief Medical Officer",
+		"Proconsul",
+		"Prefect Pretorio",
+		"Prefect Vigilum",
+		"Prefect Fectum",
+		"Prefect Scientia",
+		"Prefect Medicus",
 		"Prisoner")
 
 	//The scaling factor of max total positions in relation to the total amount of people on board the station in %
@@ -409,19 +409,19 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 						if((ACCESS_HOP in inserted_scan_id.access) && ((target_dept==1) || !target_dept))
 							region_access |= 1
 							region_access |= 6
-							get_subordinates("Head of Personnel")
+							get_subordinates("Prefect Pretorio")
 						if((ACCESS_HOS in inserted_scan_id.access) && ((target_dept==2) || !target_dept))
 							region_access |= 2
-							get_subordinates("Head of Security")
+							get_subordinates("Prefect Vigilum")
 						if((ACCESS_CMO in inserted_scan_id.access) && ((target_dept==3) || !target_dept))
 							region_access |= 3
-							get_subordinates("Chief Medical Officer")
+							get_subordinates("Prefect Medicus")
 						if((ACCESS_RD in inserted_scan_id.access) && ((target_dept==4) || !target_dept))
 							region_access |= 4
-							get_subordinates("Research Director")
+							get_subordinates("Prefect Scientia")
 						if((ACCESS_CE in inserted_scan_id.access) && ((target_dept==5) || !target_dept))
 							region_access |= 5
-							get_subordinates("Chief Engineer")
+							get_subordinates("Prefect Fectum")
 						if(region_access)
 							authenticated = 1
 			else if ((!( authenticated ) && issilicon(usr)) && (!inserted_modify_id))

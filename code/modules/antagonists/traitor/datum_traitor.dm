@@ -150,7 +150,7 @@
 			kill_objective.find_target()
 			add_objective(kill_objective)
 	else
-		if(prob(15) && !(locate(/datum/objective/download) in objectives) && !(owner.assigned_role in list("Research Director", "Scientist", "Roboticist")))
+		if(prob(15) && !(locate(/datum/objective/download) in objectives) && !(owner.assigned_role in list("Prefect Scientia", "Scientist", "Roboticist")))
 			var/datum/objective/download/download_objective = new
 			download_objective.owner = owner
 			download_objective.gen_amount_goal()

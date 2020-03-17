@@ -57,23 +57,23 @@
 				qdel(P)
 
 /obj/item/storage/photo_album/HoS
-	name = "photo album (Head of Security)"
+	name = "photo album (Prefect Vigilum)"
 	persistence_id = "HoS"
 
 /obj/item/storage/photo_album/RD
-	name = "photo album (Research Director)"
+	name = "photo album (Prefect Scientia)"
 	persistence_id = "RD"
 
 /obj/item/storage/photo_album/HoP
-	name = "photo album (Head of Personnel)"
+	name = "photo album (Prefect Pretorio)"
 	persistence_id = "HoP"
 
-/obj/item/storage/photo_album/Captain
-	name = "photo album (Captain)"
-	persistence_id = "Captain"
+/obj/item/storage/photo_album/captain
+	name = "photo album (Proconsul)"
+	persistence_id = "Proconsul"
 
 /obj/item/storage/photo_album/CMO
-	name = "photo album (Chief Medical Officer)"
+	name = "photo album (Prefect Medicus)"
 	persistence_id = "CMO"
 
 /obj/item/storage/photo_album/QM
@@ -81,7 +81,7 @@
 	persistence_id = "QM"
 
 /obj/item/storage/photo_album/CE
-	name = "photo album (Chief Engineer)"
+	name = "photo album (Prefect Fectum)"
 	persistence_id = "CE"
 
 /obj/item/storage/photo_album/bar

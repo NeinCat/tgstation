@@ -33,7 +33,7 @@
 
 /datum/bounty/item/medical/eye
 	name = "Organic Eyes"
-	description = "Station 5's Research Director Willem is requesting a few pairs of non-robotic eyes. Don't ask questions, just ship them."
+	description = "Station 5's Prefect Scientia Willem is requesting a few pairs of non-robotic eyes. Don't ask questions, just ship them."
 	reward = 10000
 	required_count = 3
 	wanted_types = list(/obj/item/organ/eyes)

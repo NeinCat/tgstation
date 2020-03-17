@@ -105,36 +105,36 @@
 	icon_state = "pda-hop"
 
 /obj/item/pda/heads/hop
-	name = "head of personnel PDA"
+	name = "Prefect Pretorio PDA"
 	default_cartridge = /obj/item/cartridge/hop
 	icon_state = "pda-hop"
 
 /obj/item/pda/heads/hos
-	name = "head of security PDA"
+	name = "Prefect Vigilum PDA"
 	default_cartridge = /obj/item/cartridge/hos
 	icon_state = "pda-hos"
 
 /obj/item/pda/heads/ce
-	name = "chief engineer PDA"
+	name = "Prefect Fectum PDA"
 	default_cartridge = /obj/item/cartridge/ce
 	icon_state = "pda-ce"
 
 /obj/item/pda/heads/cmo
-	name = "chief medical officer PDA"
+	name = "Prefect Medicus PDA"
 	default_cartridge = /obj/item/cartridge/cmo
 	icon_state = "pda-cmo"
 
 /obj/item/pda/heads/rd
-	name = "research director PDA"
+	name = "Prefect Scientia PDA"
 	default_cartridge = /obj/item/cartridge/rd
 	inserted_item = /obj/item/pen/fountain
 	icon_state = "pda-rd"
 
 /obj/item/pda/captain
-	name = "captain PDA"
+	name = "Proconsul PDA"
 	default_cartridge = /obj/item/cartridge/captain
 	inserted_item = /obj/item/pen/fountain/captain
-	icon_state = "pda-captain"
+	icon_state = "pda-Proconsul"
 
 /obj/item/pda/captain/Initialize()
 	. = ..()

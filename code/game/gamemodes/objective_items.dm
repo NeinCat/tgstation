@@ -4,7 +4,7 @@
 	var/name = "A silly bike horn! Honk!"
 	var/targetitem = /obj/item/bikehorn		//typepath of the objective item
 	var/difficulty = 9001							//vaguely how hard it is to do this objective
-	var/list/excludefromjob = list()				//If you don't want a job to get a certain objective (no captain stealing his own medal, etcetc)
+	var/list/excludefromjob = list()				//If you don't want a job to get a certain objective (no Proconsul stealing his own medal, etcetc)
 	var/list/altitems = list()				//Items which can serve as an alternative to the objective (darn you blueprints)
 	var/list/special_equipment = list()
 
@@ -26,52 +26,52 @@
 	return ..()
 
 /datum/objective_item/steal/caplaser
-	name = "the captain's antique laser gun."
+	name = "the Proconsul's antique laser gun."
 	targetitem = /obj/item/gun/energy/laser/captain
 	difficulty = 5
-	excludefromjob = list("Captain")
+	excludefromjob = list("Proconsul")
 
 /datum/objective_item/steal/hoslaser
-	name = "the head of security's personal laser gun."
+	name = "the Prefect Vigilum's personal laser gun."
 	targetitem = /obj/item/gun/energy/e_gun/hos
 	difficulty = 10
-	excludefromjob = list("Head Of Security")
+	excludefromjob = list("Prefect Vigilum")
 
 /datum/objective_item/steal/handtele
 	name = "a hand teleporter."
 	targetitem = /obj/item/hand_tele
 	difficulty = 5
-	excludefromjob = list("Captain", "Research Director")
+	excludefromjob = list("Proconsul", "Prefect Scientia")
 
 /datum/objective_item/steal/jetpack
-	name = "the Captain's jetpack."
+	name = "the Proconsul's jetpack."
 	targetitem = /obj/item/tank/jetpack/oxygen/captain
 	difficulty = 5
-	excludefromjob = list("Captain")
+	excludefromjob = list("Proconsul")
 
 /datum/objective_item/steal/magboots
-	name = "the chief engineer's advanced magnetic boots."
+	name = "the Prefect Fectum's advanced magnetic boots."
 	targetitem =  /obj/item/clothing/shoes/magboots/advance
 	difficulty = 5
-	excludefromjob = list("Chief Engineer")
+	excludefromjob = list("Prefect Fectum")
 
 /datum/objective_item/steal/capmedal
-	name = "the medal of captaincy."
+	name = "the medal of Proconsulcy."
 	targetitem = /obj/item/clothing/accessory/medal/gold/captain
 	difficulty = 5
-	excludefromjob = list("Captain")
+	excludefromjob = list("Proconsul")
 
 /datum/objective_item/steal/hypo
 	name = "the hypospray."
 	targetitem = /obj/item/reagent_containers/hypospray/CMO
 	difficulty = 5
-	excludefromjob = list("Chief Medical Officer")
+	excludefromjob = list("Prefect Medicus")
 
 /datum/objective_item/steal/nukedisc
 	name = "the nuclear authentication disk."
 	targetitem = /obj/item/disk/nuclear
 	difficulty = 5
-	excludefromjob = list("Captain")
+	excludefromjob = list("Proconsul")
 
 /datum/objective_item/steal/nukedisc/check_special_completion(obj/item/disk/nuclear/N)
 	return !N.fake
@@ -80,13 +80,13 @@
 	name = "a reflector trenchcoat."
 	targetitem = /obj/item/clothing/suit/hooded/ablative
 	difficulty = 3
-	excludefromjob = list("Head of Security", "Warden")
+	excludefromjob = list("Prefect Vigilum", "Warden")
 
 /datum/objective_item/steal/reactive
 	name = "the reactive teleport armor."
 	targetitem = /obj/item/clothing/suit/armor/reactive/teleport
 	difficulty = 5
-	excludefromjob = list("Research Director")
+	excludefromjob = list("Prefect Scientia")
 
 /datum/objective_item/steal/documents
 	name = "any set of secret documents of any organization."
@@ -119,7 +119,7 @@
 	name = "28 moles of plasma (full tank)."
 	targetitem = /obj/item/tank
 	difficulty = 3
-	excludefromjob = list("Chief Engineer","Research Director","Station Engineer","Scientist","Atmospheric Technician")
+	excludefromjob = list("Prefect Fectum","Prefect Scientia","Station Engineer","Scientist","Atmospheric Technician")
 
 /datum/objective_item/steal/plasma/check_special_completion(obj/item/tank/T)
 	var/target_amount = text2num(name)
@@ -143,7 +143,7 @@
 	name = "the station blueprints."
 	targetitem = /obj/item/areaeditor/blueprints
 	difficulty = 10
-	excludefromjob = list("Chief Engineer")
+	excludefromjob = list("Prefect Fectum")
 	altitems = list(/obj/item/photo)
 
 /datum/objective_item/steal/blueprints/check_special_completion(obj/item/I)
@@ -159,7 +159,7 @@
 	name = "an unused sample of slime extract."
 	targetitem = /obj/item/slime_extract
 	difficulty = 3
-	excludefromjob = list("Research Director","Scientist")
+	excludefromjob = list("Prefect Scientia","Scientist")
 
 /datum/objective_item/steal/slime/check_special_completion(obj/item/slime_extract/E)
 	if(E.Uses > 0)
@@ -170,7 +170,7 @@
 	name = "The Blackbox."
 	targetitem = /obj/item/blackbox
 	difficulty = 10
-	excludefromjob = list("Chief Engineer","Station Engineer","Atmospheric Technician")
+	excludefromjob = list("Prefect Fectum","Station Engineer","Atmospheric Technician")
 
 //Unique Objectives
 /datum/objective_item/unique/docs_red
@@ -196,7 +196,7 @@
 
 //Old ninja objectives.
 /datum/objective_item/special/pinpointer/nuke
-	name = "the captain's pinpointer."
+	name = "the Proconsul's pinpointer."
 	targetitem = /obj/item/pinpointer
 	difficulty = 10
 

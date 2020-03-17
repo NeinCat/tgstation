@@ -16,12 +16,12 @@
 		"AI",
 		"Assistant",
 		"Cyborg",
-		"Captain",
-		"Head of Personnel",
-		"Head of Security",
-		"Chief Engineer",
-		"Research Director",
-		"Chief Medical Officer")
+		"Proconsul",
+		"Prefect Pretorio",
+		"Prefect Vigilum",
+		"Prefect Fectum",
+		"Prefect Scientia",
+		"Prefect Medicus")
 
 	//The scaling factor of max total positions in relation to the total amount of people on board the station in %
 	var/max_relative_positions = 30 //30%: Seems reasonable, limit of 6 @ 20 players

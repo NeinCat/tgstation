@@ -5,16 +5,16 @@
 	mob_overlay_icon = 'icons/mob/clothing/under/engineering.dmi'
 
 /obj/item/clothing/under/rank/engineering/chief_engineer
-	desc = "It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of \"Chief Engineer\". It has minor radiation shielding."
-	name = "chief engineer's jumpsuit"
+	desc = "It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of \"Prefect Fectum\". It has minor radiation shielding."
+	name = "Prefect Fectum's jumpsuit"
 	icon_state = "chiefengineer"
 	item_state = "gy_suit"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 10, "fire" = 80, "acid" = 40)
 	resistance_flags = NONE
 
 /obj/item/clothing/under/rank/engineering/chief_engineer/skirt
-	name = "chief engineer's jumpskirt"
-	desc = "It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of \"Chief Engineer\". It has minor radiation shielding."
+	name = "Prefect Fectum's jumpskirt"
+	desc = "It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of \"Prefect Fectum\". It has minor radiation shielding."
 	icon_state = "chief_skirt"
 	item_state = "gy_suit"
 	body_parts_covered = CHEST|GROIN|ARMS

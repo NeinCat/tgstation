@@ -116,12 +116,12 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Botanist"
 
 /obj/effect/landmark/start/head_of_security
-	name = "Head of Security"
-	icon_state = "Head of Security"
+	name = "Prefect Vigilum"
+	icon_state = "Prefect Vigilum"
 
 /obj/effect/landmark/start/captain
-	name = "Captain"
-	icon_state = "Captain"
+	name = "Proconsul"
+	icon_state = "captain"
 
 /obj/effect/landmark/start/detective
 	name = "Detective"
@@ -132,12 +132,12 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Warden"
 
 /obj/effect/landmark/start/chief_engineer
-	name = "Chief Engineer"
-	icon_state = "Chief Engineer"
+	name = "Prefect Fectum"
+	icon_state = "Prefect Fectum"
 
 /obj/effect/landmark/start/head_of_personnel
-	name = "Head of Personnel"
-	icon_state = "Head of Personnel"
+	name = "Prefect Pretorio"
+	icon_state = "Prefect Pretorio"
 
 /obj/effect/landmark/start/librarian
 	name = "Curator"
@@ -172,16 +172,16 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Roboticist"
 
 /obj/effect/landmark/start/research_director
-	name = "Research Director"
-	icon_state = "Research Director"
+	name = "Prefect Scientia"
+	icon_state = "Prefect Scientia"
 
 /obj/effect/landmark/start/geneticist
 	name = "Geneticist"
 	icon_state = "Geneticist"
 
 /obj/effect/landmark/start/chief_medical_officer
-	name = "Chief Medical Officer"
-	icon_state = "Chief Medical Officer"
+	name = "Prefect Medicus"
+	icon_state = "Prefect Medicus"
 
 /obj/effect/landmark/start/virologist
 	name = "Virologist"

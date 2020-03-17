@@ -304,7 +304,7 @@
 		return
 	cached_flat_icon = null
 	var/job = assignment ? ckey(GetJobName()) : null
-	if(registered_name && registered_name != "Captain")
+	if(registered_name && registered_name != "Proconsul")
 		. += mutable_appearance(icon, "assigned")
 	if(job)
 		. += mutable_appearance(icon, "id[job]")
@@ -462,15 +462,15 @@ update_label()
 	uses_overlays = FALSE
 
 /obj/item/card/id/captains_spare
-	name = "captain's spare ID"
-	id_type_name = "captain's spare ID"
+	name = "Proconsul's spare ID"
+	id_type_name = "Proconsul's spare ID"
 	desc = "The spare ID of the High Lord himself."
 	icon_state = "gold"
 	item_state = "gold_id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	registered_name = "Captain"
-	assignment = "Captain"
+	registered_name = "Proconsul"
+	assignment = "Proconsul"
 
 /obj/item/card/id/captains_spare/Initialize()
 	var/datum/job/captain/J = new/datum/job/captain
@@ -478,9 +478,9 @@ update_label()
 	. = ..()
 	update_label()
 
-/obj/item/card/id/captains_spare/update_label() //so it doesn't change to Captain's ID card (Captain) on a sneeze
-	if(registered_name == "Captain")
-		name = "[id_type_name][(!assignment || assignment == "Captain") ? "" : " ([assignment])"]"
+/obj/item/card/id/captains_spare/update_label() //so it doesn't change to Proconsul's ID card (Proconsul) on a sneeze
+	if(registered_name == "Proconsul")
+		name = "[id_type_name][(!assignment || assignment == "Proconsul") ? "" : " ([assignment])"]"
 		update_icon()
 	else
 		..()

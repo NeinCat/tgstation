@@ -23,7 +23,7 @@
 	user.visible_message("<span class='suicide'>[user] primes [src], then eats it! It looks like [user.p_theyre()] trying to commit suicide!</span>")
 	playsound(src, 'sound/items/eatfood.ogg', 50, TRUE)
 	preprime(user, det_time)
-	user.transferItemToLoc(src, user, TRUE)//>eat a grenade set to 5 seconds >rush captain
+	user.transferItemToLoc(src, user, TRUE)//>eat a grenade set to 5 seconds >rush Proconsul
 	sleep(det_time)//so you dont die instantly
 	return BRUTELOSS
 

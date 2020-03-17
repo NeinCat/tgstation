@@ -1,12 +1,12 @@
 /datum/job/hydro
 	title = "Botanist"
 	flag = BOTANIST
-	department_head = list("Head of Personnel")
+	department_head = list("Prefect Pretorio")
 	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 3
 	spawn_positions = 2
-	supervisors = "the head of personnel"
+	supervisors = "the Prefect Pretorio"
 	selection_color = "#bbe291"
 
 	outfit = /datum/outfit/job/botanist

@@ -35,27 +35,27 @@
 		"[ACCESS_HOP]" = list(
 			"department" = list(CARDCON_DEPARTMENT_SERVICE, CARDCON_DEPARTMENT_COMMAND),
 			"region" = 1,
-			"head" = "Head of Personnel"
+			"head" = "Prefect Pretorio"
 		),
 		"[ACCESS_HOS]" = list(
 			"department" = CARDCON_DEPARTMENT_SECURITY,
 			"region" = 2,
-			"head" = "Head of Security"
+			"head" = "Prefect Vigilum"
 		),
 		"[ACCESS_CMO]" = list(
 			"department" = CARDCON_DEPARTMENT_MEDICAL,
 			"region" = 3,
-			"head" = "Chief Medical Officer"
+			"head" = "Prefect Medicus"
 		),
 		"[ACCESS_RD]" = list(
 			"department" = CARDCON_DEPARTMENT_SCIENCE,
 			"region" = 4,
-			"head" = "Research Director"
+			"head" = "Prefect Scientia"
 		),
 		"[ACCESS_CE]" = list(
 			"department" = CARDCON_DEPARTMENT_ENGINEERING,
 			"region" = 5,
-			"head" = "Chief Engineer"
+			"head" = "Prefect Fectum"
 		)
 	)
 
@@ -275,7 +275,7 @@
 		departments = list("CentCom" = get_all_centcom_jobs())
 	else if(isnull(departments))
 		departments = list(
-			CARDCON_DEPARTMENT_COMMAND = list("Captain"),//lol
+			CARDCON_DEPARTMENT_COMMAND = list("Proconsul"),//lol
 			CARDCON_DEPARTMENT_ENGINEERING = GLOB.engineering_positions,
 			CARDCON_DEPARTMENT_MEDICAL = GLOB.medical_positions,
 			CARDCON_DEPARTMENT_SCIENCE = GLOB.science_positions,

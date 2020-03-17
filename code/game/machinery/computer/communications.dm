@@ -475,8 +475,8 @@
 
 				dat += "<BR>\[ <A HREF='?src=[REF(src)];operation=status'>Set Status Display</A> \]"
 				if (authenticated==2)
-					dat += "<BR><BR><B>Captain Functions</B>"
-					dat += "<BR>\[ <A HREF='?src=[REF(src)];operation=announce'>Make a Captain's Announcement</A> \]"
+					dat += "<BR><BR><B>Proconsul Functions</B>"
+					dat += "<BR>\[ <A HREF='?src=[REF(src)];operation=announce'>Make a Proconsul's Announcement</A> \]"
 					var/list/cross_servers = CONFIG_GET(keyed_list/cross_server)
 					var/our_id = CONFIG_GET(string/cross_comms_name)
 					if(cross_servers.len)

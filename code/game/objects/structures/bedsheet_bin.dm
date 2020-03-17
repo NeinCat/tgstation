@@ -118,18 +118,18 @@ LINEN BINS
 	dream_messages = list("honk", "laughter", "a prank", "a joke", "a smiling face", "the clown")
 
 /obj/item/bedsheet/captain
-	name = "captain's bedsheet"
-	desc = "It has a Nanotrasen symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains."
-	icon_state = "sheetcaptain"
-	item_state = "sheetcaptain"
-	dream_messages = list("authority", "a golden ID", "sunglasses", "a green disc", "an antique gun", "the captain")
+	name = "Proconsul's bedsheet"
+	desc = "It has a Nanotrasen symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern Proconsuls."
+	icon_state = "sheetProconsul"
+	item_state = "sheetProconsul"
+	dream_messages = list("authority", "a golden ID", "sunglasses", "a green disc", "an antique gun", "the Proconsul")
 
 /obj/item/bedsheet/rd
-	name = "research director's bedsheet"
+	name = "Prefect Scientia's bedsheet"
 	desc = "It appears to have a beaker emblem, and is made out of fire-resistant material, although it probably won't protect you in the event of fires you're familiar with every day."
 	icon_state = "sheetrd"
 	item_state = "sheetrd"
-	dream_messages = list("authority", "a silvery ID", "a bomb", "a mech", "a facehugger", "maniacal laughter", "the research director")
+	dream_messages = list("authority", "a silvery ID", "a bomb", "a mech", "a facehugger", "maniacal laughter", "the Prefect Scientia")
 
 // for Free Golems.
 /obj/item/bedsheet/rd/royal_cape
@@ -145,32 +145,32 @@ LINEN BINS
 	dream_messages = list("healing", "life", "surgery", "a doctor")
 
 /obj/item/bedsheet/cmo
-	name = "chief medical officer's bedsheet"
+	name = "Prefect Medicus's bedsheet"
 	desc = "It's a sterilized blanket that has a cross emblem. There's some cat fur on it, likely from Runtime."
 	icon_state = "sheetcmo"
 	item_state = "sheetcmo"
-	dream_messages = list("authority", "a silvery ID", "healing", "life", "surgery", "a cat", "the chief medical officer")
+	dream_messages = list("authority", "a silvery ID", "healing", "life", "surgery", "a cat", "the Prefect Medicus")
 
 /obj/item/bedsheet/hos
-	name = "head of security's bedsheet"
+	name = "Prefect Vigilum's bedsheet"
 	desc = "It is decorated with a shield emblem. While crime doesn't sleep, you do, but you are still THE LAW!"
 	icon_state = "sheethos"
 	item_state = "sheethos"
-	dream_messages = list("authority", "a silvery ID", "handcuffs", "a baton", "a flashbang", "sunglasses", "the head of security")
+	dream_messages = list("authority", "a silvery ID", "handcuffs", "a baton", "a flashbang", "sunglasses", "the Prefect Vigilum")
 
 /obj/item/bedsheet/hop
-	name = "head of personnel's bedsheet"
+	name = "Prefect Pretorio's bedsheet"
 	desc = "It is decorated with a key emblem. For those rare moments when you can rest and cuddle with Ian without someone screaming for you over the radio."
 	icon_state = "sheethop"
 	item_state = "sheethop"
-	dream_messages = list("authority", "a silvery ID", "obligation", "a computer", "an ID", "a corgi", "the head of personnel")
+	dream_messages = list("authority", "a silvery ID", "obligation", "a computer", "an ID", "a corgi", "the Prefect Pretorio")
 
 /obj/item/bedsheet/ce
-	name = "chief engineer's bedsheet"
+	name = "Prefect Fectum's bedsheet"
 	desc = "It is decorated with a wrench emblem. It's highly reflective and stain resistant, so you don't need to worry about ruining it with oil."
 	icon_state = "sheetce"
 	item_state = "sheetce"
-	dream_messages = list("authority", "a silvery ID", "the engine", "power tools", "an APC", "a parrot", "the chief engineer")
+	dream_messages = list("authority", "a silvery ID", "the engine", "power tools", "an APC", "a parrot", "the Prefect Fectum")
 
 /obj/item/bedsheet/qm
 	name = "quartermaster's bedsheet"

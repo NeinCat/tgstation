@@ -1,12 +1,12 @@
 /datum/job/atmos
 	title = "Atmospheric Technician"
 	flag = ATMOSTECH
-	department_head = list("Chief Engineer")
+	department_head = list("Prefect Fectum")
 	department_flag = ENGSEC
 	faction = "Station"
 	total_positions = 3
 	spawn_positions = 2
-	supervisors = "the chief engineer"
+	supervisors = "the Prefect Fectum"
 	selection_color = "#fff5cc"
 	exp_requirements = 60
 	exp_type = EXP_TYPE_CREW

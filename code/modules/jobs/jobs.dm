@@ -1,20 +1,20 @@
 GLOBAL_LIST_INIT(command_positions, list(
-	"Captain",
-	"Head of Personnel",
-	"Head of Security",
-	"Chief Engineer",
-	"Research Director",
-	"Chief Medical Officer"))
+	"Proconsul",
+	"Prefect Pretorio",
+	"Prefect Vigilum",
+	"Prefect Fectum",
+	"Prefect Scientia",
+	"Prefect Medicus"))
 
 
 GLOBAL_LIST_INIT(engineering_positions, list(
-	"Chief Engineer",
+	"Prefect Fectum",
 	"Station Engineer",
 	"Atmospheric Technician"))
 
 
 GLOBAL_LIST_INIT(medical_positions, list(
-	"Chief Medical Officer",
+	"Prefect Medicus",
 	"Medical Doctor",
 	"Paramedic",
 	"Virologist",
@@ -22,14 +22,14 @@ GLOBAL_LIST_INIT(medical_positions, list(
 
 
 GLOBAL_LIST_INIT(science_positions, list(
-	"Research Director",
+	"Prefect Scientia",
 	"Scientist",
 	"Geneticist",
 	"Roboticist"))
 
 
 GLOBAL_LIST_INIT(supply_positions, list(
-	"Head of Personnel",
+	"Prefect Pretorio",
 	"Quartermaster",
 	"Cargo Technician",
 	"Shaft Miner"))
@@ -50,7 +50,7 @@ GLOBAL_LIST_INIT(civilian_positions, list(
 
 
 GLOBAL_LIST_INIT(security_positions, list(
-	"Head of Security",
+	"Prefect Vigilum",
 	"Warden",
 	"Detective",
 	"Security Officer"))
@@ -126,12 +126,12 @@ GLOBAL_PROTECT(exp_specialmap)
 	var/static/regex/borg_expand = new("(?<!cy)borg")
 
 	job = lowertext(job)
-	job = cap_expand.Replace(job, "captain")
-	job = cmo_expand.Replace(job, "chief medical officer")
-	job = hos_expand.Replace(job, "head of security")
-	job = hop_expand.Replace(job, "head of personnel")
-	job = rd_expand.Replace(job, "research director")
-	job = ce_expand.Replace(job, "chief engineer")
+	job = cap_expand.Replace(job, "Proconsul")
+	job = cmo_expand.Replace(job, "Prefect Medicus")
+	job = hos_expand.Replace(job, "Prefect Vigilum")
+	job = hop_expand.Replace(job, "Prefect Pretorio")
+	job = rd_expand.Replace(job, "Prefect Scientia")
+	job = ce_expand.Replace(job, "Prefect Fectum")
 	job = qm_expand.Replace(job, "quartermaster")
 	job = sec_expand.Replace(job, "security officer")
 	job = engi_expand.Replace(job, "station engineer")

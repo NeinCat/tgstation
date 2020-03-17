@@ -45,7 +45,7 @@
 	return
 
 /obj/structure/closet/secure_closet/CMO
-	name = "\proper chief medical officer's locker"
+	name = "\proper Prefect Medicus's locker"
 	req_access = list(ACCESS_CMO)
 	icon_state = "cmo"
 

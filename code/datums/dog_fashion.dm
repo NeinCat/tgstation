@@ -55,8 +55,8 @@
 
 
 /datum/dog_fashion/head/captain
-	name = "Captain REAL_NAME"
-	desc = "Probably better than the last captain."
+	name = "Proconsul REAL_NAME"
+	desc = "Probably better than the last Proconsul."
 
 /datum/dog_fashion/head/kitty
 	name = "Runtime"

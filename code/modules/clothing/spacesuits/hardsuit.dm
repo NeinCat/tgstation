@@ -240,7 +240,7 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/engine/atmos
 
 
-	//Chief Engineer's hardsuit
+	//Prefect Fectum's hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/engine/elite
 	name = "advanced hardsuit helmet"
 	desc = "An advanced helmet designed for work in a hazardous, low pressure environment. Shines with a high polish."
@@ -498,7 +498,7 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/medical
 	slowdown = 0.5
 
-	//Research Director hardsuit
+	//Prefect Scientia hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/rd
 	name = "prototype hardsuit helmet"
 	desc = "A prototype helmet designed for research in a hazardous, low pressure environment. Scientific data flashes across the visor."
@@ -571,9 +571,9 @@
 	. = ..()
 	allowed = GLOB.security_hardsuit_allowed
 
-	//Head of Security hardsuit
+	//Prefect Vigilum hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/security/hos
-	name = "head of security's hardsuit helmet"
+	name = "Prefect Vigilum's hardsuit helmet"
 	desc = "A special bulky helmet designed for work in a hazardous, low pressure environment. Has an additional layer of armor."
 	icon_state = "hardsuit0-hos"
 	hardsuit_type = "hos"
@@ -582,7 +582,7 @@
 
 /obj/item/clothing/suit/space/hardsuit/security/hos
 	icon_state = "hardsuit-hos"
-	name = "head of security's hardsuit"
+	name = "Prefect Vigilum's hardsuit"
 	desc = "A special bulky suit that protects against hazardous, low pressure environments. Has an additional layer of armor."
 	armor = list("melee" = 45, "bullet" = 25, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 100, "rad" = 50, "fire" = 95, "acid" = 95)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/hos
@@ -615,20 +615,20 @@
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT //this needed to be added a long fucking time ago
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/swat
 
-// SWAT and Captain get EMP Protection
+// SWAT and Proconsul get EMP Protection
 /obj/item/clothing/suit/space/hardsuit/swat/Initialize()
 	. = ..()
 	allowed = GLOB.security_hardsuit_allowed
 
-	//Captain
+	//captain
 /obj/item/clothing/head/helmet/space/hardsuit/swat/captain
-	name = "captain's SWAT helmet"
+	name = "Proconsul's SWAT helmet"
 	icon_state = "capspace"
 	item_state = "capspacehelmet"
 	desc = "A tactical MK.II SWAT helmet boasting better protection and a reasonable fashion sense."
 
 /obj/item/clothing/suit/space/hardsuit/swat/captain
-	name = "captain's SWAT suit"
+	name = "Proconsul's SWAT suit"
 	desc = "A MK.II SWAT suit with streamlined joints and armor made out of superior materials, insulated against intense heat with the complementary gas mask. The most advanced tactical armor available. Usually reserved for heavy hitter corporate security, this one has a regal finish in Nanotrasen company colors. Better not let the assistants get a hold of it."
 	icon_state = "caparmor"
 	item_state = "capspacesuit"

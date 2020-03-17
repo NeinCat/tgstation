@@ -1,13 +1,13 @@
 /datum/job/warden
-	title = "Warden"
+	title = "Commissar"
 	flag = WARDEN
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
-	department_head = list("Head of Security")
+	department_head = list("Prefect Vigilum")
 	department_flag = ENGSEC
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of security"
+	supervisors = "the Prefect vigilum"
 	selection_color = "#ffeeee"
 	minimal_player_age = 7
 	exp_requirements = 300
@@ -29,7 +29,7 @@
 	return L
 
 /datum/outfit/job/warden
-	name = "Warden"
+	name = "Custodia"
 	jobtype = /datum/job/warden
 
 	belt = /obj/item/pda/warden

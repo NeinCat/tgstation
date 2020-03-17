@@ -38,7 +38,7 @@
 	return ..()
 
 /datum/component/mood/proc/register_job_signals(datum/source, job)
-	if(job in list("Research Director", "Scientist", "Roboticist"))
+	if(job in list("Prefect Scientia", "Scientist", "Roboticist"))
 		RegisterSignal(parent, COMSIG_ADD_MOOD_EVENT_RND, .proc/add_event) //Mood events that are only for RnD members
 
 /datum/component/mood/proc/print_mood(mob/user)

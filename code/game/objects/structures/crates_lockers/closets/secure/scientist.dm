@@ -1,5 +1,5 @@
 /obj/structure/closet/secure_closet/RD
-	name = "\proper research director's locker"
+	name = "\proper Prefect Scientia's locker"
 	req_access = list(ACCESS_RD)
 	icon_state = "rd"
 

@@ -265,7 +265,7 @@
 			agent_card.assignment = initial(copied_card.assignment)
 		agent_card.update_label()
 		if(!agent_card.forged)
-			agent_card.name = initial(copied_card.name) //e.g. captain's spare ID, not Captain's ID Card (Captain)
+			agent_card.name = initial(copied_card.name) //e.g. Proconsul's spare ID, not Proconsul's ID Card (Proconsul)
 
 /datum/action/item_action/chameleon/change/id/apply_job_data(datum/job/job_datum)
 	..()

@@ -179,7 +179,7 @@
 	circuit = /obj/item/circuitboard/computer/research
 
 /obj/machinery/computer/security/hos
-	name = "\improper Head of Security's camera console"
+	name = "\improper Prefect Vigilum's camera console"
 	desc = "A custom security console with added access to the labor camp network."
 	network = list("ss13", "labor")
 	circuit = null
@@ -247,7 +247,7 @@
 		icon_state = icon_state_off
 
 /obj/machinery/computer/security/telescreen/rd
-	name = "\improper Research Director's telescreen"
+	name = "\improper Prefect Scientia's telescreen"
 	desc = "Used for watching the AI and the RD's goons from the safety of his office."
 	network = list("rd", "aicore", "aiupload", "minisat", "xeno", "test")
 
@@ -257,12 +257,12 @@
 	network = list("rd")
 
 /obj/machinery/computer/security/telescreen/ce
-	name = "\improper Chief Engineer's telescreen"
+	name = "\improper Prefect Fectum's telescreen"
 	desc = "Used for watching the engine, telecommunications and the minisat."
 	network = list("engine", "singularity", "tcomms", "minisat")
 
 /obj/machinery/computer/security/telescreen/cmo
-	name = "\improper Chief Medical Officer's telescreen"
+	name = "\improper Prefect Medicus's telescreen"
 	desc = "A telescreen with access to the medbay's camera network."
 	network = list("medbay")
 

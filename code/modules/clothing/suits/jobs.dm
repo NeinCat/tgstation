@@ -20,10 +20,10 @@
 	body_parts_covered = CHEST|GROIN|LEGS
 	permeability_coefficient = 0.5
 
-//Captain
+//captain
 /obj/item/clothing/suit/captunic
-	name = "captain's parade tunic"
-	desc = "Worn by a Captain to show their class."
+	name = "Proconsul's parade tunic"
+	desc = "Worn by a Proconsul to show their class."
 	icon_state = "captunic"
 	item_state = "bio_suit"
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
@@ -138,7 +138,7 @@
 	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/security/hos
-	name = "head of security's jacket"
+	name = "Prefect Vigilum's jacket"
 	desc = "This piece of clothing was specifically designed for asserting superior authority."
 	icon_state = "hosbluejacket"
 	item_state = "hosbluejacket"

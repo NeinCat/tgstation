@@ -1,12 +1,12 @@
 /datum/job/qm
 	title = "Quartermaster"
 	flag = QUARTERMASTER
-	department_head = list("Head of Personnel")
+	department_head = list("Prefect Pretorio")
 	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the prefect pretorio"
 	selection_color = "#d7b088"
 
 	outfit = /datum/outfit/job/quartermaster

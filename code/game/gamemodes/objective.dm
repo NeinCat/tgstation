@@ -960,16 +960,16 @@ GLOBAL_LIST_EMPTY(possible_items_special)
 	department_minds = list()
 	department_real_names = list()
 
-	var/list/departments = list("Head of Security","Research Director","Chief Engineer","Chief Medical Officer")
+	var/list/departments = list("Prefect Vigilum","Prefect Scientia","Prefect Fectum","Prefect Medicus")
 	var/department_head = pick(departments)
 	switch(department_head)
-		if("Head of Security")
+		if("Prefect Vigilum")
 			department_string = "security"
-		if("Research Director")
+		if("Prefect Scientia")
 			department_string = "science"
-		if("Chief Engineer")
+		if("Prefect Fectum")
 			department_string = "engineering"
-		if("Chief Medical Officer")
+		if("Prefect Medicus")
 			department_string = "medical"
 
 	var/list/lings = get_antag_minds(/datum/antagonist/changeling,TRUE)

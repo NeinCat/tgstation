@@ -1314,7 +1314,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 
 /datum/uplink_item/device_tools/fakenucleardisk
 	name = "Decoy Nuclear Authentication Disk"
-	desc = "It's just a normal disk. Visually it's identical to the real deal, but it won't hold up under closer scrutiny by the Captain. \
+	desc = "It's just a normal disk. Visually it's identical to the real deal, but it won't hold up under closer scrutiny by the Proconsul. \
 			Don't try to give this to us to complete your objective, we know better!"
 	item = /obj/item/disk/nuclear/fake
 	cost = 1
@@ -1649,7 +1649,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			disallows explosive ranges above a certain distance, allowing for the device to use the theoretical yield of a transfer valve bomb, instead of the factual yield."
 	item = /obj/item/gun/blastcannon
 	cost = 14							//High cost because of the potential for extreme damage in the hands of a skilled scientist.
-	restricted_roles = list("Research Director", "Scientist")
+	restricted_roles = list("Prefect Scientia", "Scientist")
 
 /datum/uplink_item/role_restricted/gorillacubes
 	name = "Box of Gorilla Cubes"
@@ -1657,14 +1657,14 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			Caution: Product may rehydrate when exposed to water."
 	item = /obj/item/storage/box/gorillacubes
 	cost = 6
-	restricted_roles = list("Geneticist", "Chief Medical Officer")
+	restricted_roles = list("Geneticist", "Prefect Medicus")
 
 /datum/uplink_item/role_restricted/brainwash_disk
 	name = "Brainwashing Surgery Program"
 	desc = "A disk containing the procedure to perform a brainwashing surgery, allowing you to implant an objective onto a target. \
 	Insert into an Operating Console to enable the procedure."
 	item = /obj/item/disk/surgery/brainwashing
-	restricted_roles = list("Medical Doctor", "Chief Medical Officer", "Roboticist")
+	restricted_roles = list("Medical Doctor", "Prefect Medicus", "Roboticist")
 	cost = 5
 
 /datum/uplink_item/role_restricted/clown_bomb
@@ -1687,7 +1687,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			also give them a bit of sentience though."
 	item = /obj/item/reagent_containers/syringe/spider_extract
 	cost = 10
-	restricted_roles = list("Research Director", "Scientist", "Roboticist")
+	restricted_roles = list("Prefect Scientia", "Scientist", "Roboticist")
 
 /datum/uplink_item/role_restricted/clowncar
 	name = "Clown Car"
@@ -1708,7 +1708,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			Only one can fit on a mecha."
 	item = /obj/item/mecha_parts/concealed_weapon_bay
 	cost = 3
-	restricted_roles = list("Roboticist", "Research Director")
+	restricted_roles = list("Roboticist", "Prefect Scientia")
 
 /datum/uplink_item/role_restricted/haunted_magic_eightball
 	name = "Haunted Magic Eightball"
@@ -1772,21 +1772,21 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas."
 	item = /obj/item/reagent_containers/hypospray/medipen/magillitis
 	cost = 15
-	restricted_roles = list("Geneticist", "Chief Medical Officer")
+	restricted_roles = list("Geneticist", "Prefect Medicus")
 
 /datum/uplink_item/role_restricted/modified_syringe_gun
 	name = "Modified Syringe Gun"
 	desc = "A syringe gun that fires DNA injectors instead of normal syringes."
 	item = /obj/item/gun/syringe/dna
 	cost = 14
-	restricted_roles = list("Geneticist", "Chief Medical Officer")
+	restricted_roles = list("Geneticist", "Prefect Medicus")
 
 /datum/uplink_item/role_restricted/chemical_gun
 	name = "Reagent Dartgun"
 	desc = "A heavily modified syringe gun which is capable of synthesizing its own chemical darts using input reagents. Can hold 100u of reagents."
 	item = /obj/item/gun/chem
 	cost = 12
-	restricted_roles = list("Chemist", "Chief Medical Officer")
+	restricted_roles = list("Chemist", "Prefect Medicus")
 
 /datum/uplink_item/role_restricted/reverse_bear_trap
 	name = "Reverse Bear Trap"
@@ -1832,7 +1832,7 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 
 /datum/uplink_item/badass/costumes/centcom_official
 	name = "CentCom Official Costume"
-	desc = "Ask the crew to \"inspect\" their nuclear disk and weapons system, and then when they decline, pull out a fully automatic rifle and gun down the Captain. \
+	desc = "Ask the crew to \"inspect\" their nuclear disk and weapons system, and then when they decline, pull out a fully automatic rifle and gun down the Proconsul. \
 			Radio headset does not include encryption key. No gun included."
 	item = /obj/item/storage/box/syndie_kit/centcom_costume
 

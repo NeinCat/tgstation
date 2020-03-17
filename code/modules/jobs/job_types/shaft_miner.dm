@@ -1,12 +1,12 @@
 /datum/job/mining
 	title = "Shaft Miner"
 	flag = MINER
-	department_head = list("Head of Personnel")
+	department_head = list("Prefect Pretorio")
 	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the quartermaster and the head of personnel"
+	supervisors = "the quartermaster and the prefect pretorio"
 	selection_color = "#dcba97"
 
 	outfit = /datum/outfit/job/miner

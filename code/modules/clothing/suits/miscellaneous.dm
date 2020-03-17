@@ -54,7 +54,7 @@
 	allowed = list(/obj/item/melee/transforming/energy/sword/pirate, /obj/item/clothing/glasses/eyepatch, /obj/item/reagent_containers/food/drinks/bottle/rum)
 
 /obj/item/clothing/suit/pirate/captain
-	name = "pirate captain coat"
+	name = "pirate Proconsul coat"
 	desc = "Yarr."
 	icon_state = "hgpirate"
 	item_state = "hgpirate"
@@ -555,9 +555,9 @@
 	flags_inv = HIDEHAIR|HIDEEARS
 
 /obj/item/clothing/suit/hooded/wintercoat/captain
-	name = "captain's winter coat"
-	icon_state = "coatcaptain"
-	item_state = "coatcaptain"
+	name = "Proconsul's winter coat"
+	icon_state = "coatProconsul"
+	item_state = "coatProconsul"
 	armor = list("melee" = 25, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 50)
 	hoodtype = /obj/item/clothing/head/hooded/winterhood/captain
 
@@ -566,7 +566,7 @@
 	allowed = GLOB.security_wintercoat_allowed
 
 /obj/item/clothing/head/hooded/winterhood/captain
-	icon_state = "winterhood_captain"
+	icon_state = "winterhood_Proconsul"
 
 /obj/item/clothing/suit/hooded/wintercoat/security
 	name = "security winter coat"

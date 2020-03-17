@@ -1,14 +1,14 @@
 /datum/job/hos
-	title = "Head of Security"
+	title = "Prefect Vigilum"
 	flag = HOS
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
-	department_head = list("Captain")
+	department_head = list("Proconsul")
 	department_flag = ENGSEC
 	head_announce = list(RADIO_CHANNEL_SECURITY)
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the proconsul"
 	selection_color = "#ffdddd"
 	req_admin_notify = 1
 	minimal_player_age = 14
@@ -33,7 +33,7 @@
 	display_order = JOB_DISPLAY_ORDER_HEAD_OF_SECURITY
 
 /datum/outfit/job/hos
-	name = "Head of Security"
+	name = "Prefect Vigilum"
 	jobtype = /datum/job/hos
 
 	id = /obj/item/card/id/silver
@@ -60,7 +60,7 @@
 	chameleon_extras = list(/obj/item/gun/energy/e_gun/hos, /obj/item/stamp/hos)
 
 /datum/outfit/job/hos/hardsuit
-	name = "Head of Security (Hardsuit)"
+	name = "Prefect Vigilum (Hardsuit)"
 
 	mask = /obj/item/clothing/mask/gas/sechailer
 	suit = /obj/item/clothing/suit/space/hardsuit/security/hos

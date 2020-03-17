@@ -1,13 +1,13 @@
 /datum/job/officer
-	title = "Security Officer"
+	title = "Vigilia"
 	flag = OFFICER
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
-	department_head = list("Head of Security")
+	department_head = list("Prefect Vigilum")
 	department_flag = ENGSEC
 	faction = "Station"
 	total_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	spawn_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
-	supervisors = "the head of security, and the head of your assigned department (if applicable)"
+	supervisors = "the Prefect vigilum, and the head of your assigned department (if applicable)"
 	selection_color = "#ffeeee"
 	minimal_player_age = 7
 	exp_requirements = 300

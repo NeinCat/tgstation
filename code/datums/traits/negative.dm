@@ -121,9 +121,9 @@
 			if("Assistant")
 				heirloom_type = /obj/item/storage/toolbox/mechanical/old/heirloom
 			//Security/Command
-			if("Captain")
+			if("Proconsul")
 				heirloom_type = /obj/item/reagent_containers/food/drinks/flask/gold
-			if("Head of Security")
+			if("Prefect Vigilum")
 				heirloom_type = /obj/item/book/manual/wiki/security_space_law
 			if("Warden")
 				heirloom_type = /obj/item/book/manual/wiki/security_space_law
@@ -136,14 +136,14 @@
 			if("Prisoner")
 				heirloom_type = /obj/item/pen/blue
 			//RnD
-			if("Research Director")
+			if("Prefect Scientia")
 				heirloom_type = /obj/item/toy/plush/slimeplushie
 			if("Scientist")
 				heirloom_type = /obj/item/toy/plush/slimeplushie
 			if("Roboticist")
 				heirloom_type = pick(subtypesof(/obj/item/toy/prize)) //look at this nerd
 			//Medical
-			if("Chief Medical Officer")
+			if("Prefect Medicus")
 				heirloom_type = pick(/obj/item/clothing/neck/stethoscope, /obj/item/bodybag)
 			if("Medical Doctor")
 				heirloom_type = pick(/obj/item/clothing/neck/stethoscope, /obj/item/bodybag)
@@ -156,7 +156,7 @@
 			if("Geneticist")
 				heirloom_type = /obj/item/clothing/under/shorts/purple
 			//Engineering
-			if("Chief Engineer")
+			if("Prefect Fectum")
 				heirloom_type = pick(/obj/item/clothing/head/hardhat/white, /obj/item/screwdriver, /obj/item/wrench, /obj/item/weldingtool, /obj/item/crowbar, /obj/item/wirecutters)
 			if("Station Engineer")
 				heirloom_type = pick(/obj/item/clothing/head/hardhat, /obj/item/screwdriver, /obj/item/wrench, /obj/item/weldingtool, /obj/item/crowbar, /obj/item/wirecutters)

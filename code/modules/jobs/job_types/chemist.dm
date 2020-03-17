@@ -1,12 +1,12 @@
 /datum/job/chemist
 	title = "Chemist"
 	flag = CHEMIST
-	department_head = list("Chief Medical Officer")
+	department_head = list("Prefect Medicus")
 	department_flag = MEDSCI
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the chief medical officer"
+	supervisors = "the Prefect Medicus"
 	selection_color = "#ffeef0"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 60

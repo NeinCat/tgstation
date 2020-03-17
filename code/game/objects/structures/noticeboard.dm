@@ -92,33 +92,33 @@
 // Notice boards for the heads of staff (plus the qm)
 
 /obj/structure/noticeboard/captain
-	name = "Captain's Notice Board"
-	desc = "Important notices from the Captain."
+	name = "Proconsul's Notice Board"
+	desc = "Important notices from the Proconsul."
 	req_access = list(ACCESS_CAPTAIN)
 
 /obj/structure/noticeboard/hop
-	name = "Head of Personnel's Notice Board"
-	desc = "Important notices from the Head of Personnel."
+	name = "Prefect Pretorio's Notice Board"
+	desc = "Important notices from the Prefect Pretorio."
 	req_access = list(ACCESS_HOP)
 
 /obj/structure/noticeboard/ce
-	name = "Chief Engineer's Notice Board"
-	desc = "Important notices from the Chief Engineer."
+	name = "Prefect Fectum's Notice Board"
+	desc = "Important notices from the Prefect Fectum."
 	req_access = list(ACCESS_CE)
 
 /obj/structure/noticeboard/hos
-	name = "Head of Security's Notice Board"
-	desc = "Important notices from the Head of Security."
+	name = "Prefect Vigilum's Notice Board"
+	desc = "Important notices from the Prefect Vigilum."
 	req_access = list(ACCESS_HOS)
 
 /obj/structure/noticeboard/cmo
-	name = "Chief Medical Officer's Notice Board"
-	desc = "Important notices from the Chief Medical Officer."
+	name = "Prefect Medicus's Notice Board"
+	desc = "Important notices from the Prefect Medicus."
 	req_access = list(ACCESS_CMO)
 
 /obj/structure/noticeboard/rd
-	name = "Research Director's Notice Board"
-	desc = "Important notices from the Research Director."
+	name = "Prefect Scientia's Notice Board"
+	desc = "Important notices from the Prefect Scientia."
 	req_access = list(ACCESS_RD)
 
 /obj/structure/noticeboard/qm

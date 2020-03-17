@@ -83,7 +83,7 @@
 	free_clothes = list(/obj/item/clothing/head/beanie/purple,
 						/obj/item/clothing/under/color/lightpurple,
 						/obj/item/toy/crayon/spraycan)
-	var/list/cop_roles = list("Security Officer", "Warden", "Detective", "Head of Security")
+	var/list/cop_roles = list("Security Officer", "Warden", "Detective", "Prefect Vigilum")
 	gang_objective = "We're looking to make a deal with the security pigs on this station after the shift. We scratch their back, they scratch ours. You feel me? Keep all of security safe from any trouble, and make sure they get out alive."
 	antag_hud_name = "Ballas"
 
@@ -262,12 +262,12 @@
 	free_clothes = list(/obj/item/storage/backpack/henchmen,
 						/obj/item/clothing/under/suit/henchmen,
 						/obj/item/toy/crayon/spraycan)
-	gang_objective = "I have it on VERY GOOD AUTHORITY that the Research Director on this station helped Venture on a science project back in college! ENSURE THAT HE DOES NOT LEAVE THIS STATION ALIVE, HENCHMEN! THE MIGHTY MONARCH DEMANDS IT!!!"
+	gang_objective = "I have it on VERY GOOD AUTHORITY that the Prefect Scientia on this station helped Venture on a science project back in college! ENSURE THAT HE DOES NOT LEAVE THIS STATION ALIVE, HENCHMEN! THE MIGHTY MONARCH DEMANDS IT!!!"
 	antag_hud_name = "Monarch"
 
 /datum/antagonist/gang/henchmen/check_gang_objective() // gotta arch dr. venture indirectly
 	for(var/mob/M in GLOB.player_list)
-		if(M.mind.assigned_role == "Research Director")
+		if(M.mind.assigned_role == "Prefect Scientia")
 			if(considered_alive(M))
 				return FALSE
 	return TRUE
@@ -315,7 +315,7 @@
 						/obj/item/clothing/shoes/jackbros,
 						/obj/item/clothing/head/jackbros,
 						/obj/item/toy/crayon/spraycan)
-	gang_objective = "Hee-hello friends! We need to expand our influence, ho! Get a King Frost in as the Captain of this joint! Either get the original Captain on board with the program, or Hee-ho a fellow Jack Frost into the position yourselves!"
+	gang_objective = "Hee-hello friends! We need to expand our influence, ho! Get a King Frost in as the Proconsul of this joint! Either get the original Proconsul on board with the program, or Hee-ho a fellow Jack Frost into the position yourselves!"
 	antag_hud_name = "JackFrost"
 
 /datum/antagonist/gang/jackbros/check_gang_objective()
@@ -327,7 +327,7 @@
 				continue // dead people cant really do the objective lol
 			if(ishuman(MI.current))
 				var/mob/living/carbon/human/H = MI.current
-				if(H.get_assignment() == "Captain")
+				if(H.get_assignment() == "Proconsul")
 					return TRUE
 	return FALSE
 

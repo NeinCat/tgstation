@@ -1,7 +1,7 @@
 //miscellaneous spacesuits
 /*
 Contains:
- - Captain's spacesuit
+ - Proconsul's spacesuit
  - Death squad's hardsuit
  - SWAT suit
  - Officer's beret/spacesuit

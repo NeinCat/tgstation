@@ -1,5 +1,5 @@
 /obj/item/gun/energy/e_gun
-	name = "energy gun"
+	name = "energy gun l-1000"
 	desc = "A basic hybrid energy gun with two settings: disable and kill."
 	icon_state = "energy"
 	item_state = null	//so the human update icon uses the icon_state instead.
@@ -12,7 +12,7 @@
 	dual_wield_spread = 60
 
 /obj/item/gun/energy/e_gun/mini
-	name = "miniature energy gun"
+	name = "energy pistol l-1500"
 	desc = "A small, pistol-sized energy gun with a built-in flashlight. It has two settings: disable and kill."
 	icon_state = "mini"
 	item_state = "gun"

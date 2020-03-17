@@ -248,7 +248,7 @@
 		if(ACCESS_HEADS)
 			return "Bridge"
 		if(ACCESS_CAPTAIN)
-			return "Captain"
+			return "Proconsul"
 		if(ACCESS_ALL_PERSONAL_LOCKERS)
 			return "Personal Lockers"
 		if(ACCESS_CHAPEL_OFFICE)
@@ -354,10 +354,10 @@
 			return "Code Scotch"
 
 /proc/get_all_jobs()
-	return list("Assistant", "Captain", "Head of Personnel", "Bartender", "Cook", "Botanist", "Quartermaster", "Cargo Technician",
-				"Shaft Miner", "Clown", "Mime", "Janitor", "Curator", "Lawyer", "Chaplain", "Chief Engineer", "Station Engineer",
-				"Atmospheric Technician", "Chief Medical Officer", "Medical Doctor", "Paramedic", "Chemist", "Geneticist", "Virologist",
-				"Research Director", "Scientist", "Roboticist", "Head of Security", "Warden", "Detective", "Security Officer", "Prisoner")
+	return list("Assistant", "Proconsul", "Prefect Pretorio", "Bartender", "Cook", "Botanist", "Quartermaster", "Cargo Technician",
+				"Shaft Miner", "Clown", "Mime", "Janitor", "Curator", "Lawyer", "Chaplain", "Prefect Fectum", "Station Engineer",
+				"Atmospheric Technician", "Prefect Medicus", "Medical Doctor", "Paramedic", "Chemist", "Geneticist", "Virologist",
+				"Prefect Scientia", "Scientist", "Roboticist", "Prefect Vigilum", "Warden", "Detective", "Security Officer", "Prisoner")
 
 /proc/get_all_job_icons() //For all existing HUD icons
 	return get_all_jobs() + list("Emergency Response Team Commander", "Security Response Officer", "Engineering Response Officer", "Medical Response Officer", "Entertainment Response Officer", "Religious Response Officer", "Janitorial Response Officer", "Death Commando")

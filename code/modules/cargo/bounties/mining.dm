@@ -32,13 +32,13 @@
 
 /datum/bounty/item/mining/skull_helmet
 	name = "Skull Helmet"
-	description = "Station 42's Head of Security has her birthday tomorrow! We want to suprise her with a fashionable skull helmet."
+	description = "Station 42's Prefect Vigilum has her birthday tomorrow! We want to suprise her with a fashionable skull helmet."
 	reward = 4000
 	wanted_types = list(/obj/item/clothing/head/helmet/skull)
 
 /datum/bounty/item/mining/bone_talisman
 	name = "Bone Talismans"
-	description = "Station 14's Research Director claims that pagan bone talismans protect their wearer. Ship them a few so they can start testing."
+	description = "Station 14's Prefect Scientia claims that pagan bone talismans protect their wearer. Ship them a few so they can start testing."
 	reward = 7500
 	required_count = 3
 	wanted_types = list(/obj/item/clothing/accessory/talisman)

@@ -1,14 +1,14 @@
 /datum/job/cmo
-	title = "Chief Medical Officer"
+	title = "Prefect Medicus"
 	flag = CMO_JF
-	department_head = list("Captain")
+	department_head = list("Proconsul")
 	department_flag = MEDSCI
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	head_announce = list(RADIO_CHANNEL_MEDICAL)
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the Proconsul"
 	selection_color = "#ffddf0"
 	req_admin_notify = 1
 	minimal_player_age = 7
@@ -30,7 +30,7 @@
 	display_order = JOB_DISPLAY_ORDER_CHIEF_MEDICAL_OFFICER
 
 /datum/outfit/job/cmo
-	name = "Chief Medical Officer"
+	name = "Prefect Medicus"
 	jobtype = /datum/job/cmo
 
 	id = /obj/item/card/id/silver
@@ -51,7 +51,7 @@
 	chameleon_extras = list(/obj/item/gun/syringe, /obj/item/stamp/cmo)
 
 /datum/outfit/job/cmo/hardsuit
-	name = "Chief Medical Officer (Hardsuit)"
+	name = "Prefect Medicus (Hardsuit)"
 
 	mask = /obj/item/clothing/mask/breath
 	suit = /obj/item/clothing/suit/space/hardsuit/medical

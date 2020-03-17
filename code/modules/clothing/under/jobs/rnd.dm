@@ -3,16 +3,16 @@
 	mob_overlay_icon = 'icons/mob/clothing/under/rnd.dmi'
 
 /obj/item/clothing/under/rank/rnd/research_director
-	desc = "It's a suit worn by those with the know-how to achieve the position of \"Research Director\". Its fabric provides minor protection from biological contaminants."
-	name = "research director's vest suit"
+	desc = "It's a suit worn by those with the know-how to achieve the position of \"Prefect Scientia\". Its fabric provides minor protection from biological contaminants."
+	name = "Prefect Scientia's vest suit"
 	icon_state = "director"
 	item_state = "lb_suit"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 10, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 35)
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/rnd/research_director/skirt
-	name = "research director's vest suitskirt"
-	desc = "It's a suitskirt worn by those with the know-how to achieve the position of \"Research Director\". Its fabric provides minor protection from biological contaminants."
+	name = "Prefect Scientia's vest suitskirt"
+	desc = "It's a suitskirt worn by those with the know-how to achieve the position of \"Prefect Scientia\". Its fabric provides minor protection from biological contaminants."
 	icon_state = "director_skirt"
 	item_state = "lb_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -21,7 +21,7 @@
 
 /obj/item/clothing/under/rank/rnd/research_director/alt
 	desc = "Maybe you'll engineer your own half-man, half-pig creature some day. Its fabric provides minor protection from biological contaminants."
-	name = "research director's tan suit"
+	name = "Prefect Scientia's tan suit"
 	icon_state = "rdwhimsy"
 	item_state = "rdwhimsy"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 10, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 0)
@@ -29,7 +29,7 @@
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/rnd/research_director/alt/skirt
-	name = "research director's tan suitskirt"
+	name = "Prefect Scientia's tan suitskirt"
 	desc = "Maybe you'll engineer your own half-man, half-pig creature some day. Its fabric provides minor protection from biological contaminants."
 	icon_state = "rdwhimsy_skirt"
 	item_state = "rdwhimsy"
@@ -39,7 +39,7 @@
 
 /obj/item/clothing/under/rank/rnd/research_director/turtleneck
 	desc = "A dark purple turtleneck and tan khakis, for a director with a superior sense of style."
-	name = "research director's turtleneck"
+	name = "Prefect Scientia's turtleneck"
 	icon_state = "rdturtle"
 	item_state = "p_suit"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 10, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 0)
@@ -47,7 +47,7 @@
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/rnd/research_director/turtleneck/skirt
-	name = "research director's turtleneck skirt"
+	name = "Prefect Scientia's turtleneck skirt"
 	desc = "A dark purple turtleneck and tan khaki skirt, for a director with a superior sense of style."
 	icon_state = "rdturtle_skirt"
 	item_state = "p_suit"

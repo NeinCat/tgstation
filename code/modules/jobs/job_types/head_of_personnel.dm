@@ -1,14 +1,14 @@
 /datum/job/hop
-	title = "Head of Personnel"
+	title = "Prefect Pretorio"
 	flag = HOP
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list("Captain")
+	department_head = list("Proconsul")
 	department_flag = CIVILIAN
 	head_announce = list(RADIO_CHANNEL_SUPPLY, RADIO_CHANNEL_SERVICE)
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the proconsul"
 	selection_color = "#ddddff"
 	req_admin_notify = 1
 	minimal_player_age = 10
@@ -38,7 +38,7 @@
 	display_order = JOB_DISPLAY_ORDER_HEAD_OF_PERSONNEL
 
 /datum/outfit/job/hop
-	name = "Head of Personnel"
+	name = "Prefect Pretorio"
 	jobtype = /datum/job/hop
 
 	id = /obj/item/card/id/silver

@@ -1,6 +1,6 @@
 /obj/item/gun/energy/taser
-	name = "taser gun"
-	desc = "A low-capacity, energy-based stun gun used by security teams to subdue targets at range."
+	name = "taser t15"
+	desc = "A low-capacity, energy-based stun gun used by Vigils to subdue targets at range."
 	icon_state = "taser"
 	item_state = null	//so the human update icon uses the icon_state instead.
 	ammo_type = list(/obj/item/ammo_casing/energy/electrode)
@@ -17,7 +17,7 @@
 	shaded_charge = 1
 
 /obj/item/gun/energy/e_gun/advtaser
-	name = "hybrid taser"
+	name = "luger t30"
 	desc = "A dual-mode taser designed to fire both short-range high-power electrodes and long-range disabler beams."
 	icon_state = "advtaser"
 	ammo_type = list(/obj/item/ammo_casing/energy/electrode, /obj/item/ammo_casing/energy/disabler)

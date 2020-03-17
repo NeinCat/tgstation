@@ -15,7 +15,7 @@
 	return(OXYLOSS)
 
 /obj/item/clothing/neck/cloak/hos
-	name = "head of security's cloak"
+	name = "Prefect Vigilum's cloak"
 	desc = "Worn by Securistan, ruling the station with an iron fist."
 	icon_state = "hoscloak"
 
@@ -24,29 +24,29 @@
 	desc = "Worn by Cargonia, supplying the station with the necessary tools for survival."
 
 /obj/item/clothing/neck/cloak/cmo
-	name = "chief medical officer's cloak"
+	name = "Prefect Medicus's cloak"
 	desc = "Worn by Meditopia, the valiant men and women keeping pestilence at bay."
 	icon_state = "cmocloak"
 
 /obj/item/clothing/neck/cloak/ce
-	name = "chief engineer's cloak"
+	name = "Prefect Fectum's cloak"
 	desc = "Worn by Engitopia, wielders of an unlimited power."
 	icon_state = "cecloak"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/cloak/rd
-	name = "research director's cloak"
+	name = "Prefect Scientia's cloak"
 	desc = "Worn by Sciencia, thaumaturges and researchers of the universe."
 	icon_state = "rdcloak"
 
 /obj/item/clothing/neck/cloak/cap
-	name = "captain's cloak"
+	name = "Proconsul's cloak"
 	desc = "Worn by the commander of Space Station 13."
 	icon_state = "capcloak"
 
 /obj/item/clothing/neck/cloak/hop
-	name = "head of personnel's cloak"
-	desc = "Worn by the Head of Personnel. It smells faintly of bureaucracy."
+	name = "Prefect Pretorio's cloak"
+	desc = "Worn by the Prefect Pretorio. It smells faintly of bureaucracy."
 	icon_state = "hopcloak"
 
 /obj/item/clothing/suit/hooded/cloak/goliath

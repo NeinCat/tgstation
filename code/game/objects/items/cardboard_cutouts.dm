@@ -111,7 +111,7 @@
 			desc = "...(A cardboard cutout of a mime.)"
 			icon_state = "cutout_mime"
 		if("Traitor")
-			name = "[pick("Unknown", "Captain")]"
+			name = "[pick("Unknown", "Proconsul")]"
 			desc = "A cardboard cutout of a traitor."
 			icon_state = "cutout_traitor"
 		if("Nuke Op")

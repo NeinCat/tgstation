@@ -364,7 +364,7 @@ SUBSYSTEM_DEF(ticker)
 		var/mob/dead/new_player/N = i
 		var/mob/living/carbon/human/player = N.new_character
 		if(istype(player) && player.mind && player.mind.assigned_role)
-			if(player.mind.assigned_role == "Captain")
+			if(player.mind.assigned_role == "Proconsul")
 				captainless=0
 			if(player.mind.assigned_role != player.mind.special_role)
 				SSjob.EquipRank(N, player.mind.assigned_role, 0)
@@ -375,7 +375,7 @@ SUBSYSTEM_DEF(ticker)
 		for(var/i in GLOB.new_player_list)
 			var/mob/dead/new_player/N = i
 			if(N.new_character)
-				to_chat(N, "<span class='notice'>Captainship not forced on anyone.</span>")
+				to_chat(N, "<span class='notice'>Proconsulship not forced on anyone.</span>")
 			CHECK_TICK
 
 /datum/controller/subsystem/ticker/proc/transfer_characters()
@@ -531,7 +531,7 @@ SUBSYSTEM_DEF(ticker)
 		if(WIZARD_KILLED)
 			news_message = "Tensions have flared with the Space Wizard Federation following the death of one of their members aboard [station_name()]."
 		if(STATION_NUKED)
-			news_message = "[station_name()] activated its self destruct device for unknown reasons. Attempts to clone the Captain so he can be arrested and executed are underway."
+			news_message = "[station_name()] activated its self destruct device for unknown reasons. Attempts to clone the Proconsul so he can be arrested and executed are underway."
 		if(CLOCK_SUMMON)
 			news_message = "The garbled messages about hailing a mouse and strange energy readings from [station_name()] have been discovered to be an ill-advised, if thorough, prank by a clown."
 		if(CLOCK_SILICONS)

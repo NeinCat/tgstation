@@ -66,7 +66,7 @@
 			/obj/item/reagent_containers/food/drinks/flask = 1)
 	req_access = null
 
-/obj/machinery/vending/boozeomat/pubby_captain //Captain's quarters on Pubbystation
+/obj/machinery/vending/boozeomat/pubby_Proconsul //captain's quarters on Pubbystation
 	products = list(/obj/item/reagent_containers/food/drinks/bottle/rum = 1,
 					/obj/item/reagent_containers/food/drinks/bottle/wine = 1,
 					/obj/item/reagent_containers/food/drinks/ale = 1,

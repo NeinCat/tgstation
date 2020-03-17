@@ -140,10 +140,10 @@
 	item_state = "securitypack"
 
 /obj/item/storage/backpack/captain
-	name = "captain's backpack"
+	name = "Proconsul's backpack"
 	desc = "It's a special backpack made exclusively for Nanotrasen officers."
-	icon_state = "captainpack"
-	item_state = "captainpack"
+	icon_state = "Proconsulpack"
+	item_state = "Proconsulpack"
 
 /obj/item/storage/backpack/industrial
 	name = "industrial backpack"
@@ -291,7 +291,7 @@
 	item_state = "satchel-explorer"
 
 /obj/item/storage/backpack/satchel/cap
-	name = "captain's satchel"
+	name = "Proconsul's satchel"
 	desc = "An exclusive satchel for Nanotrasen officers."
 	icon_state = "satchel-cap"
 	item_state = "satchel-cap"
@@ -343,10 +343,10 @@
 	STR.max_combined_w_class = 30
 
 /obj/item/storage/backpack/duffelbag/captain
-	name = "captain's duffel bag"
-	desc = "A large duffel bag for holding extra captainly goods."
-	icon_state = "duffel-captain"
-	item_state = "duffel-captain"
+	name = "Proconsul's duffel bag"
+	desc = "A large duffel bag for holding extra Proconsully goods."
+	icon_state = "duffel-Proconsul"
+	item_state = "duffel-Proconsul"
 
 /obj/item/storage/backpack/duffelbag/med
 	name = "medical duffel bag"

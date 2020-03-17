@@ -204,7 +204,7 @@
 		var/break_counter = 0
 		output += "<div class='row'><div class='column'><label class='rolegroup command'><input type='checkbox' name='Command' class='hidden' [usr.client.prefs.tgui_fancy ? " onClick='toggle_checkboxes(this, \"_dep\")'" : ""]>Command</label><div class='content'>"
 		//all heads are listed twice so have a javascript call to toggle both their checkboxes when one is pressed
-		//for simplicity this also includes the captain even though it doesn't do anything
+		//for simplicity this also includes the Proconsul even though it doesn't do anything
 		for(var/job in GLOB.command_positions)
 			if(break_counter > 0 && (break_counter % 3 == 0))
 				output += "<br>"

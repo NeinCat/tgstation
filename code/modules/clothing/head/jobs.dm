@@ -24,29 +24,29 @@
 	playsound(user, 'sound/machines/ding.ogg', 50, TRUE)
 	return(FIRELOSS)
 
-//Captain
+//captain
 /obj/item/clothing/head/caphat
-	name = "captain's hat"
+	name = "Proconsul's hat"
 	desc = "It's good being the king."
-	icon_state = "captain"
+	icon_state = "Proconsul"
 	item_state = "that"
 	flags_inv = 0
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 60
 	dog_fashion = /datum/dog_fashion/head/captain
 
-//Captain: This is no longer space-worthy
+//captain: This is no longer space-worthy
 /obj/item/clothing/head/caphat/parade
-	name = "captain's parade cap"
-	desc = "Worn only by Captains with an abundance of class."
+	name = "Proconsul's parade cap"
+	desc = "Worn only by Proconsuls with an abundance of class."
 	icon_state = "capcap"
 
 	dog_fashion = null
 
 
-//Head of Personnel
+//Prefect Pretorio
 /obj/item/clothing/head/hopcap
-	name = "head of personnel's cap"
+	name = "Prefect Pretorio's cap"
 	icon_state = "hopcap"
 	desc = "The symbol of true bureaucratic micromanagement."
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
@@ -138,8 +138,8 @@
 //Security
 
 /obj/item/clothing/head/HoS
-	name = "head of security cap"
-	desc = "The robust standard-issue cap of the Head of Security. For showing the officers who's in charge."
+	name = "Prefect Vigilum cap"
+	desc = "The robust standard-issue cap of the Prefect Vigilum. For showing the officers who's in charge."
 	icon_state = "hoscap"
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 10, "rad" = 0, "fire" = 50, "acid" = 60)
 	strip_delay = 80
@@ -150,8 +150,8 @@
 	desc = "A black cap fit for a high ranking syndicate officer."
 
 /obj/item/clothing/head/HoS/beret
-	name = "head of security beret"
-	desc = "A robust beret for the Head of Security, for looking stylish while not sacrificing protection."
+	name = "Prefect Vigilum beret"
+	desc = "A robust beret for the Prefect Vigilum, for looking stylish while not sacrificing protection."
 	icon_state = "hosberetblack"
 
 /obj/item/clothing/head/HoS/beret/syndicate
@@ -243,8 +243,8 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/beret/sec/navyhos
-	name = "head of security's beret"
-	desc = "A special beret with the Head of Security's insignia emblazoned on it. A symbol of excellence, a badge of courage, a mark of distinction."
+	name = "Prefect Vigilum's beret"
+	desc = "A special beret with the Prefect Vigilum's insignia emblazoned on it. A symbol of excellence, a badge of courage, a mark of distinction."
 	icon_state = "hosberet"
 
 /obj/item/clothing/head/beret/sec/navywarden

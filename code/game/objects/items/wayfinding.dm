@@ -184,7 +184,7 @@
 	location = "Bridge"
 
 /obj/machinery/navbeacon/wayfinding/hop
-	location = "Head of Personnel's Office"
+	location = "Prefect Pretorio's Office"
 
 /obj/machinery/navbeacon/wayfinding/vault
 	location = "Vault"

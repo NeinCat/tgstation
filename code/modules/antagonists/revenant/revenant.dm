@@ -476,7 +476,7 @@
 									 "Hinder the crew while attempting to avoid being noticed.", \
 									 "Make the crew as miserable as possible.", \
 									 "Make the clown as miserable as possible.", \
-									 "Make the captain as miserable as possible.", \
+									 "Make the Proconsul as miserable as possible.", \
 									 "Prevent the use of energy weapons where possible.")
 	explanation_text = pick(explanationTexts)
 	..()

@@ -1,12 +1,12 @@
 /datum/job/cook
 	title = "Cook"
 	flag = COOK
-	department_head = list("Head of Personnel")
+	department_head = list("Prefect Pretorio")
 	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the Prefect Pretorio"
 	selection_color = "#bbe291"
 	var/cooks = 0 //Counts cooks amount
 

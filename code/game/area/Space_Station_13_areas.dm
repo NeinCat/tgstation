@@ -316,31 +316,31 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "showroom"
 
 /area/crew_quarters/heads/captain
-	name = "Captain's Office"
-	icon_state = "captain"
+	name = "Proconsul's Office"
+	icon_state = "Proconsul"
 
 /area/crew_quarters/heads/captain/private
-	name = "Captain's Quarters"
-	icon_state = "captain"
+	name = "Proconsul's Quarters"
+	icon_state = "Proconsul"
 
 /area/crew_quarters/heads/chief
-	name = "Chief Engineer's Office"
+	name = "Prefect Fectum's Office"
 	icon_state = "ce_office"
 
 /area/crew_quarters/heads/cmo
-	name = "Chief Medical Officer's Office"
+	name = "Prefect Medicus's Office"
 	icon_state = "cmo_office"
 
 /area/crew_quarters/heads/hop
-	name = "Head of Personnel's Office"
+	name = "Prefect Pretorio's Office"
 	icon_state = "hop_office"
 
 /area/crew_quarters/heads/hos
-	name = "Head of Security's Office"
+	name = "Prefect Vigilum's Office"
 	icon_state = "hos_office"
 
 /area/crew_quarters/heads/hor
-	name = "Research Director's Office"
+	name = "Prefect Scientia's Office"
 	icon_state = "rd_office"
 
 /area/comms

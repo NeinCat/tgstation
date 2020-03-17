@@ -39,12 +39,12 @@
 
 	var/list/stolen_valor
 
-	var/static/list/officers = list("Captain", "Head of Personnel", "Head of Security")
-	var/static/list/command = list("Captain" = "Cpt.","Head of Personnel" = "Lt.")
-	var/static/list/security = list("Head of Security" = "Maj.", "Warden" = "Sgt.", "Detective" =  "Det.", "Security Officer" = "Officer")
-	var/static/list/engineering = list("Chief Engineer" = "Chief Engineer", "Station Engineer" = "Engineer", "Atmospherics Technician" = "Technician")
-	var/static/list/medical = list("Chief Medical Officer" = "C.M.O.", "Medical Doctor" = "M.D.", "Chemist" = "Pharm.D.")
-	var/static/list/research = list("Research Director" = "Ph.D.", "Roboticist" = "M.S.", "Scientist" = "B.S.")
+	var/static/list/officers = list("Proconsul", "Prefect Pretorio", "Prefect Vigilum")
+	var/static/list/command = list("Proconsul" = "Cpt.","Prefect Pretorio" = "Lt.")
+	var/static/list/security = list("Prefect Vigilum" = "Maj.", "Warden" = "Sgt.", "Detective" =  "Det.", "Security Officer" = "Officer")
+	var/static/list/engineering = list("Prefect Fectum" = "Prefect Fectum", "Station Engineer" = "Engineer", "Atmospherics Technician" = "Technician")
+	var/static/list/medical = list("Prefect Medicus" = "C.M.O.", "Medical Doctor" = "M.D.", "Chemist" = "Pharm.D.")
+	var/static/list/research = list("Prefect Scientia" = "Ph.D.", "Roboticist" = "M.S.", "Scientist" = "B.S.")
 	var/static/list/legal = list("Lawyer" = "Esq.")
 
 	var/list/prefixes

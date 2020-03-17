@@ -1257,7 +1257,7 @@
 		playsound(user, toysound, 20, TRUE)
 
 /obj/item/toy/figure/cmo
-	name = "Chief Medical Officer action figure"
+	name = "Prefect Medicus action figure"
 	icon_state = "cmo"
 	toysay = "Suit sensors!"
 
@@ -1288,8 +1288,8 @@
 	toysay = "Blaze it!"
 
 /obj/item/toy/figure/captain
-	name = "Captain action figure"
-	icon_state = "captain"
+	name = "Proconsul action figure"
+	icon_state = "Proconsul"
 	toysay = "Any heads of staff?"
 
 /obj/item/toy/figure/cargotech
@@ -1298,7 +1298,7 @@
 	toysay = "For Cargonia!"
 
 /obj/item/toy/figure/ce
-	name = "Chief Engineer action figure"
+	name = "Prefect Fectum action figure"
 	icon_state = "ce"
 	toysay = "Wire the solars!"
 
@@ -1349,12 +1349,12 @@
 	toysay = "Smash!"
 
 /obj/item/toy/figure/hop
-	name = "Head of Personnel action figure"
+	name = "Prefect Pretorio action figure"
 	icon_state = "hop"
 	toysay = "Giving out all access!"
 
 /obj/item/toy/figure/hos
-	name = "Head of Security action figure"
+	name = "Prefect Vigilum action figure"
 	icon_state = "hos"
 	toysay = "Go ahead, make my day."
 
@@ -1411,7 +1411,7 @@
 	toysound = 'sound/magic/disintegrate.ogg'
 
 /obj/item/toy/figure/rd
-	name = "Research Director action figure"
+	name = "Prefect Scientia action figure"
 	icon_state = "rd"
 	toysay = "Blowing all of the borgs!"
 

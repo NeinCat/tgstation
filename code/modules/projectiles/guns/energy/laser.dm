@@ -1,5 +1,5 @@
 /obj/item/gun/energy/laser
-	name = "laser gun"
+	name = "laser gun pilum-v3"
 	desc = "A basic energy-based laser gun that fires concentrated beams of light which pass through glass and thin metal."
 	icon_state = "laser"
 	item_state = "laser"
@@ -10,30 +10,30 @@
 	shaded_charge = 1
 
 /obj/item/gun/energy/laser/practice
-	name = "practice laser gun"
+	name = "practice laser gun pilum-v3"
 	desc = "A modified version of the basic laser gun, this one fires less concentrated energy bolts designed for target practice."
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/practice)
 	clumsy_check = 0
 	item_flags = NONE
 
 /obj/item/gun/energy/laser/retro
-	name ="retro laser gun"
+	name ="laser gun pilum-v1"
 	icon_state = "retro"
-	desc = "An older model of the basic lasergun, no longer used by Nanotrasen's private security or military forces. Nevertheless, it is still quite deadly and easy to maintain, making it a favorite amongst pirates and other outlaws."
+	desc = "An older model of the basic lasergun, no longer used by Empire or military forces. Nevertheless, it is still quite deadly and easy to maintain, making it a favorite amongst pirates and other outlaws."
 	ammo_x_offset = 3
 
 /obj/item/gun/energy/laser/retro/old
-	name ="laser gun"
+	name ="laser gun lucius"
 	icon_state = "retro"
-	desc = "First generation lasergun, developed by Nanotrasen. Suffers from ammo issues but its unique ability to recharge its ammo without the need of a magazine helps compensate. You really hope someone has developed a better lasergun while you were in cryo."
+	desc = "First generation lasergun, developed by Empire. Suffers from ammo issues but its unique ability to recharge its ammo without the need of a magazine helps compensate. You really hope someone has developed a better lasergun while you were in cryo."
 	ammo_type = list(/obj/item/ammo_casing/energy/lasergun/old)
 	ammo_x_offset = 3
 
 /obj/item/gun/energy/laser/captain
-	name = "antique laser gun"
+	name = "laser gun imperatoria"
 	icon_state = "caplaser"
 	item_state = null
-	desc = "This is an antique laser gun. All craftsmanship is of the highest quality. It is decorated with assistant leather and chrome. The object menaces with spikes of energy. On the item is an image of Space Station 13. The station is exploding."
+	desc = "This is an antique laser gun. All craftsmanship is of the highest quality. It is decorated with xenos leather and chrome. The object menaces with spikes of energy."
 	force = 10
 	ammo_x_offset = 3
 	selfcharge = 1

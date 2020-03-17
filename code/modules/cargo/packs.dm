@@ -332,7 +332,7 @@
 
 /datum/supply_pack/security/securityclothes
 	name = "Security Clothing Crate"
-	desc = "Contains appropriate outfits for the station's private security force. Contains outfits for the Warden, Head of Security, and two Security Officers. Each outfit comes with a rank-appropriate jumpsuit, suit, and beret. Requires Security access to open."
+	desc = "Contains appropriate outfits for the station's private security force. Contains outfits for the Warden, Prefect Vigilum, and two Security Officers. Each outfit comes with a rank-appropriate jumpsuit, suit, and beret. Requires Security access to open."
 	cost = 3000
 	contains = list(/obj/item/clothing/under/rank/security/officer/formal,
 					/obj/item/clothing/under/rank/security/officer/formal,
@@ -2275,7 +2275,7 @@
 
 /datum/supply_pack/costumes_toys/randomised/toys
 	name = "Toy Crate"
-	desc = "Who cares about pride and accomplishment? Skip the gaming and get straight to the sweet rewards with this product! Contains five random toys. Warranty void if used to prank research directors."
+	desc = "Who cares about pride and accomplishment? Skip the gaming and get straight to the sweet rewards with this product! Contains five random toys. Warranty void if used to prank Prefect Scientias."
 	cost = 5000 // or play the arcade machines ya lazy bum
 	num_contained = 5
 	contains = list()

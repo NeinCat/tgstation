@@ -1,14 +1,14 @@
 /datum/job/chief_engineer
-	title = "Chief Engineer"
+	title = "Prefect Fectum"
 	flag = CHIEF
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list("Captain")
+	department_head = list("Proconsul")
 	department_flag = ENGSEC
 	head_announce = list("Engineering")
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the Proconsul"
 	selection_color = "#ffeeaa"
 	req_admin_notify = 1
 	minimal_player_age = 7
@@ -32,7 +32,7 @@
 	display_order = JOB_DISPLAY_ORDER_CHIEF_ENGINEER
 
 /datum/outfit/job/ce
-	name = "Chief Engineer"
+	name = "Prefect Fectum"
 	jobtype = /datum/job/chief_engineer
 
 	id = /obj/item/card/id/silver
@@ -53,7 +53,7 @@
 	chameleon_extras = /obj/item/stamp/ce
 
 /datum/outfit/job/ce/rig
-	name = "Chief Engineer (Hardsuit)"
+	name = "Prefect Fectum (Hardsuit)"
 
 	mask = /obj/item/clothing/mask/breath
 	suit = /obj/item/clothing/suit/space/hardsuit/engine/elite

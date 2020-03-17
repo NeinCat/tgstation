@@ -3,16 +3,16 @@
 	mob_overlay_icon = 'icons/mob/clothing/under/medical.dmi'
 
 /obj/item/clothing/under/rank/medical/chief_medical_officer
-	desc = "It's a jumpsuit worn by those with the experience to be \"Chief Medical Officer\". It provides minor biological protection."
-	name = "chief medical officer's jumpsuit"
+	desc = "It's a jumpsuit worn by those with the experience to be \"Prefect Medicus\". It provides minor biological protection."
+	name = "Prefect Medicus's jumpsuit"
 	icon_state = "cmo"
 	item_state = "w_suit"
 	permeability_coefficient = 0.5
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 0)
 
 /obj/item/clothing/under/rank/medical/chief_medical_officer/skirt
-	name = "chief medical officer's jumpskirt"
-	desc = "It's a jumpskirt worn by those with the experience to be \"Chief Medical Officer\". It provides minor biological protection."
+	name = "Prefect Medicus's jumpskirt"
+	desc = "It's a jumpskirt worn by those with the experience to be \"Prefect Medicus\". It provides minor biological protection."
 	icon_state = "cmo_skirt"
 	item_state = "w_suit"
 	body_parts_covered = CHEST|GROIN|ARMS

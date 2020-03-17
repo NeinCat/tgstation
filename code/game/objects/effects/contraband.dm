@@ -282,7 +282,7 @@
 
 /obj/structure/sign/poster/contraband/lamarr
 	name = "Lamarr"
-	desc = "This poster depicts Lamarr. Probably made by a traitorous Research Director."
+	desc = "This poster depicts Lamarr. Probably made by a traitorous Prefect Scientia."
 	icon_state = "poster19"
 
 /obj/structure/sign/poster/contraband/borg_fancy_1

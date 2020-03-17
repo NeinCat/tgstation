@@ -1,12 +1,12 @@
 /datum/job/geneticist
 	title = "Geneticist"
 	flag = GENETICIST
-	department_head = list("Research Director")
+	department_head = list("Prefect Scientia")
 	department_flag = MEDSCI
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the research director"
+	supervisors = "the Prefect scientia"
 	selection_color = "#ffeeff"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 60
