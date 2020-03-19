@@ -53,7 +53,7 @@
 
 	result += objectives_text
 
-	var/special_role_text = lowertext(name)
+	var/special_role_text = r_lowertext(name)
 
 	if(win)
 		result += "<span class='greentext'>The [special_role_text] was successful!</span>"

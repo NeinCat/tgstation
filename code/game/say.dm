@@ -125,7 +125,7 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	return "[copytext_char("[freq]", 1, 4)].[copytext_char("[freq]", 4, 5)]"
 
 /proc/attach_spans(input, list/spans)
-	return "[message_spans_start(spans)][input]</span>"
+	return "[message_spans_start(spans)][pointization(input)]</span>"
 
 /proc/message_spans_start(list/spans)
 	var/output = "<span class='"

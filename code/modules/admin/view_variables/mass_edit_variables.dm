@@ -58,7 +58,7 @@
 	if(isnull(default))
 		to_chat(src, "Unable to determine variable type.")
 	else
-		to_chat(src, "Variable appears to be <b>[uppertext(default)]</b>.")
+		to_chat(src, "Variable appears to be <b>[r_uppertext(default)]</b>.")
 
 	to_chat(src, "Variable contains: [var_value]")
 

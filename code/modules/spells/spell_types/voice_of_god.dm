@@ -33,7 +33,7 @@
 
 /obj/effect/proc_holder/spell/voice_of_god/cast(list/targets, mob/user = usr)
 	playsound(get_turf(user), speech_sound, 300, TRUE, 5)
-	var/cooldown = voice_of_god(uppertext(command), user, spans, base_multiplier = power_mod)
+	var/cooldown = voice_of_god(r_uppertext(command), user, spans, base_multiplier = power_mod)
 	charge_max = (cooldown * cooldown_mod)
 
 /obj/effect/proc_holder/spell/voice_of_god/clown

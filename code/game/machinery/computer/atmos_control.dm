@@ -262,7 +262,7 @@ GLOBAL_LIST_EMPTY(atmos_air_controllers)
 	if(src)
 		src.input_tag = "[S]_in"
 		src.output_tag = "[S]_out"
-		name = "[uppertext(S)] Supply Control"
+		name = "[r_uppertext(S)] Supply Control"
 		var/list/new_devices = freq.devices["atmosia"]
 		sensors.Cut()
 		for(var/obj/machinery/air_sensor/U in new_devices)

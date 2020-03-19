@@ -97,7 +97,7 @@ GLOBAL_VAR(command_name)
 			new_station_name += pick(GLOB.numbers_as_words)
 		if(13)
 			new_station_name += pick("13","XIII","Thirteen")
-	return new_station_name
+	return r_capitalize(new_station_name)
 
 /proc/syndicate_name()
 	var/name = ""
@@ -203,22 +203,22 @@ GLOBAL_DATUM(syndicate_code_response_regex, /regex)
 			if(2)
 				switch(rand(1,3))//Food, drinks, or places. Only selectable once.
 					if(1)
-						. += lowertext(pick(drinks))
+						. += r_lowertext(pick(drinks))
 					if(2)
-						. += lowertext(pick(foods))
+						. += r_lowertext(pick(foods))
 					if(3)
-						. += lowertext(pick(locations))
+						. += r_lowertext(pick(locations))
 				safety -= 2
 			if(3)
 				switch(rand(1,4))//Abstract nouns, objects, adjectives, threats. Can be selected more than once.
 					if(1)
-						. += lowertext(pick(nouns))
+						. += r_lowertext(pick(nouns))
 					if(2)
-						. += lowertext(pick(objects))
+						. += r_lowertext(pick(objects))
 					if(3)
-						. += lowertext(pick(adjectives))
+						. += r_lowertext(pick(adjectives))
 					if(4)
-						. += lowertext(pick(threats))
+						. += r_lowertext(pick(threats))
 		if(!return_list)
 			if(words==1)
 				. += "."

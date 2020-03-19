@@ -99,7 +99,7 @@
 
 //Turns text into proper directions
 /proc/text2dir(direction)
-	switch(uppertext(direction))
+	switch(r_uppertext(direction))
 		if("NORTH")
 			return NORTH
 		if("SOUTH")
@@ -528,4 +528,4 @@ GLOBAL_LIST_INIT(modulo_angle_to_dir, list(NORTH,NORTHEAST,EAST,SOUTHEAST,SOUTH,
 		if(/turf)
 			return "turf"
 		else //regex everything else (works for /proc too)
-			return lowertext(replacetext("[the_type]", "[type2parent(the_type)]/", ""))
+			return r_lowertext(replacetext("[the_type]", "[type2parent(the_type)]/", ""))

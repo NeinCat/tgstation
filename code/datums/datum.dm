@@ -176,7 +176,7 @@
 
 ///Deserializes from JSON. Does not parse type.
 /datum/proc/deserialize_json(list/input, list/options)
-	var/list/jsonlist = json_decode(input)
+	var/list/jsonlist = r_json_decode(input)
 	. = deserialize_list(jsonlist)
 	if(!istype(., /datum))
 		. = null
@@ -195,7 +195,7 @@
 	if(!islist(jsonlist))
 		if(!istext(jsonlist))
 			CRASH("Invalid JSON")
-		jsonlist = json_decode(jsonlist)
+		jsonlist = r_json_decode(jsonlist)
 		if(!islist(jsonlist))
 			CRASH("Invalid JSON")
 	if(!jsonlist["DATUM_TYPE"])

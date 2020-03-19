@@ -201,7 +201,7 @@ GLOBAL_PROTECT(VVpixelmovement)
 
 	default = vv_get_class(objectvar, variable)
 
-	to_chat(src, "Variable appears to be <b>[uppertext(default)]</b>.")
+	to_chat(src, "Variable appears to be <b>[r_uppertext(default)]</b>.")
 
 	to_chat(src, "Variable contains: [variable]")
 
@@ -324,7 +324,7 @@ GLOBAL_PROTECT(VVpixelmovement)
 	if(isnull(default))
 		to_chat(src, "Unable to determine variable type.")
 	else
-		to_chat(src, "Variable appears to be <b>[uppertext(default)]</b>.")
+		to_chat(src, "Variable appears to be <b>[r_uppertext(default)]</b>.")
 
 	to_chat(src, "Variable contains: [var_value]")
 

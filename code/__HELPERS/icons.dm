@@ -689,7 +689,7 @@ world
 
 //Used in the OLD chem colour mixing algorithm
 /proc/GetColors(hex)
-	hex = uppertext(hex)
+	hex = r_uppertext(hex)
 	// No alpha set? Default to full alpha.
 	if(length(hex) == 7)
 		hex += "FF"
@@ -983,9 +983,9 @@ world
 	if(!letter)
 		letter = A.name[1]
 		if(uppercase == 1)
-			letter = uppertext(letter)
+			letter = r_uppertext(letter)
 		else if(uppercase == -1)
-			letter = lowertext(letter)
+			letter = r_lowertext(letter)
 
 	var/image/text_image = new(loc = A)
 	text_image.maptext = "<font size = 4>[letter]</font>"

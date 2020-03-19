@@ -204,8 +204,8 @@
 		return
 
 	// Handle received packet.
-	var/command = lowertext(data.data["data"])
-	var/command_value = lowertext(data.data["data_secondary"])
+	var/command = r_lowertext(data.data["data"])
+	var/command_value = r_lowertext(data.data["data_secondary"])
 	switch(command)
 		if("open")
 			if(command_value == "on" && !density)
@@ -1241,7 +1241,7 @@
 				message = "unshocked"
 			else
 				message = "temp shocked for [secondsElectrified] seconds"
-		LAZYADD(shockedby, text("\[[time_stamp()]\] [key_name(user)] - ([uppertext(message)])"))
+		LAZYADD(shockedby, text("\[[time_stamp()]\] [key_name(user)] - ([r_uppertext(message)])"))
 		log_combat(user, src, message)
 		add_hiddenprint(user)
 

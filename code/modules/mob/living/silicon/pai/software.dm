@@ -378,10 +378,10 @@
 	for(var/s in available_software)
 		if(!software.Find(s))
 			var/cost = available_software[s]
-			var/displayName = uppertext(s)
+			var/displayName = r_uppertext(s)
 			dat += "<a href='byond://?src=[REF(src)];software=buy;sub=1;buy=[s]'>[displayName]</a> ([cost]) <br>"
 		else
-			var/displayName = lowertext(s)
+			var/displayName = r_lowertext(s)
 			dat += "[displayName] (Download Complete) <br>"
 	dat += "</p>"
 	return dat

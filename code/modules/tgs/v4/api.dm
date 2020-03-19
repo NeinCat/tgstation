@@ -35,9 +35,9 @@
 	var/security_level
 
 	var/requesting_new_port = FALSE
-	
+
 	var/list/intercepted_message_queue
-	
+
 	var/list/custom_commands
 
 	var/list/cached_test_merges
@@ -60,7 +60,7 @@
 	if(!json_file)
 		TGS_ERROR_LOG("Missing specified json file: [json_path]")
 		return
-	var/cached_json = json_decode(json_file)
+	var/cached_json = r_json_decode(json_file)
 	if(!cached_json)
 		TGS_ERROR_LOG("Failed to decode info json: [json_file]")
 		return
@@ -143,7 +143,7 @@
 			return result
 		if(TGS4_TOPIC_EVENT)
 			intercepted_message_queue = list()
-			var/list/event_notification = json_decode(params[TGS4_PARAMETER_DATA])
+			var/list/event_notification = r_json_decode(params[TGS4_PARAMETER_DATA])
 			var/list/event_parameters = event_notification["Parameters"]
 
 			var/list/event_call = list(event_notification["Type"])
@@ -157,7 +157,7 @@
 			intercepted_message_queue = null
 			return
 		if(TGS4_TOPIC_INTEROP_RESPONSE)
-			last_interop_response = json_decode(params[TGS4_PARAMETER_DATA])
+			last_interop_response = r_json_decode(params[TGS4_PARAMETER_DATA])
 			return
 		if(TGS4_TOPIC_CHANGE_PORT)
 			var/new_port = text2num(params[TGS4_PARAMETER_DATA])
@@ -185,7 +185,7 @@
 		data = list()
 	data[TGS4_PARAMETER_COMMAND] = command
 	var/json = json_encode(data)
-	
+
 	while(requesting_new_port && !override_requesting_new_port)
 		sleep(1)
 
@@ -199,7 +199,7 @@
 		//request a new port
 		export_lock = FALSE
 		var/list/new_port_json = Export(TGS4_COMM_NEW_PORT, list(TGS4_PARAMETER_DATA = "[world.port]"), TRUE)	//stringify this on purpose
-		
+
 		if(!new_port_json)
 			TGS_ERROR_LOG("No new port response from server![TGS4_PORT_CRITFAIL_MESSAGE]")
 			del(world)
@@ -236,7 +236,7 @@
 	var/list/result = Export(TGS4_COMM_WORLD_REBOOT)
 	if(!result)
 		return
-	
+
 	//okay so the standard TGS4 proceedure is: right before rebooting change the port to whatever was sent to us in the above json's data parameter
 
 	var/port = result[TGS4_PARAMETER_DATA]
@@ -255,7 +255,7 @@
 
 /datum/tgs_api/v4/TestMerges()
 	return cached_test_merges
-	
+
 /datum/tgs_api/v4/EndProcess()
 	Export(TGS4_COMM_END_PROCESS)
 
@@ -297,7 +297,7 @@
 /datum/tgs_api/v4/ChatChannelInfo()
 	. = list()
 	//no caching cause tgs may change this
-	var/list/json = json_decode(file2text(chat_channels_json_path))
+	var/list/json = r_json_decode(file2text(chat_channels_json_path))
 	for(var/I in json)
 		. += DecodeChannel(I)
 

@@ -101,7 +101,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 	if(ic_blocked)
 		//The filter warning message shows the sanitized message though.
 		to_chat(src, "<span class='warning'>That message contained a word prohibited in IC chat! Consider reviewing the server rules.\n<span replaceRegex='show_filtered_ic_chat'>\"[message]\"</span></span>")
-		SSblackbox.record_feedback("tally", "ic_blocked_words", 1, lowertext(config.ic_filter_regex.match))
+		SSblackbox.record_feedback("tally", "ic_blocked_words", 1, r_lowertext(config.ic_filter_regex.match))
 		return
 
 	var/datum/saymode/saymode = SSradio.saymodes[talk_key]
@@ -189,7 +189,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 	message = treat_message(message) // unfortunately we still need this
 	var/sigreturn = SEND_SIGNAL(src, COMSIG_MOB_SAY, args)
 	if (sigreturn & COMPONENT_UPPERCASE_SPEECH)
-		message = uppertext(message)
+		message = r_uppertext(message)
 	if(!message)
 		return
 
@@ -329,7 +329,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 /mob/living/proc/get_key(message)
 	var/key = message[1]
 	if((key in GLOB.department_radio_prefixes) && length(message) > length(key) + 1)
-		return lowertext(message[1 + length(key)])
+		return r_lowertext(message[1 + length(key)])
 
 /mob/living/proc/get_message_language(message)
 	if(message[1] == ",")

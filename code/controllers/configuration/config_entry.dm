@@ -25,7 +25,7 @@
 /datum/config_entry/New()
 	if(type == abstract_type)
 		CRASH("Abstract config entry [type] instatiated!")
-	name = lowertext(type2top(type))
+	name = r_lowertext(type2top(type))
 	if(islist(config_entry_value))
 		var/list/L = config_entry_value
 		default = L.Copy()
@@ -162,7 +162,7 @@
 	var/key_value = null
 
 	if(key_pos || value_mode == VALUE_MODE_FLAG)
-		key_name = lowertext(copytext(str_val, 1, key_pos))
+		key_name = r_lowertext(copytext(str_val, 1, key_pos))
 		if(key_pos)
 			key_value = copytext(str_val, key_pos + length(str_val[key_pos]))
 		var/new_key

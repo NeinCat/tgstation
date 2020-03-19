@@ -65,7 +65,7 @@
 			if(97 to 102)		//letters a to f
 				. += char
 			if(65 to 70)		//letters A to F
-				. += lowertext(char)
+				. += r_lowertext(char)
 			else
 				break
 		i += length(char)

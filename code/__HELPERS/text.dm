@@ -146,7 +146,7 @@
 			// a  .. z
 			if(97 to 122)			//Lowercase Letters
 				if(last_char_group == NO_CHARS_DETECTED || last_char_group == SPACES_DETECTED || last_char_group == SYMBOLS_DETECTED) //start of a word
-					char = uppertext(char)
+					char = r_uppertext(char)
 				number_of_alphanumeric++
 				last_char_group = LETTERS_DETECTED
 
@@ -174,6 +174,16 @@
 				if(last_char_group == NO_CHARS_DETECTED || last_char_group == SPACES_DETECTED) //suppress double-spaces and spaces at start of string
 					continue
 				last_char_group = SPACES_DETECTED
+
+			if(1040 to 1071)			//Русские буковки
+				number_of_alphanumeric++
+				last_char_group = LETTERS_DETECTED
+
+			if(1072 to 1105)			//Русские буковки
+				if(last_char_group == NO_CHARS_DETECTED || last_char_group == SPACES_DETECTED || last_char_group == SYMBOLS_DETECTED) //start of a word
+					char = r_uppertext(char)
+				number_of_alphanumeric++
+				last_char_group = LETTERS_DETECTED
 
 			if(127 to INFINITY)
 				if(ascii_only)
@@ -265,11 +275,8 @@
 	return trim_left(trim_right(text))
 
 //Returns a string with the first element of the string capitalized.
-/proc/capitalize(t)
-	. = t
-	if(t)
-		. = t[1]
-		return uppertext(.) + copytext(t, 1 + length(.))
+/proc/capitalize(t as text)
+	return r_capitalize(t)
 
 /proc/stringmerge(text,compare,replace = "*")
 //This proc fills in all spaces with the "replace" var (* by default) with whatever
@@ -656,7 +663,7 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 	var/list/oldjson = list()
 	var/list/oldentries = list()
 	if(fexists(log))
-		oldjson = json_decode(file2text(log))
+		oldjson = r_json_decode(file2text(log))
 		oldentries = oldjson["data"]
 	if(length(oldentries))
 		for(var/string in accepted)
@@ -692,7 +699,7 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 		return string
 
 	var/base = next_backslash == 1 ? "" : copytext(string, 1, next_backslash)
-	var/macro = lowertext(copytext(string, next_backslash + length(string[next_backslash]), next_space))
+	var/macro = r_lowertext(copytext(string, next_backslash + length(string[next_backslash]), next_space))
 	var/rest = next_backslash > leng ? "" : copytext(string, next_space + length(string[next_space]))
 
 	//See https://secure.byond.com/docs/ref/info.html#/DM/text/macros
@@ -766,7 +773,7 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 
 
 /proc/random_capital_letter()
-	return uppertext(pick(GLOB.alphabet))
+	return r_uppertext(pick(GLOB.alphabet))
 
 /proc/unintelligize(message)
 	var/regex/word_boundaries = regex(@"\b[\S]+\b", "g")
@@ -818,6 +825,7 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 //json decode that will return null on parse error instead of runtiming.
 /proc/safe_json_decode(data)
 	try
-		return json_decode(data)
+		return r_json_decode(data)
 	catch
 		return
+

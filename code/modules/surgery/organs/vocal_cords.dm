@@ -116,7 +116,7 @@
 	return //voice of god speaks for us
 
 /obj/item/organ/vocal_cords/colossus/speak_with(message)
-	var/cooldown = voice_of_god(uppertext(message), owner, spans, base_multiplier)
+	var/cooldown = voice_of_god(r_uppertext(message), owner, spans, base_multiplier)
 	next_command = world.time + (cooldown * cooldown_mod)
 
 //////////////////////////////////////
@@ -129,7 +129,7 @@
 	if(!user || !user.can_speak() || user.stat)
 		return 0 //no cooldown
 
-	var/log_message = uppertext(message)
+	var/log_message = r_uppertext(message)
 	if(!span_list || !span_list.len)
 		if(iscultist(user))
 			span_list = list("narsiesmall")
@@ -138,7 +138,7 @@
 
 	user.say(message, spans = span_list, sanitize = FALSE)
 
-	message = lowertext(message)
+	message = r_lowertext(message)
 	var/list/mob/living/listeners = list()
 	for(var/mob/living/L in get_hearers_in_view(8, user))
 		if(L.can_hear() && !L.anti_magic_check(FALSE, TRUE) && L.stat != DEAD)

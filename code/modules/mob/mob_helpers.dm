@@ -83,7 +83,7 @@
 	for(var/i = 1, i <= leng, i += length(rawchar))
 		rawchar = newletter = phrase[i]
 		if(rand(1, 3) == 3)
-			var/lowerletter = lowertext(newletter)
+			var/lowerletter = r_lowertext(newletter)
 			if(lowerletter == "o")
 				newletter = "u"
 			else if(lowerletter == "s")
@@ -119,7 +119,7 @@
 	for(var/i = 1, i <= leng, i += length(rawchar))
 		rawchar = newletter = phrase[i]
 		if(rand(1, 2) == 2)
-			var/lowerletter = lowertext(newletter)
+			var/lowerletter = r_lowertext(newletter)
 			if(lowerletter == "o")
 				newletter = "u"
 			else if(lowerletter == "t")
@@ -186,7 +186,7 @@
 	message = replacetext(message, "carp", "crap")
 	message = replacetext(message, "reason", "raisin")
 	if(prob(50))
-		message = uppertext(message)
+		message = r_uppertext(message)
 		message += "[stutter(pick("!", "!!", "!!!"))]"
 	if(!stuttering && prob(15))
 		message = stutter(message)

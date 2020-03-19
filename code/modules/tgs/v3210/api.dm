@@ -131,7 +131,7 @@
 		if(SERVICE_CMD_LIST_CUSTOM)
 			return json_encode(ListServiceCustomCommands(FALSE))
 		else
-			var/custom_command_result = HandleServiceCustomCommand(lowertext(command), params[SERVICE_CMD_PARAM_SENDER], params[SERVICE_CMD_PARAM_CUSTOM])
+			var/custom_command_result = HandleServiceCustomCommand(r_lowertext(command), params[SERVICE_CMD_PARAM_SENDER], params[SERVICE_CMD_PARAM_CUSTOM])
 			if(custom_command_result)
 				return istext(custom_command_result) ? custom_command_result : SERVICE_RETURN_SUCCESS
 	return "Unknown command: [command]"
@@ -152,7 +152,7 @@
 	. = list()
 	if(!fexists(SERVICE_PR_TEST_JSON))
 		return
-	var/list/json = json_decode(file2text(SERVICE_PR_TEST_JSON))
+	var/list/json = r_json_decode(file2text(SERVICE_PR_TEST_JSON))
 	if(!json)
 		return
 	for(var/I in json)

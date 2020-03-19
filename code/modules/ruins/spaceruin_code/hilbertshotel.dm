@@ -485,7 +485,7 @@ GLOBAL_VAR_INIT(hhmysteryRoomNumber, 1337)
     It's clear what happens now. One day they'll show up uninvited, and claim my research as their own, leaving me as nothing more than a bullet ridden corpse floating in space.<br>
     I can't stick around to the let that happen.<br>
     I'm escaping into the very thing that brought all this trouble to my doorstep in the first place - my hotel.<br>
-    I'll be in <u>[uppertext(num2hex(GLOB.hhmysteryRoomNumber, 0))]</u> (That will make sense to anyone who should know)<br>
+    I'll be in <u>[r_uppertext(num2hex(GLOB.hhmysteryRoomNumber, 0))]</u> (That will make sense to anyone who should know)<br>
     I'm sorry that I must go like this. Maybe one day things will be different and it will be safe to return... maybe...<br>
     Goodbye<br>
 	<br>

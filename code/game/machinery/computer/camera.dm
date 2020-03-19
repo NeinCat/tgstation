@@ -15,7 +15,7 @@
 	. = ..()
 	for(var/i in network)
 		network -= i
-		network += lowertext(i)
+		network += r_lowertext(i)
 
 /obj/machinery/computer/security/connect_to_shuttle(obj/docking_port/mobile/port, obj/docking_port/stationary/dock, idnum, override=FALSE)
 	for(var/i in network)

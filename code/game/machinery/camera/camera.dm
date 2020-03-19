@@ -56,7 +56,7 @@
 	. = ..()
 	for(var/i in network)
 		network -= i
-		network += lowertext(i)
+		network += r_lowertext(i)
 	if(CA)
 		assembly = CA
 		if(assembly.xray_module)

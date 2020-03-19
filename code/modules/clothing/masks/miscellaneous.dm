@@ -56,7 +56,7 @@
 			if(islist(value))
 				value = pick(value)
 
-			message = replacetextEx(message, " [uppertext(key)]", " [uppertext(value)]")
+			message = replacetextEx(message, " [r_uppertext(key)]", " [r_uppertext(value)]")
 			message = replacetextEx(message, " [capitalize(key)]", " [capitalize(value)]")
 			message = replacetextEx(message, " [key]", " [value]")
 
@@ -329,7 +329,7 @@
 			var/value = spurdo_words[key]
 			if(islist(value))
 				value = pick(value)
-			message = replacetextEx(message,regex(uppertext(key),"g"), "[uppertext(value)]")
+			message = replacetextEx(message,regex(r_uppertext(key),"g"), "[r_uppertext(value)]")
 			message = replacetextEx(message,regex(capitalize(key),"g"), "[capitalize(value)]")
 			message = replacetextEx(message,regex(key,"g"), "[value]")
 	speech_args[SPEECH_MESSAGE] = trim(message)

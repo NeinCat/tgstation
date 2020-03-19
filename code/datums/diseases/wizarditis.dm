@@ -111,7 +111,7 @@ STI KALY - blind
 	if(!L)
 		return
 
-	affected_mob.say("SCYAR NILA [uppertext(thearea.name)]!", forced = "wizarditis teleport")
+	affected_mob.say("SCYAR NILA [r_uppertext(thearea.name)]!", forced = "wizarditis teleport")
 	affected_mob.forceMove(pick(L))
 
 	return

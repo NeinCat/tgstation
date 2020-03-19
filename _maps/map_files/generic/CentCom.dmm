@@ -3159,7 +3159,7 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/control)
 "in" = (
-/obj/structure/sign/Empire,
+/obj/structure/sign/empire,
 /turf/closed/indestructible/riveted,
 /area/centcom/control)
 "io" = (
@@ -3323,7 +3323,7 @@
 	},
 /area/centcom/supply)
 "iH" = (
-/obj/structure/sign/Empire,
+/obj/structure/sign/empire,
 /turf/closed/indestructible/riveted,
 /area/centcom/prison)
 "iI" = (
@@ -7548,7 +7548,7 @@
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
 "qR" = (
-/obj/structure/sign/Empire,
+/obj/structure/sign/empire,
 /turf/closed/indestructible/riveted,
 /area/centcom/ferry)
 "qS" = (
@@ -11213,7 +11213,7 @@
 	pixel_y = 3
 	},
 /obj/item/gun/energy/e_gun,
-/obj/structure/sign/Empire{
+/obj/structure/sign/empire{
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -14339,7 +14339,7 @@
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
 "Gy" = (
-/obj/structure/sign/Empire,
+/obj/structure/sign/empire,
 /turf/closed/indestructible/riveted,
 /area/tdome/tdomeobserve)
 "Gz" = (

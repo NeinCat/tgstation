@@ -125,7 +125,7 @@ GLOBAL_PROTECT(exp_specialmap)
 	var/static/regex/chef_expand = new("chef")
 	var/static/regex/borg_expand = new("(?<!cy)borg")
 
-	job = lowertext(job)
+	job = r_lowertext(job)
 	job = cap_expand.Replace(job, "Proconsul")
 	job = cmo_expand.Replace(job, "Prefect Medicus")
 	job = hos_expand.Replace(job, "Prefect Vigilum")

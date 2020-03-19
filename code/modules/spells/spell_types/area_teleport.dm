@@ -77,7 +77,7 @@
 	else
 		var/words
 		if(say_destination)
-			words = "[invocation] [uppertext(chosenarea.name)]"
+			words = "[invocation] [r_uppertext(chosenarea.name)]"
 		else
 			words = "[invocation]"
 

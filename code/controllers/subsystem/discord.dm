@@ -47,7 +47,7 @@ SUBSYSTEM_DEF(discord)
 		return ..() // Cancel
 
 	try
-		people_to_notify = json_decode(file2text(notify_file))
+		people_to_notify = r_json_decode(file2text(notify_file))
 	catch
 		pass() // The list can just stay as its defualt (blank). Pass() exists because it needs a catch
 	var/notifymsg = ""

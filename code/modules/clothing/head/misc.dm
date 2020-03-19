@@ -407,7 +407,7 @@
 			if(islist(value))
 				value = pick(value)
 
-			message = replacetextEx(message, " [uppertext(key)]", " [uppertext(value)]")
+			message = replacetextEx(message, " [r_uppertext(key)]", " [r_uppertext(value)]")
 			message = replacetextEx(message, " [capitalize(key)]", " [capitalize(value)]")
 			message = replacetextEx(message, " [key]", " [value]")
 

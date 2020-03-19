@@ -118,7 +118,7 @@
 		words.len = 30
 
 	for(var/word in words)
-		word = lowertext(trim(word))
+		word = r_lowertext(trim(word))
 		if(!word)
 			words -= word
 			continue
@@ -139,7 +139,7 @@
 
 /proc/play_vox_word(word, z_level, mob/only_listener)
 
-	word = lowertext(word)
+	word = r_lowertext(word)
 
 	if(GLOB.vox_sounds[word])
 

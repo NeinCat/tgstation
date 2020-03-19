@@ -1539,7 +1539,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						ShowChoices(user)
 						return
 
-					var/new_key = uppertext(href_list["key"])
+					var/new_key = r_uppertext(href_list["key"])
 					var/AltMod = text2num(href_list["alt"]) ? "Alt" : ""
 					var/CtrlMod = text2num(href_list["ctrl"]) ? "Ctrl" : ""
 					var/ShiftMod = text2num(href_list["shift"]) ? "Shift" : ""
