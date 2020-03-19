@@ -167,9 +167,11 @@
 	airlock_type = /obj/machinery/door/airlock/grunge
 	noglass = TRUE
 
+//* МАТЕРИАЛЫ
+
 /obj/structure/door_assembly/door_assembly_gold
 	name = "gold airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/gold.dmi'
+	icon = 'icons/obj/doors/airlocks/station3/gold.dmi'
 	base_name = "gold airlock"
 	airlock_type = /obj/machinery/door/airlock/gold
 	mineral = "gold"
@@ -177,7 +179,7 @@
 
 /obj/structure/door_assembly/door_assembly_silver
 	name = "silver airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/silver.dmi'
+	icon = 'icons/obj/doors/airlocks/station3/silver.dmi'
 	base_name = "silver airlock"
 	airlock_type = /obj/machinery/door/airlock/silver
 	mineral = "silver"
@@ -185,7 +187,7 @@
 
 /obj/structure/door_assembly/door_assembly_diamond
 	name = "diamond airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/diamond.dmi'
+	icon = 'icons/obj/doors/airlocks/station3/diamond.dmi'
 	base_name = "diamond airlock"
 	airlock_type = /obj/machinery/door/airlock/diamond
 	mineral = "diamond"
@@ -193,7 +195,7 @@
 
 /obj/structure/door_assembly/door_assembly_uranium
 	name = "uranium airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/uranium.dmi'
+	icon = 'icons/obj/doors/airlocks/station3/uranium.dmi'
 	base_name = "uranium airlock"
 	airlock_type = /obj/machinery/door/airlock/uranium
 	mineral = "uranium"
@@ -201,7 +203,7 @@
 
 /obj/structure/door_assembly/door_assembly_plasma
 	name = "plasma airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/plasma.dmi'
+	icon = 'icons/obj/doors/airlocks/station3/plasma.dmi'
 	base_name = "plasma airlock"
 	airlock_type = /obj/machinery/door/airlock/plasma
 	mineral = "plasma"
@@ -210,7 +212,7 @@
 /obj/structure/door_assembly/door_assembly_bananium
 	name = "bananium airlock assembly"
 	desc = "Honk."
-	icon = 'icons/obj/doors/airlocks/station/bananium.dmi'
+	icon = 'icons/obj/doors/airlocks/station3/bananium.dmi'
 	base_name = "bananium airlock"
 	airlock_type = /obj/machinery/door/airlock/bananium
 	mineral = "bananium"
@@ -218,7 +220,7 @@
 
 /obj/structure/door_assembly/door_assembly_sandstone
 	name = "sandstone airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/sandstone.dmi'
+	icon = 'icons/obj/doors/airlocks/station3/sandstone.dmi'
 	base_name = "sandstone airlock"
 	airlock_type = /obj/machinery/door/airlock/sandstone
 	mineral = "sandstone"
@@ -235,7 +237,7 @@
 
 /obj/structure/door_assembly/door_assembly_wood
 	name = "wooden airlock assembly"
-	icon = 'icons/obj/doors/airlocks/station/wood.dmi'
+	icon = 'icons/obj/doors/airlocks/station3/wood.dmi'
 	base_name = "wooden airlock"
 	airlock_type = /obj/machinery/door/airlock/wood
 	mineral = "wood"
