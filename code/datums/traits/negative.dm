@@ -125,9 +125,9 @@
 				heirloom_type = /obj/item/reagent_containers/food/drinks/flask/gold
 			if("Prefect Vigilum")
 				heirloom_type = /obj/item/book/manual/wiki/security_space_law
-			if("Warden")
+			if("Commissar")
 				heirloom_type = /obj/item/book/manual/wiki/security_space_law
-			if("Security Officer")
+			if("Vigilia")
 				heirloom_type = pick(/obj/item/book/manual/wiki/security_space_law, /obj/item/clothing/head/beret/sec)
 			if("Detective")
 				heirloom_type = /obj/item/reagent_containers/food/drinks/bottle/whiskey

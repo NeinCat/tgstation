@@ -97,9 +97,9 @@
 	new /obj/item/storage/photo_album/HoS(src)
 
 /obj/structure/closet/secure_closet/warden
-	name = "\proper warden's locker"
+	name = "\proper Commissar's locker"
 	req_access = list(ACCESS_ARMORY)
-	icon_state = "warden"
+	icon_state = "Commissar"
 
 /obj/structure/closet/secure_closet/warden/PopulateContents()
 	..()
@@ -123,7 +123,7 @@
 	new /obj/item/gun/ballistic/shotgun/automatic/combat/compact(src)
 
 /obj/structure/closet/secure_closet/security
-	name = "security officer's locker"
+	name = "Vigilia's locker"
 	req_access = list(ACCESS_SECURITY)
 	icon_state = "sec"
 

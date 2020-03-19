@@ -143,12 +143,12 @@
 	. = ..()
 	setDir(turn(dir, 90))
 
-/obj/structure/sign/nanotrasen
-	name = "\improper Nanotrasen logo"
-	desc = "A sign with the Nanotrasen logo on it. Glory to Nanotrasen!"
-	icon_state = "nanotrasen"
+/obj/structure/sign/Empire
+	name = "\improper Empire logo"
+	desc = "A sign with the Empire logo on it. Glory to Empire!"
+	icon_state = "Empire"
 
 /obj/structure/sign/logo
-	name = "\improper Nanotrasen logo"
-	desc = "The Nanotrasen corporate logo."
+	name = "\improper Empire logo"
+	desc = "The Empire corporate logo."
 	icon_state = "nanotrasen_sign1"

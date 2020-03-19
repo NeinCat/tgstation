@@ -85,7 +85,7 @@
 	integer = FALSE
 	min_val = 1
 
-/datum/config_entry/number/security_scaling_coeff	//how much does the amount of players get divided by to determine open security officer positions
+/datum/config_entry/number/security_scaling_coeff	//how much does the amount of players get divided by to determine open Vigilia positions
 	config_entry_value = 8
 	integer = FALSE
 	min_val = 1

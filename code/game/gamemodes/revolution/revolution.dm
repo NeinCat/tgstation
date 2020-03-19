@@ -13,7 +13,7 @@
 	report_type = "revolution"
 	antag_flag = ROLE_REV
 	false_report_weight = 10
-	restricted_jobs = list("Prisoner","Security Officer", "Warden", "Detective", "AI", "Cyborg","Proconsul", "Prefect Pretorio", "Prefect Vigilum", "Prefect Fectum", "Prefect Scientia", "Prefect Medicus")
+	restricted_jobs = list("Prisoner","Vigilia", "Commissar", "Detective", "AI", "Cyborg","Proconsul", "Prefect Pretorio", "Prefect Vigilum", "Prefect Fectum", "Prefect Scientia", "Prefect Medicus")
 	required_jobs = list(list("Proconsul"=1),list("Prefect Pretorio"=1),list("Prefect Vigilum"=1),list("Prefect Fectum"=1),list("Prefect Scientia"=1),list("Prefect Medicus"=1)) //Any head present
 	required_players = 30
 	required_enemies = 2

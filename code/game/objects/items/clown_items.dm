@@ -51,8 +51,8 @@
 				msg = "It's seen some light use, but it's still pretty fresh."
 	. += "<span class='notice'>[msg]</span>"
 
-/obj/item/soap/nanotrasen
-	desc = "A heavy duty bar of Nanotrasen brand soap. Smells of plasma."
+/obj/item/soap/Empire
+	desc = "A heavy duty bar of Empire brand soap. Smells of plasma."
 	grind_results = list(/datum/reagent/toxin/plasma = 10, /datum/reagent/lye = 10)
 	icon_state = "soapnt"
 	cleanspeed = 28 //janitor gets this

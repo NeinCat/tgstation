@@ -677,7 +677,7 @@
 	resistance_flags = FLAMMABLE
 	max_integrity = 50
 	var/parentdeck = null
-	var/deckstyle = "nanotrasen"
+	var/deckstyle = "Empire"
 	var/card_hitsound = null
 	var/card_force = 0
 	var/card_throwforce = 0
@@ -698,7 +698,7 @@
 	name = "deck of cards"
 	desc = "A deck of space-grade playing cards."
 	icon = 'icons/obj/toy.dmi'
-	deckstyle = "nanotrasen"
+	deckstyle = "Empire"
 	icon_state = "deck_nanotrasen_full"
 	w_class = WEIGHT_CLASS_SMALL
 	var/cooldown = 0
@@ -1433,7 +1433,7 @@
 	toysay = "Get that fucking disk!"
 
 /obj/item/toy/figure/secofficer
-	name = "Security Officer action figure"
+	name = "Vigilia action figure"
 	icon_state = "secofficer"
 	toysay = "I am the law!"
 	toysound = 'sound/voice/complionator/dredd.ogg'
@@ -1444,8 +1444,8 @@
 	toysay = "The cure is potassium!"
 
 /obj/item/toy/figure/warden
-	name = "Warden action figure"
-	icon_state = "warden"
+	name = "Commissar action figure"
+	icon_state = "Commissar"
 	toysay = "Seventeen minutes for coughing at an officer!"
 
 

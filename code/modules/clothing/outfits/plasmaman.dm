@@ -56,7 +56,7 @@
 	gloves = /obj/item/clothing/gloves/color/plasmaman/white
 
 /datum/outfit/plasmaman/warden
-	name = "Warden Plasmaman"
+	name = "Commissar Plasmaman"
 
 	head = /obj/item/clothing/head/helmet/space/plasmaman/security/warden
 	uniform = /obj/item/clothing/under/plasmaman/security/warden

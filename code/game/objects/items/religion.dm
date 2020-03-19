@@ -1,6 +1,6 @@
 /obj/item/banner
 	name = "banner"
-	desc = "A banner with Nanotrasen's logo on it."
+	desc = "A banner with Empire's logo on it."
 	icon = 'icons/obj/banner.dmi'
 	icon_state = "banner"
 	item_state = "banner"
@@ -81,7 +81,7 @@
 	item_state = "banner_security"
 	lefthand_file = 'icons/mob/inhands/equipment/banners_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/banners_righthand.dmi'
-	job_loyalties = list("Security Officer", "Warden", "Detective", "Prefect Vigilum")
+	job_loyalties = list("Vigilia", "Commissar", "Detective", "Prefect Vigilum")
 	warcry = "EVERYONE DOWN ON THE GROUND!!"
 
 /obj/item/banner/security/mundane
@@ -198,7 +198,7 @@
 	desc = "The banner of Command, a staunch and ancient line of bueraucratic kings and queens."
 	//No icon state here since the default one is the NT banner
 	job_loyalties = list("Proconsul", "Prefect Pretorio", "Prefect Fectum", "Prefect Vigilum", "Prefect Scientia", "Prefect Medicus")
-	warcry = "Hail Nanotrasen!"
+	warcry = "Hail Empire!"
 
 /obj/item/banner/command/mundane
 	inspiration_available = FALSE
@@ -227,8 +227,8 @@
 	desc = "A banner with the logo of the blue deity."
 
 /obj/item/storage/backpack/bannerpack
-	name = "\improper Nanotrasen banner backpack"
-	desc = "It's a backpack with lots of extra room.  A banner with Nanotrasen's logo is attached, that can't be removed."
+	name = "\improper Empire banner backpack"
+	desc = "It's a backpack with lots of extra room.  A banner with Empire's logo is attached, that can't be removed."
 	icon_state = "bannerpack"
 
 /obj/item/storage/backpack/bannerpack/Initialize()

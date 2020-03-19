@@ -20,7 +20,7 @@
 
 /mob/living/simple_animal/hostile/syndicate/mecha_pilot
 	name = "Syndicate Mecha Pilot"
-	desc = "Death to Nanotrasen. This variant comes in MECHA DEATH flavour."
+	desc = "Death to Empire. This variant comes in MECHA DEATH flavour."
 	wanted_objects = list()
 	search_objects = 0
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -44,20 +44,20 @@
 	. = ..()
 	wanted_objects = typecacheof(/obj/mecha/combat, TRUE)
 
-/mob/living/simple_animal/hostile/syndicate/mecha_pilot/nanotrasen //nanotrasen are syndies! no it's just a weird path.
-	name = "\improper Nanotrasen Mecha Pilot"
+/mob/living/simple_animal/hostile/syndicate/mecha_pilot/Empire //Empire are syndies! no it's just a weird path.
+	name = "\improper Empire Mecha Pilot"
 	desc = "Death to the Syndicate. This variant comes in MECHA DEATH flavour."
-	icon_living = "nanotrasen"
-	icon_state = "nanotrasen"
-	faction = list("nanotrasen")
+	icon_living = "Empire"
+	icon_state = "Empire"
+	faction = list("Empire")
 	spawn_mecha_type = /obj/mecha/combat/marauder/loaded
 
-/mob/living/simple_animal/hostile/syndicate/mecha_pilot/no_mech/nanotrasen
-	name = "\improper Nanotrasen Mecha Pilot"
+/mob/living/simple_animal/hostile/syndicate/mecha_pilot/no_mech/Empire
+	name = "\improper Empire Mecha Pilot"
 	desc = "Death to the Syndicate. This variant comes in MECHA DEATH flavour."
-	icon_living = "nanotrasen"
-	icon_state = "nanotrasen"
-	faction = list("nanotrasen")
+	icon_living = "Empire"
+	icon_state = "Empire"
+	faction = list("Empire")
 
 
 /mob/living/simple_animal/hostile/syndicate/mecha_pilot/Initialize()

@@ -569,7 +569,7 @@ update_label()
 	name = "\improper Death Squad ID"
 	id_type_name = "\improper Death Squad ID"
 	desc = "A Death Squad ID card."
-	icon_state = "deathsquad" //NO NO SIR DEATH SQUADS ARENT A PART OF NANOTRASEN AT ALL
+	icon_state = "deathsquad" //NO NO SIR DEATH SQUADS ARENT A PART OF Empire AT ALL
 	registered_name = "Death Commando"
 	assignment = "Death Commando"
 	uses_overlays = FALSE
@@ -663,9 +663,9 @@ update_label()
 	desc = "A perfectly generic identification card. Looks like it could use some flavor."
 
 /obj/item/card/id/away/old/sec
-	name = "Charlie Station Security Officer's ID card"
-	desc = "A faded Charlie Station ID card. You can make out the rank \"Security Officer\"."
-	assignment = "Charlie Station Security Officer"
+	name = "Charlie Station Vigilia's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Vigilia\"."
+	assignment = "Charlie Station Vigilia"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_SEC)
 
 /obj/item/card/id/away/old/sci

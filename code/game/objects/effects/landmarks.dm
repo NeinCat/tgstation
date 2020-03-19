@@ -108,8 +108,8 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Shaft Miner"
 
 /obj/effect/landmark/start/security_officer
-	name = "Security Officer"
-	icon_state = "Security Officer"
+	name = "Vigilia"
+	icon_state = "Vigilia"
 
 /obj/effect/landmark/start/botanist
 	name = "Botanist"
@@ -128,8 +128,8 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Detective"
 
 /obj/effect/landmark/start/warden
-	name = "Warden"
-	icon_state = "Warden"
+	name = "Commissar"
+	icon_state = "Commissar"
 
 /obj/effect/landmark/start/chief_engineer
 	name = "Prefect Fectum"
@@ -217,7 +217,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 
 /obj/effect/landmark/start/depsec
 	name = "department_sec"
-	icon_state = "Security Officer"
+	icon_state = "Vigilia"
 
 /obj/effect/landmark/start/depsec/New()
 	..()

@@ -43,7 +43,7 @@
 														/area/science/robotics,
 														/area/maintenance,
 														/area/construction,
-														/area/vacant_room/commissary,
+														/area/vacant_room/wardeny,
 														/area/survivalpod))
 	if(is_type_in_typecache(A, engine_dirt_areas))
 		if(prob(3))

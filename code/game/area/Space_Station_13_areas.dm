@@ -861,7 +861,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/security/warden
 	name = "Brig Control"
-	icon_state = "Warden"
+	icon_state = "warden"
 
 /area/security/detectives_office
 	name = "Detective's Office"
@@ -1134,7 +1134,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Vacant Office"
 	icon_state = "vacant_office"
 
-/area/vacant_room/commissary
+/area/vacant_room/wardeny
 	name = "Vacant Commissary"
 	icon_state = "vacant_commissary"
 

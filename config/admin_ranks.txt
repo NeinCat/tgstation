@@ -54,7 +54,7 @@ Include = @ SPAWN VAREDIT BAN
 Exclude =
 Edit =
 
-Name = Badmin
+Name = Admin
 Include = @ POSSESS POLL BUILD SERVER FUN
 Exclude =
 Edit =
@@ -69,12 +69,12 @@ Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING
 
-Name = Lazy Master
+Name = Dictator
 Include = EVERYTHING
 Exclude = AUTOADMIN
 Edit = EVERYTHING
 
-Name = Host
+Name = Consul
 Include = EVERYTHING
 Exclude =
 Edit = EVERYTHING

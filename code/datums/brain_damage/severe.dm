@@ -272,7 +272,7 @@
 	gain_text = "<span class='warning'>You feel odd, like you just forgot something important.</span>"
 	lose_text = "<span class='notice'>You feel like a weight was lifted from your mind.</span>"
 	random_gain = FALSE
-	var/trigger_phrase = "Nanotrasen"
+	var/trigger_phrase = "Empire"
 
 /datum/brain_trauma/severe/hypnotic_trigger/New(phrase)
 	..()

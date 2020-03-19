@@ -23,7 +23,7 @@
 	/// The window height
 	var/height = 0
 	/// The style to be used for this UI.
-	var/style = "nanotrasen"
+	var/style = "Empire"
 	/// The interface (template) to be used for this UI.
 	var/interface
 	/// Update the UI every MC tick.
@@ -227,7 +227,7 @@
 		// be tagged, so this is an effective unwrap
 		"ref" = "\ref[src]"
 	)
-	
+
 	if(!isnull(data))
 		json_data["data"] = data
 	if(!isnull(static_data))

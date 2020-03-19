@@ -12,7 +12,7 @@
 	antag_flag = ROLE_TRAITOR
 	false_report_weight = 20 //Reports of traitors are pretty common.
 	restricted_jobs = list("Cyborg")//They are part of the AI if he is traitor so are they, they use to get double chances
-	protected_jobs = list("Prisoner","Security Officer", "Warden", "Detective", "Prefect Vigilum", "Proconsul")
+	protected_jobs = list("Prisoner","Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Proconsul")
 	required_players = 0
 	required_enemies = 1
 	recommended_enemies = 4
@@ -100,4 +100,4 @@
 
 /datum/game_mode/traitor/generate_report()
 	return "Although more specific threats are commonplace, you should always remain vigilant for Syndicate agents aboard your station. Syndicate communications have implied that many \
-		Nanotrasen employees are Syndicate agents with hidden memories that may be activated at a moment's notice, so it's possible that these agents might not even know their positions."
+		Empire employees are Syndicate agents with hidden memories that may be activated at a moment's notice, so it's possible that these agents might not even know their positions."

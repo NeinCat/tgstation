@@ -41,7 +41,7 @@
 
 	var/static/list/officers = list("Proconsul", "Prefect Pretorio", "Prefect Vigilum")
 	var/static/list/command = list("Proconsul" = "Cpt.","Prefect Pretorio" = "Lt.")
-	var/static/list/security = list("Prefect Vigilum" = "Maj.", "Warden" = "Sgt.", "Detective" =  "Det.", "Security Officer" = "Officer")
+	var/static/list/security = list("Prefect Vigilum" = "Maj.", "Commissar" = "Sgt.", "Detective" =  "Det.", "Vigilia" = "Officer")
 	var/static/list/engineering = list("Prefect Fectum" = "Prefect Fectum", "Station Engineer" = "Engineer", "Atmospherics Technician" = "Technician")
 	var/static/list/medical = list("Prefect Medicus" = "C.M.O.", "Medical Doctor" = "M.D.", "Chemist" = "Pharm.D.")
 	var/static/list/research = list("Prefect Scientia" = "Ph.D.", "Roboticist" = "M.S.", "Scientist" = "B.S.")

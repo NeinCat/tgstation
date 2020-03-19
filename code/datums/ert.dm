@@ -13,7 +13,7 @@
 
 /datum/ert/New()
 	if (!polldesc)
-		polldesc = "a Code [code] Nanotrasen Emergency Response Team"
+		polldesc = "a Code [code] Palatine Centurions"
 
 /datum/ert/blue
 	opendoors = FALSE
@@ -30,10 +30,10 @@
 /datum/ert/deathsquad
 	roles = list(/datum/antagonist/ert/deathsquad)
 	leader_role = /datum/antagonist/ert/deathsquad/leader
-	rename_team = "Deathsquad"
+	rename_team = "Praetorian Guard"
 	code = "Delta"
 	mission = "Leave no witnesses."
-	polldesc = "an elite Nanotrasen Strike Team"
+	polldesc = "an elite Empire Praetorian Guard"
 
 /datum/ert/centcom_official
 	code = "Green"
@@ -41,8 +41,8 @@
 	opendoors = FALSE
 	leader_role = /datum/antagonist/official
 	roles = list(/datum/antagonist/official)
-	rename_team = "CentCom Officials"
-	polldesc = "a CentCom Official"
+	rename_team = "Imperial Officials"
+	polldesc = "a Imperial Official"
 
 /datum/ert/centcom_official/New()
 	mission = "Conduct a routine performance review of [station_name()] and its Proconsul."
@@ -50,9 +50,9 @@
 /datum/ert/inquisition
 	roles = list(/datum/antagonist/ert/chaplain/inquisitor, /datum/antagonist/ert/security/inquisitor, /datum/antagonist/ert/medic/inquisitor)
 	leader_role = /datum/antagonist/ert/commander/inquisitor
-	rename_team = "Inquisition"
+	rename_team = "Ecclesia Imperatoria"
 	mission = "Destroy any traces of paranormal activity aboard the station."
-	polldesc = "a Nanotrasen paranormal response team"
+	polldesc = "a Imperial paranormal response team"
 
 /datum/ert/janitor
 	roles = list(/datum/antagonist/ert/janitor, /datum/antagonist/ert/janitor/heavy)
@@ -61,7 +61,7 @@
 	opendoors = FALSE
 	rename_team = "Janitor"
 	mission = "Clean up EVERYTHING."
-	polldesc = "a Nanotrasen Janitorial Response Team"
+	polldesc = "a Imperial Janitorial Response Team"
 
 /datum/ert/intern
 	roles = list(/datum/antagonist/ert/intern)
@@ -70,7 +70,7 @@
 	opendoors = FALSE
 	rename_team = "Horde of Interns"
 	mission = "Assist in conflict resolution."
-	polldesc = "an unpaid internship opportunity with Nanotrasen"
+	polldesc = "an unpaid internship opportunity with Imperial"
 
 /datum/ert/erp
 	roles = list(/datum/antagonist/ert/security/party, /datum/antagonist/ert/clown/party, /datum/antagonist/ert/engineer/party, /datum/antagonist/ert/janitor/party)
@@ -78,5 +78,5 @@
 	opendoors = FALSE
 	rename_team = "Emergency Response Party"
 	mission = "Create entertainment for the crew."
-	polldesc = "a Code Rainbow Nanotrasen Emergency Response Party"
+	polldesc = "a Code Rainbow Imperial Emergency Response Party"
 	code = "Rainbow"

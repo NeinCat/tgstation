@@ -88,11 +88,11 @@
 
 /obj/item/folder/documents
 	name = "folder- 'TOP SECRET'"
-	desc = "A folder stamped \"Top Secret - Property of Nanotrasen Corporation. Unauthorized distribution is punishable by death.\""
+	desc = "A folder stamped \"Top Secret - Property of Empire Corporation. Unauthorized distribution is punishable by death.\""
 
 /obj/item/folder/documents/Initialize()
 	. = ..()
-	new /obj/item/documents/nanotrasen(src)
+	new /obj/item/documents/Empire(src)
 	update_icon()
 
 /obj/item/folder/syndicate

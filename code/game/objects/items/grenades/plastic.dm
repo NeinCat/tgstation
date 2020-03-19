@@ -133,7 +133,7 @@
 		else if(UM.has_antag_datum(/datum/antagonist/ashwalker))
 			message_say = "I HAVE NO IDEA WHAT THIS THING DOES!"
 		else if(UM.has_antag_datum(/datum/antagonist/ert))
-			message_say = "FOR NANOTRASEN!"
+			message_say = "FOR Empire!"
 		else if(UM.has_antag_datum(/datum/antagonist/pirate))
 			message_say = "FOR ME MATEYS!"
 		else if(UM.has_antag_datum(/datum/antagonist/wizard))

@@ -28,7 +28,7 @@
 /obj/item/clothing/head/caphat
 	name = "Proconsul's hat"
 	desc = "It's good being the king."
-	icon_state = "Proconsul"
+	icon_state = "captain"
 	item_state = "that"
 	flags_inv = 0
 	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
@@ -112,7 +112,7 @@
 
 /obj/item/clothing/head/beret/archaic
 	name = "archaic beret"
-	desc = "An absolutely ancient beret, allegedly worn by the first mime to ever step foot on a NanoTrasen station."
+	desc = "An absolutely ancient beret, allegedly worn by the first mime to ever step foot on a Empire station."
 	icon_state = "archaicberet"
 	dog_fashion = null
 
@@ -159,15 +159,15 @@
 	desc = "A black beret with thick armor padding inside. Stylish and robust."
 
 /obj/item/clothing/head/warden
-	name = "warden's police hat"
-	desc = "It's a special armored hat issued to the Warden of a security force. Protects the head from impacts."
+	name = "Commissar's police hat"
+	desc = "It's a special armored hat issued to the Commissar of a security force. Protects the head from impacts."
 	icon_state = "policehelm"
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
 	strip_delay = 60
 	dog_fashion = /datum/dog_fashion/head/warden
 
 /obj/item/clothing/head/warden/drill
-	name = "warden's campaign hat"
+	name = "Commissar's campaign hat"
 	desc = "A special armored campaign hat with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection."
 	icon_state = "wardendrill"
 	item_state = "wardendrill"
@@ -248,8 +248,8 @@
 	icon_state = "hosberet"
 
 /obj/item/clothing/head/beret/sec/navywarden
-	name = "warden's beret"
-	desc = "A special beret with the Warden's insignia emblazoned on it. For wardens with class."
+	name = "Commissar's beret"
+	desc = "A special beret with the Commissar's insignia emblazoned on it. For wardens with class."
 	icon_state = "wardenberet"
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 50)
 	strip_delay = 60

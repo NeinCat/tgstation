@@ -21,7 +21,7 @@
 
 /obj/structure/closet/secure_closet/ertSec
 	name = "emergency response team security locker"
-	desc = "A storage unit containing equipment for an Emergency Response Team Security Officer."
+	desc = "A storage unit containing equipment for an Emergency Response Team Vigilia."
 	req_access = list(ACCESS_CENT_SPECOPS)
 	icon_state = "hos"
 
@@ -46,7 +46,7 @@
 	new /obj/item/storage/firstaid/fire(src)
 	new /obj/item/storage/firstaid/brute(src)
 	new /obj/item/storage/firstaid/regular(src)
-	new /obj/item/defibrillator/compact/combat/loaded/nanotrasen(src)
+	new /obj/item/defibrillator/compact/combat/loaded/Empire(src)
 	new /mob/living/simple_animal/bot/medbot(src)
 
 /obj/structure/closet/secure_closet/ertEngi

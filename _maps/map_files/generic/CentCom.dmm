@@ -3159,7 +3159,7 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/control)
 "in" = (
-/obj/structure/sign/nanotrasen,
+/obj/structure/sign/Empire,
 /turf/closed/indestructible/riveted,
 /area/centcom/control)
 "io" = (
@@ -3296,7 +3296,7 @@
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
 /obj/item/gun/ballistic/automatic/wt550,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
+/obj/item/clothing/head/helmet/swat/Empire,
 /obj/item/crowbar/red,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -3307,7 +3307,7 @@
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
 /obj/item/gun/ballistic/automatic/wt550,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
+/obj/item/clothing/head/helmet/swat/Empire,
 /obj/item/crowbar/red,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3323,7 +3323,7 @@
 	},
 /area/centcom/supply)
 "iH" = (
-/obj/structure/sign/nanotrasen,
+/obj/structure/sign/Empire,
 /turf/closed/indestructible/riveted,
 /area/centcom/prison)
 "iI" = (
@@ -3425,7 +3425,7 @@
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
 /obj/item/gun/ballistic/automatic/wt550,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
+/obj/item/clothing/head/helmet/swat/Empire,
 /obj/item/crowbar/red,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -3436,7 +3436,7 @@
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
 /obj/item/gun/ballistic/automatic/wt550,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
+/obj/item/clothing/head/helmet/swat/Empire,
 /obj/item/crowbar/red,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -7548,7 +7548,7 @@
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
 "qR" = (
-/obj/structure/sign/nanotrasen,
+/obj/structure/sign/Empire,
 /turf/closed/indestructible/riveted,
 /area/centcom/ferry)
 "qS" = (
@@ -11213,7 +11213,7 @@
 	pixel_y = 3
 	},
 /obj/item/gun/energy/e_gun,
-/obj/structure/sign/nanotrasen{
+/obj/structure/sign/Empire{
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/stripes/line{
@@ -12848,7 +12848,7 @@
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
 /obj/item/gun/ballistic/automatic/wt550,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
+/obj/item/clothing/head/helmet/swat/Empire,
 /obj/item/crowbar/red,
 /obj/machinery/light{
 	dir = 8
@@ -12927,7 +12927,7 @@
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
 /obj/item/gun/ballistic/automatic/wt550,
-/obj/item/clothing/head/helmet/swat/nanotrasen,
+/obj/item/clothing/head/helmet/swat/Empire,
 /obj/item/crowbar/red,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -14021,7 +14021,7 @@
 /turf/open/floor/plasteel/white,
 /area/tdome/tdomeobserve)
 "FE" = (
-/obj/item/soap/nanotrasen,
+/obj/item/soap/Empire,
 /turf/open/floor/plasteel/white,
 /area/tdome/tdomeobserve)
 "FF" = (
@@ -14339,7 +14339,7 @@
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
 "Gy" = (
-/obj/structure/sign/nanotrasen,
+/obj/structure/sign/Empire,
 /turf/closed/indestructible/riveted,
 /area/tdome/tdomeobserve)
 "Gz" = (

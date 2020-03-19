@@ -26,7 +26,7 @@ GLOBAL_VAR_INIT(deaths_during_shift, 0)
 	announce_span = "danger"
 	announce_text = "Grove For Lyfe!"
 	reroll_friendly = FALSE
-	restricted_jobs = list("Cyborg", "AI", "Prisoner","Security Officer", "Warden", "Detective", "Prefect Vigilum", "Proconsul", "Prefect Pretorio")//N O
+	restricted_jobs = list("Cyborg", "AI", "Prisoner","Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Proconsul", "Prefect Pretorio")//N O
 	protected_jobs = list()
 	var/check_counter = 0
 	var/endtime = null
@@ -254,7 +254,7 @@ GLOBAL_VAR_INIT(deaths_during_shift, 0)
 			if(FOUR_STARS_HIGHPOP to FIVE_STARS_HIGHPOP-1)
 				team_size = 11
 				cops_to_send = /datum/antagonist/ert/families/beatcop/fbi
-				announcement_message = "We are dispatching our top agents to [station_name()] at the request of the Spinward Stellar Coalition government due to an extreme terrorist level threat against this Nanotrasen owned station. All gangsters must surrender IMMEDIATELY. Failure to comply can and will result in death. We have blockaded your warp gates and will not allow any escape until the situation is resolved within our standard response time of 10 minutes.\n\nSurrender now or face the consequences of your actions."
+				announcement_message = "We are dispatching our top agents to [station_name()] at the request of the Spinward Stellar Coalition government due to an extreme terrorist level threat against this Empire owned station. All gangsters must surrender IMMEDIATELY. Failure to comply can and will result in death. We have blockaded your warp gates and will not allow any escape until the situation is resolved within our standard response time of 10 minutes.\n\nSurrender now or face the consequences of your actions."
 				announcer = "Federal Bureau of Investigation"
 			if(FIVE_STARS_HIGHPOP to INFINITY)
 				team_size = 12
@@ -281,7 +281,7 @@ GLOBAL_VAR_INIT(deaths_during_shift, 0)
 			if(FOUR_STARS_LOW to FIVE_STARS_LOW-1)
 				team_size = 8
 				cops_to_send = /datum/antagonist/ert/families/beatcop/fbi
-				announcement_message = "We are dispatching our top agents to [station_name()] at the request of the Spinward Stellar Coalition government due to an extreme terrorist level threat against this Nanotrasen owned station. All gangsters must surrender IMMEDIATELY. Failure to comply can and will result in death. We have blockaded your warp gates and will not allow any escape until the situation is resolved within our standard response time of 10 minutes.\n\nSurrender now or face the consequences of your actions."
+				announcement_message = "We are dispatching our top agents to [station_name()] at the request of the Spinward Stellar Coalition government due to an extreme terrorist level threat against this Empire owned station. All gangsters must surrender IMMEDIATELY. Failure to comply can and will result in death. We have blockaded your warp gates and will not allow any escape until the situation is resolved within our standard response time of 10 minutes.\n\nSurrender now or face the consequences of your actions."
 				announcer = "Federal Bureau of Investigation"
 			if(FIVE_STARS_LOW to INFINITY)
 				team_size = 10

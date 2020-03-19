@@ -1,9 +1,9 @@
-/mob/living/simple_animal/hostile/nanotrasen
-	name = "\improper Nanotrasen Private Security Officer"
-	desc = "An officer part of Nanotrasen's private security force, he seems rather unpleased to meet you."
+/mob/living/simple_animal/hostile/Empire
+	name = "\improper Empire Private Vigilia"
+	desc = "An officer part of Empire's private security force, he seems rather unpleased to meet you."
 	icon = 'icons/mob/simple_human.dmi'
-	icon_state = "nanotrasen"
-	icon_living = "nanotrasen"
+	icon_state = "Empire"
+	icon_living = "Empire"
 	icon_dead = null
 	icon_gib = "syndicate_gib"
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -32,13 +32,13 @@
 	footstep_type = FOOTSTEP_MOB_SHOE
 
 
-/mob/living/simple_animal/hostile/nanotrasen/Aggro()
+/mob/living/simple_animal/hostile/Empire/Aggro()
 	..()
 	summon_backup(15)
 	say("411 in progress, requesting backup!")
 
 
-/mob/living/simple_animal/hostile/nanotrasen/ranged
+/mob/living/simple_animal/hostile/Empire/ranged
 	icon_state = "nanotrasenranged"
 	icon_living = "nanotrasenranged"
 	ranged = 1
@@ -50,7 +50,7 @@
 				/obj/effect/mob_spawn/human/corpse/nanotrasensoldier)
 
 
-/mob/living/simple_animal/hostile/nanotrasen/ranged/smg
+/mob/living/simple_animal/hostile/Empire/ranged/smg
 	icon_state = "nanotrasenrangedsmg"
 	icon_living = "nanotrasenrangedsmg"
 	rapid = 3

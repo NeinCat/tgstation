@@ -870,7 +870,7 @@
 		new randomFigure(src)
 
 #define NODESIGN "None"
-#define NANOTRASEN "NanotrasenStandard"
+#define Empire "NanotrasenStandard"
 #define SYNDI "SyndiSnacks"
 #define HEART "Heart"
 #define SMILEY "SmileyFace"
@@ -897,7 +897,7 @@
 		if(contents.len)
 			to_chat(user, "<span class='warning'>You can't modify [src] with items still inside!</span>")
 			return
-		var/list/designs = list(NODESIGN, NANOTRASEN, SYNDI, HEART, SMILEY, "Cancel")
+		var/list/designs = list(NODESIGN, Empire, SYNDI, HEART, SMILEY, "Cancel")
 		var/switchDesign = input("Select a Design:", "Paper Sack Design", designs[1]) in sortList(designs)
 		if(get_dist(usr, src) > 1)
 			to_chat(usr, "<span class='warning'>You have moved too far away!</span>")
@@ -912,8 +912,8 @@
 		switch(designs[choice])
 			if(NODESIGN)
 				desc = "A sack neatly crafted out of paper."
-			if(NANOTRASEN)
-				desc = "A standard Nanotrasen paper lunch sack for loyal employees on the go."
+			if(Empire)
+				desc = "A standard Empire paper lunch sack for loyal employees on the go."
 			if(SYNDI)
 				desc = "The design on this paper sack is a remnant of the notorious 'SyndieSnacks' program."
 			if(HEART)
@@ -936,7 +936,7 @@
 	return ..()
 
 #undef NODESIGN
-#undef NANOTRASEN
+#undef Empire
 #undef SYNDI
 #undef HEART
 #undef SMILEY
