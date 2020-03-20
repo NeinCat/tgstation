@@ -142,8 +142,8 @@
 /obj/item/storage/backpack/captain
 	name = "Proconsul's backpack"
 	desc = "It's a special backpack made exclusively for Empire officers."
-	icon_state = "Proconsulpack"
-	item_state = "Proconsulpack"
+	icon_state = "captainpack"
+	item_state = "captainpack"
 
 /obj/item/storage/backpack/industrial
 	name = "industrial backpack"
