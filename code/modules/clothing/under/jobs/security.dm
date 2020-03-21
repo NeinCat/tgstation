@@ -162,20 +162,7 @@
 	icon_state = "hos"
 	item_state = "gy_suit"
 
-/obj/item/clothing/under/rank/security/head_of_security/alt
-	name = "Prefect Vigilum's turtleneck"
-	desc = "A stylish alternative to the normal Prefect Vigilum jumpsuit, complete with tactical pants."
-	icon_state = "hosalt"
-	item_state = "bl_suit"
 
-/obj/item/clothing/under/rank/security/head_of_security/alt/skirt
-	name = "Prefect Vigilum's turtleneck skirt"
-	desc = "A stylish alternative to the normal Prefect Vigilum jumpsuit, complete with a tactical skirt."
-	icon_state = "hosalt_skirt"
-	item_state = "bl_suit"
-	body_parts_covered = CHEST|GROIN|ARMS
-	can_adjust = FALSE
-	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/security/head_of_security/parade
 	name = "Prefect Vigilum's parade uniform"
