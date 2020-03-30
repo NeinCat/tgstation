@@ -316,12 +316,12 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "showroom"
 
 /area/crew_quarters/heads/captain
-	name = "Proconsul's Office"
-	icon_state = "Proconsul"
+	name = "Governor's Office"
+	icon_state = "Governor"
 
 /area/crew_quarters/heads/captain/private
-	name = "Proconsul's Quarters"
-	icon_state = "Proconsul"
+	name = "Governor's Quarters"
+	icon_state = "Governor"
 
 /area/crew_quarters/heads/chief
 	name = "Prefect Fectum's Office"

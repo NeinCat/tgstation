@@ -16,7 +16,7 @@
 		"AI",
 		"Assistant",
 		"Cyborg",
-		"Proconsul",
+		"Governor",
 		"Prefect Pretorio",
 		"Prefect Vigilum",
 		"Prefect Fectum",

@@ -22,8 +22,8 @@
 
 //captain
 /obj/item/clothing/suit/captunic
-	name = "Proconsul's parade tunic"
-	desc = "Worn by a Proconsul to show their class."
+	name = "Governor's parade tunic"
+	desc = "Worn by a Governor to show their class."
 	icon_state = "captunic"
 	item_state = "bio_suit"
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS

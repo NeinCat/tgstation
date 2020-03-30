@@ -2,13 +2,13 @@
 	title = "Prefect Vigilum"
 	flag = HOS
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
-	department_head = list("Proconsul")
+	department_head = list("Governor")
 	department_flag = ENGSEC
 	head_announce = list(RADIO_CHANNEL_SECURITY)
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the proconsul"
+	supervisors = "the Governor"
 	selection_color = "#ffdddd"
 	req_admin_notify = 1
 	minimal_player_age = 14

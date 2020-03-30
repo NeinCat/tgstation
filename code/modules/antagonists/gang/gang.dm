@@ -315,7 +315,7 @@
 						/obj/item/clothing/shoes/jackbros,
 						/obj/item/clothing/head/jackbros,
 						/obj/item/toy/crayon/spraycan)
-	gang_objective = "Hee-hello friends! We need to expand our influence, ho! Get a King Frost in as the Proconsul of this joint! Either get the original Proconsul on board with the program, or Hee-ho a fellow Jack Frost into the position yourselves!"
+	gang_objective = "Hee-hello friends! We need to expand our influence, ho! Get a King Frost in as the Governor of this joint! Either get the original Governor on board with the program, or Hee-ho a fellow Jack Frost into the position yourselves!"
 	antag_hud_name = "JackFrost"
 
 /datum/antagonist/gang/jackbros/check_gang_objective()
@@ -327,7 +327,7 @@
 				continue // dead people cant really do the objective lol
 			if(ishuman(MI.current))
 				var/mob/living/carbon/human/H = MI.current
-				if(H.get_assignment() == "Proconsul")
+				if(H.get_assignment() == "Governor")
 					return TRUE
 	return FALSE
 

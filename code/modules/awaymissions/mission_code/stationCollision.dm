@@ -10,7 +10,7 @@
  *		Landmarks
  *		Guns
  *		Safe code hints
- *		Proconsul's safe
+ *		Governor's safe
  *		Modified Nar'Sie
  */
 
@@ -110,10 +110,10 @@ GLOBAL_VAR_INIT(sc_safecode5, "[rand(0,9)]")
 
 /obj/item/paper/fluff/awaymissions/stationcollision/safehint_paper_shuttle
 	info = {"<b>Target:</b> Research-station Epsilon<br>
-			<b>Objective:</b> Prototype weaponry. The Proconsul likely keeps them locked in her safe.<br>
+			<b>Objective:</b> Prototype weaponry. The Governor likely keeps them locked in her safe.<br>
 			<br>
 			Our on-board spy has learned the code and has hidden away a few copies of the code around the station. Unfortunatly he has been captured by security
-			Your objective is to split up, locate any of the papers containing the Proconsul's safe code, open the safe and
+			Your objective is to split up, locate any of the papers containing the Governor's safe code, open the safe and
 			secure anything found inside. If possible, recover the imprisioned syndicate operative and receive the code from him.<br>
 			<br>
 			<u>As always, eliminate anyone who gets in the way.</u><br>
@@ -122,10 +122,10 @@ GLOBAL_VAR_INIT(sc_safecode5, "[rand(0,9)]")
 			It is completely fly-by-wire meaning you have just have to enjoy the ride and when the red light comes on... find something to hold onto!
 			"}
 /*
- * Proconsul's safe
+ * Governor's safe
  */
 /obj/item/storage/secure/safe/sc_ssafe
-	name = "Proconsul's secure safe"
+	name = "Governor's secure safe"
 
 /obj/item/storage/secure/safe/sc_ssafe/Initialize()
 	. = ..()

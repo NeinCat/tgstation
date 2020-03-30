@@ -1499,7 +1499,7 @@
 	if(!M.mind?.assigned_role)
 		return
 	switch(M.mind.assigned_role)
-		if("Prefect Medicus", "Proconsul", "Prefect Fectum", "Prefect Scientia", "Prefect Pretorio")
+		if("Prefect Medicus", "Governor", "Prefect Fectum", "Prefect Scientia", "Prefect Pretorio")
 			if(prob(10))
 				to_chat(M, "You feel like royalty.")
 			if(prob(5))

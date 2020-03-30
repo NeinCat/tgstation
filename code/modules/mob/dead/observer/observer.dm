@@ -682,6 +682,14 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 			reenter_corpse()
 			return
 
+	if(href_list["flavor_more"])
+		var/mob/A = locate(href_list["flavor_more"])
+		var/dat = A.flavor_text
+		var/datum/browser/flavor_more = new(usr, "flavor", "[A.name]", 500, 200)
+		flavor_more.set_content(dat)
+		flavor_more.open(1)
+
+
 //We don't want to update the current var
 //But we will still carry a mind.
 /mob/dead/observer/mind_initialize()

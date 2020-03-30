@@ -23,7 +23,7 @@
 /obj/item/clothing/mask/luchador/handle_speech(datum/source, list/speech_args)
 	var/message = speech_args[SPEECH_MESSAGE]
 	if(message[1] != "*")
-		message = replacetext(message, "Proconsul", "CAPITÁN")
+		message = replacetext(message, "Governor", "CAPITÁN")
 		message = replacetext(message, "station", "ESTACIÓN")
 		message = replacetext(message, "sir", "SEÑOR")
 		message = replacetext(message, "the ", "el ")

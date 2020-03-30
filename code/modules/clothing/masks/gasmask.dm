@@ -23,7 +23,7 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/mask/gas/atmos/captain
-	name = "Proconsul's gas mask"
+	name = "Governor's gas mask"
 	desc = "Empire cut corners and repainted a spare atmospheric gas mask, but don't tell anyone."
 	icon_state = "gas_cap"
 	item_state = "gas_cap"

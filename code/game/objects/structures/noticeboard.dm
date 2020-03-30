@@ -92,8 +92,8 @@
 // Notice boards for the heads of staff (plus the qm)
 
 /obj/structure/noticeboard/captain
-	name = "Proconsul's Notice Board"
-	desc = "Important notices from the Proconsul."
+	name = "Governor's Notice Board"
+	desc = "Important notices from the Governor."
 	req_access = list(ACCESS_CAPTAIN)
 
 /obj/structure/noticeboard/hop

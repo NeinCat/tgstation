@@ -131,10 +131,10 @@
 	icon_state = "pda-rd"
 
 /obj/item/pda/captain
-	name = "Proconsul PDA"
+	name = "Governor PDA"
 	default_cartridge = /obj/item/cartridge/captain
 	inserted_item = /obj/item/pen/fountain/captain
-	icon_state = "pda-Proconsul"
+	icon_state = "pda-Governor"
 
 /obj/item/pda/captain/Initialize()
 	. = ..()

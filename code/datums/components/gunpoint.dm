@@ -36,7 +36,7 @@
 	shooter.apply_status_effect(STATUS_EFFECT_HOLDUP)
 	target.apply_status_effect(STATUS_EFFECT_HELDUP)
 
-	if(target.job == "Proconsul" && target.stat == CONSCIOUS && is_nuclear_operative(shooter))
+	if(target.job == "Governor" && target.stat == CONSCIOUS && is_nuclear_operative(shooter))
 		if(istype(weapon, /obj/item/gun/ballistic/rocketlauncher) && weapon.chambered)
 			shooter.client.give_award(/datum/award/achievement/misc/rocket_holdup, shooter)
 

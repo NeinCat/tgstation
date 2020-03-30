@@ -167,13 +167,13 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	command = TRUE
 
 /obj/item/radio/headset/heads/captain
-	name = "\proper the Proconsul's headset"
+	name = "\proper the Governor's headset"
 	desc = "The headset of the king."
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/heads/captain
 
 /obj/item/radio/headset/heads/captain/alt
-	name = "\proper the Proconsul's bowman headset"
+	name = "\proper the Governor's bowman headset"
 	desc = "The headset of the boss. Protects ears from flashbangs."
 	icon_state = "com_headset_alt"
 	item_state = "com_headset_alt"
@@ -218,7 +218,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/heads/hop
 	name = "\proper the Prefect Pretorio's headset"
-	desc = "The headset of the guy who will one day be Proconsul."
+	desc = "The headset of the guy who will one day be Governor."
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/heads/hop
 

@@ -2,13 +2,13 @@
 	title = "Prefect Fectum"
 	flag = CHIEF
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list("Proconsul")
+	department_head = list("Governor")
 	department_flag = ENGSEC
 	head_announce = list("Engineering")
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Proconsul"
+	supervisors = "the Governor"
 	selection_color = "#ffeeaa"
 	req_admin_notify = 1
 	minimal_player_age = 7

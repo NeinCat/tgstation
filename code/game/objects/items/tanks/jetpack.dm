@@ -168,10 +168,10 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/tank/jetpack/oxygen/captain
-	name = "Proconsul's jetpack"
+	name = "Governor's jetpack"
 	desc = "A compact, lightweight jetpack containing a high amount of compressed oxygen."
-	icon_state = "jetpack-Proconsul"
-	item_state = "jetpack-Proconsul"
+	icon_state = "jetpack-Governor"
+	item_state = "jetpack-Governor"
 	w_class = WEIGHT_CLASS_NORMAL
 	volume = 90
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF //steal objective items are hard to destroy.

@@ -40,7 +40,7 @@
 	icon_state = "rdcloak"
 
 /obj/item/clothing/neck/cloak/cap
-	name = "Proconsul's cloak"
+	name = "Governor's cloak"
 	desc = "Worn by the commander of Space Station 13."
 	icon_state = "capcloak"
 

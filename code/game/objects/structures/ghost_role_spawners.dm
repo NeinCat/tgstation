@@ -477,7 +477,7 @@
 /obj/effect/mob_spawn/human/syndicate/battlecruiser
 	name = "Syndicate Battlecruiser Ship Operative"
 	short_desc = "You are a crewmember aboard the syndicate flagship: the SBC Starfury."
-	flavour_text = "Your job is to follow your Proconsul's orders, maintain the ship, and keep the engine running. If you are not familiar with how the supermatter engine functions: do not attempt to start it."
+	flavour_text = "Your job is to follow your Governor's orders, maintain the ship, and keep the engine running. If you are not familiar with how the supermatter engine functions: do not attempt to start it."
 	important_info = "The armory is not a candy store, and your role is not to assault the station directly, leave that work to the assault operatives."
 	outfit = /datum/outfit/syndicate_empty/SBC
 
@@ -490,7 +490,7 @@
 /obj/effect/mob_spawn/human/syndicate/battlecruiser/assault
 	name = "Syndicate Battlecruiser Assault Operative"
 	short_desc = "You are an assault operative aboard the syndicate flagship: the SBC Starfury."
-	flavour_text = "Your job is to follow your Proconsul's orders, keep intruders out of the ship, and assault Space Station 13. There is an armory, multiple assault ships, and beam cannons to attack the station with."
+	flavour_text = "Your job is to follow your Governor's orders, keep intruders out of the ship, and assault Space Station 13. There is an armory, multiple assault ships, and beam cannons to attack the station with."
 	important_info = "Work as a team with your fellow operatives and work out a plan of attack. If you are overwhelmed, escape back to your ship!"
 	outfit = /datum/outfit/syndicate_empty/SBC/assault
 
@@ -507,9 +507,9 @@
 
 /obj/effect/mob_spawn/human/syndicate/battlecruiser/captain
 	name = "Syndicate Battlecruiser captain"
-	short_desc = "You are the Proconsul aboard the syndicate flagship: the SBC Starfury."
+	short_desc = "You are the Governor aboard the syndicate flagship: the SBC Starfury."
 	flavour_text = "Your job is to oversee your crew, defend the ship, and destroy Space Station 13. The ship has an armory, multiple ships, beam cannons, and multiple crewmembers to accomplish this goal."
-	important_info = "As the Proconsul, this whole operation falls on your shoulders. You do not need to nuke the station, causing sufficient damage and preventing your ship from being destroyed will be enough."
+	important_info = "As the Governor, this whole operation falls on your shoulders. You do not need to nuke the station, causing sufficient damage and preventing your ship from being destroyed will be enough."
 	outfit = /datum/outfit/syndicate_empty/SBC/assault/captain
 	id_access_list = list(150,151)
 

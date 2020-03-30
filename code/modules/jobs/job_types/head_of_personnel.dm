@@ -2,13 +2,13 @@
 	title = "Prefect Pretorio"
 	flag = HOP
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
-	department_head = list("Proconsul")
+	department_head = list("Governor")
 	department_flag = CIVILIAN
 	head_announce = list(RADIO_CHANNEL_SUPPLY, RADIO_CHANNEL_SERVICE)
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the proconsul"
+	supervisors = "the Governor"
 	selection_color = "#ddddff"
 	req_admin_notify = 1
 	minimal_player_age = 10

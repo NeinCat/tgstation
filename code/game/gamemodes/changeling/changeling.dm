@@ -12,7 +12,7 @@ GLOBAL_VAR(changeling_team_objective_type) //If this is not null, we hand our th
 	antag_flag = ROLE_CHANGELING
 	false_report_weight = 10
 	restricted_jobs = list("AI", "Cyborg")
-	protected_jobs = list("Prisoner", "Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Proconsul")
+	protected_jobs = list("Prisoner", "Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor")
 	required_players = 15
 	required_enemies = 1
 	recommended_enemies = 4
@@ -93,7 +93,7 @@ GLOBAL_VAR(changeling_team_objective_type) //If this is not null, we hand our th
 						changelings += character.mind
 
 /datum/game_mode/changeling/generate_report()
-	return "The Gorlex Marauders have announced the successful raid and destruction of Central Command containment ship #S-[rand(1111, 9999)]. This ship housed only a single prisoner - \
+	return "The Gorlex Marauders have announced the successful raid and destruction of Empire Senate containment ship #S-[rand(1111, 9999)]. This ship housed only a single prisoner - \
 			codenamed \"Thing\", and it was highly adaptive and extremely dangerous. We have reason to believe that the Thing has allied with the Syndicate, and you should note that likelihood \
 			of the Thing being sent to a station in this sector is highly likely. It may be in the guise of any crew member. Trust nobody - suspect everybody. Do not announce this to the crew, \
 			as paranoia may spread and inhibit workplace efficiency."

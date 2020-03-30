@@ -66,7 +66,7 @@ GLOBAL_LIST_INIT(dye_registry, list(
 		DYE_RAINBOW = /obj/item/clothing/shoes/sneakers/rainbow,
 		DYE_MIME = /obj/item/clothing/shoes/sneakers/black,
 		DYE_QM = /obj/item/clothing/shoes/sneakers/brown,
-		DYE_Proconsul = /obj/item/clothing/shoes/sneakers/brown,
+		DYE_Governor = /obj/item/clothing/shoes/sneakers/brown,
 		DYE_HOP = /obj/item/clothing/shoes/sneakers/brown,
 		DYE_CE = /obj/item/clothing/shoes/sneakers/brown,
 		DYE_RD = /obj/item/clothing/shoes/sneakers/brown,

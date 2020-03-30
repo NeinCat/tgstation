@@ -121,7 +121,7 @@
 			if("Assistant")
 				heirloom_type = /obj/item/storage/toolbox/mechanical/old/heirloom
 			//Security/Command
-			if("Proconsul")
+			if("Governor")
 				heirloom_type = /obj/item/reagent_containers/food/drinks/flask/gold
 			if("Prefect Vigilum")
 				heirloom_type = /obj/item/book/manual/wiki/security_space_law

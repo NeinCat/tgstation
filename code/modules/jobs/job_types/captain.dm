@@ -1,5 +1,5 @@
 /datum/job/captain
-	title = "Proconsul"
+	title = "Governor"
 	flag = CAPTAIN
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD|DEADMIN_POSITION_SECURITY
 	department_head = list("CentCom")
@@ -31,10 +31,10 @@
 
 /datum/job/captain/announce(mob/living/carbon/human/H)
 	..()
-	SSticker.OnRoundstart(CALLBACK(GLOBAL_PROC, .proc/minor_announce, "Proconsul [H.real_name] on deck!"))
+	SSticker.OnRoundstart(CALLBACK(GLOBAL_PROC, .proc/minor_announce, "Governor [H.real_name] on deck!"))
 
 /datum/outfit/job/captain
-	name = "Proconsul"
+	name = "Governor"
 	jobtype = /datum/job/captain
 
 	id = /obj/item/card/id/gold
@@ -58,7 +58,7 @@
 	chameleon_extras = list(/obj/item/gun/energy/e_gun, /obj/item/stamp/captain)
 
 /datum/outfit/job/captain/hardsuit
-	name = "Proconsul (Hardsuit)"
+	name = "Governor (Hardsuit)"
 
 	mask = /obj/item/clothing/mask/gas/atmos/captain
 	suit = /obj/item/clothing/suit/space/hardsuit/swat/captain

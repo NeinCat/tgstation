@@ -39,9 +39,9 @@
 	item_state = "that"
 
 /obj/item/clothing/head/collectable/captain
-	name = "collectable Proconsul's hat"
+	name = "collectable Governor's hat"
 	desc = "A collectable hat that'll make you look just like a real comdom!"
-	icon_state = "Proconsul"
+	icon_state = "Governor"
 	item_state = "caphat"
 
 	dog_fashion = /datum/dog_fashion/head/captain

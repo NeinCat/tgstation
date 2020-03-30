@@ -92,7 +92,7 @@
 	category = CAT_PRIMAL
 
 /obj/item/pen/fountain/captain
-	name = "Proconsul's fountain pen"
+	name = "Governor's fountain pen"
 	desc = "It's an expensive Oak fountain pen. The nib is quite sharp."
 	icon_state = "pen-fountain-o"
 	force = 5

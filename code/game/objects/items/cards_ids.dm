@@ -304,7 +304,7 @@
 		return
 	cached_flat_icon = null
 	var/job = assignment ? ckey(GetJobName()) : null
-	if(registered_name && registered_name != "Proconsul")
+	if(registered_name && registered_name != "Governor")
 		. += mutable_appearance(icon, "assigned")
 	if(job)
 		. += mutable_appearance(icon, "id[job]")
@@ -462,15 +462,15 @@ update_label()
 	uses_overlays = FALSE
 
 /obj/item/card/id/captains_spare
-	name = "Proconsul's spare ID"
-	id_type_name = "Proconsul's spare ID"
+	name = "Governor's spare ID"
+	id_type_name = "Governor's spare ID"
 	desc = "The spare ID of the High Lord himself."
 	icon_state = "gold"
 	item_state = "gold_id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
-	registered_name = "Proconsul"
-	assignment = "Proconsul"
+	registered_name = "Governor"
+	assignment = "Governor"
 
 /obj/item/card/id/captains_spare/Initialize()
 	var/datum/job/captain/J = new/datum/job/captain
@@ -478,9 +478,9 @@ update_label()
 	. = ..()
 	update_label()
 
-/obj/item/card/id/captains_spare/update_label() //so it doesn't change to Proconsul's ID card (Proconsul) on a sneeze
-	if(registered_name == "Proconsul")
-		name = "[id_type_name][(!assignment || assignment == "Proconsul") ? "" : " ([assignment])"]"
+/obj/item/card/id/captains_spare/update_label() //so it doesn't change to Governor's ID card (Governor) on a sneeze
+	if(registered_name == "Governor")
+		name = "[id_type_name][(!assignment || assignment == "Governor") ? "" : " ([assignment])"]"
 		update_icon()
 	else
 		..()
@@ -488,10 +488,10 @@ update_label()
 /obj/item/card/id/centcom
 	name = "\improper CentCom ID"
 	id_type_name = "\improper CentCom ID"
-	desc = "An ID straight from Central Command."
+	desc = "An ID straight from Empire Senate."
 	icon_state = "centcom"
-	registered_name = "Central Command"
-	assignment = "Central Command"
+	registered_name = "Empire Senate"
+	assignment = "Empire Senate"
 	uses_overlays = FALSE
 
 /obj/item/card/id/centcom/Initialize()

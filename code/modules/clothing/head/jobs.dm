@@ -26,7 +26,7 @@
 
 //captain
 /obj/item/clothing/head/caphat
-	name = "Proconsul's hat"
+	name = "Governor's hat"
 	desc = "It's good being the king."
 	icon_state = "captain"
 	item_state = "that"
@@ -37,8 +37,8 @@
 
 //captain: This is no longer space-worthy
 /obj/item/clothing/head/caphat/parade
-	name = "Proconsul's parade cap"
-	desc = "Worn only by Proconsuls with an abundance of class."
+	name = "Governor's parade cap"
+	desc = "Worn only by Governors with an abundance of class."
 	icon_state = "capcap"
 
 	dog_fashion = null

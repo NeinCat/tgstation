@@ -209,7 +209,7 @@
 	desc = "This is a very expensive diamond statue."
 
 /obj/structure/statue/diamond/captain
-	name = "statue of THE Proconsul."
+	name = "statue of THE Governor."
 	icon_state = "cap"
 
 /obj/structure/statue/diamond/ai1

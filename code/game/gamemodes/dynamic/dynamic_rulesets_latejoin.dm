@@ -59,7 +59,7 @@
 	name = "Syndicate Infiltrator"
 	antag_datum = /datum/antagonist/traitor
 	antag_flag = ROLE_TRAITOR
-	protected_roles = list("Vigilia", "Commissar", "Prefect Pretorio", "Detective", "Prefect Vigilum", "Proconsul")
+	protected_roles = list("Vigilia", "Commissar", "Prefect Pretorio", "Detective", "Prefect Vigilum", "Governor")
 	restricted_roles = list("AI","Cyborg")
 	required_candidates = 1
 	weight = 7
@@ -81,8 +81,8 @@
 	antag_datum = /datum/antagonist/rev/head
 	antag_flag = ROLE_REV_HEAD
 	antag_flag_override = ROLE_REV
-	restricted_roles = list("AI", "Cyborg", "Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Proconsul", "Prefect Pretorio", "Prefect Fectum", "Prefect Medicus", "Prefect Scientia")
-	enemy_roles = list("AI", "Cyborg", "Vigilia","Detective","Prefect Vigilum", "Proconsul", "Commissar")
+	restricted_roles = list("AI", "Cyborg", "Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor", "Prefect Pretorio", "Prefect Fectum", "Prefect Medicus", "Prefect Scientia")
+	enemy_roles = list("AI", "Cyborg", "Vigilia","Detective","Prefect Vigilum", "Governor", "Commissar")
 	required_enemies = list(2,2,1,1,1,1,1,0,0,0)
 	required_candidates = 1
 	weight = 2
@@ -146,7 +146,7 @@
 				var/datum/antagonist/rev/R = M.has_antag_datum(/datum/antagonist/rev)
 				R.remove_revolutionary(FALSE, "gamemode")
 		priority_announce("It appears the mutiny has been quelled. Please return yourself and your incapacitated colleagues to work. \
-			We have remotely blacklisted the head revolutionaries in your medical records to prevent accidental revival.", null, 'sound/ai/attention.ogg', null, "Central Command Loyalty Monitoring Division")
+			We have remotely blacklisted the head revolutionaries in your medical records to prevent accidental revival.", null, 'sound/ai/attention.ogg', null, "Empire Senate Loyalty Monitoring Division")
 		return RULESET_STOP_PROCESSING
 
 

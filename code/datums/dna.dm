@@ -397,6 +397,8 @@
 			update_body_parts()
 		if(mutations_overlay_update)
 			update_mutations_overlay()
+	warn_flavor_changed()
+	flavor_text = ""
 
 
 /mob/proc/domutcheck()

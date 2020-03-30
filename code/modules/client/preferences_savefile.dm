@@ -325,6 +325,12 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["facial_style_name"]	>> facial_hairstyle
 	S["underwear"]			>> underwear
 	S["underwear_color"]	>> underwear_color
+
+	//notes
+	S["flavor_text"] 		>> flavor_text
+	S["sec_imp_notes"]		>> sec_imp_notes
+	S["med_imp_notes"]		>> med_imp_notes
+
 	S["undershirt"]			>> undershirt
 	S["socks"]				>> socks
 	S["backpack"]			>> backpack
@@ -467,6 +473,9 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["socks"]			, socks)
 	WRITE_FILE(S["backpack"]			, backpack)
 	WRITE_FILE(S["jumpsuit_style"]			, jumpsuit_style)
+	WRITE_FILE(S["flavor_text"], flavor_text)
+	WRITE_FILE(S["sec_imp_notes"], sec_imp_notes)
+	WRITE_FILE(S["med_imp_notes"], med_imp_notes)
 	WRITE_FILE(S["uplink_loc"]			, uplink_spawn_loc)
 	WRITE_FILE(S["randomise"]		, randomise)
 	WRITE_FILE(S["species"]			, pref_species.id)

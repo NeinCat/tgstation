@@ -2,7 +2,7 @@
 //Clusterbang
 ////////////////////
 /obj/item/grenade/clusterbuster
-	desc = "Use of this weapon may constitute a war crime in your area, consult your local Proconsul."
+	desc = "Use of this weapon may constitute a war crime in your area, consult your local Governor."
 	name = "clusterbang"
 	icon = 'icons/obj/grenade.dmi'
 	icon_state = "clusterbang"

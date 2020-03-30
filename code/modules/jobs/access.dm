@@ -248,7 +248,7 @@
 		if(ACCESS_HEADS)
 			return "Bridge"
 		if(ACCESS_CAPTAIN)
-			return "Proconsul"
+			return "Governor"
 		if(ACCESS_ALL_PERSONAL_LOCKERS)
 			return "Personal Lockers"
 		if(ACCESS_CHAPEL_OFFICE)
@@ -354,7 +354,7 @@
 			return "Code Scotch"
 
 /proc/get_all_jobs()
-	return list("Assistant", "Proconsul", "Prefect Pretorio", "Bartender", "Cook", "Botanist", "Quartermaster", "Cargo Technician",
+	return list("Assistant", "Governor", "Prefect Pretorio", "Bartender", "Cook", "Botanist", "Quartermaster", "Cargo Technician",
 				"Shaft Miner", "Clown", "Mime", "Janitor", "Curator", "Lawyer", "Chaplain", "Prefect Fectum", "Station Engineer",
 				"Atmospheric Technician", "Prefect Medicus", "Medical Doctor", "Paramedic", "Chemist", "Geneticist", "Virologist",
 				"Prefect Scientia", "Scientist", "Roboticist", "Prefect Vigilum", "Commissar", "Detective", "Vigilia", "Prisoner")
@@ -363,7 +363,7 @@
 	return get_all_jobs() + list("Emergency Response Team Commander", "Security Response Officer", "Engineering Response Officer", "Medical Response Officer", "Entertainment Response Officer", "Religious Response Officer", "Janitorial Response Officer", "Death Commando")
 
 /proc/get_all_centcom_jobs()
-	return list("Central Command","VIP Guest","Custodian","Thunderdome Overseer","CentCom Official","Medical Officer","Research Officer","Special Ops Officer","Admiral","CentCom Commander","CentCom Bartender","Private Security Force")
+	return list("Empire Senate","VIP Guest","Custodian","Thunderdome Overseer","CentCom Official","Medical Officer","Research Officer","Special Ops Officer","Admiral","CentCom Commander","CentCom Bartender","Private Security Force")
 
 /obj/item/proc/GetJobName() //Used in secHUD icon generation
 	var/obj/item/card/id/I = GetID()

@@ -288,7 +288,7 @@
 					return
 				playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, FALSE)
 				CentCom_announce(input, usr)
-				to_chat(usr, "<span class='notice'>Message transmitted to Central Command.</span>")
+				to_chat(usr, "<span class='notice'>Message transmitted to Empire Senate.</span>")
 				usr.log_talk(input, LOG_SAY, tag="CentCom announcement")
 				deadchat_broadcast(" has messaged CentCom, \"[input]\" at <span class='name'>[get_area_name(usr, TRUE)]</span>.", "<span class='name'>[usr.real_name]</span>", usr, message_type=DEADCHAT_ANNOUNCEMENT)
 				CM.lastTimeUsed = world.time
@@ -475,8 +475,8 @@
 
 				dat += "<BR>\[ <A HREF='?src=[REF(src)];operation=status'>Set Status Display</A> \]"
 				if (authenticated==2)
-					dat += "<BR><BR><B>Proconsul Functions</B>"
-					dat += "<BR>\[ <A HREF='?src=[REF(src)];operation=announce'>Make a Proconsul's Announcement</A> \]"
+					dat += "<BR><BR><B>Governor Functions</B>"
+					dat += "<BR>\[ <A HREF='?src=[REF(src)];operation=announce'>Make a Governor's Announcement</A> \]"
 					var/list/cross_servers = CONFIG_GET(keyed_list/cross_server)
 					var/our_id = CONFIG_GET(string/cross_comms_name)
 					if(cross_servers.len)

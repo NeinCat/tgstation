@@ -1,7 +1,7 @@
 //miscellaneous spacesuits
 /*
 Contains:
- - Proconsul's spacesuit
+ - Governor's spacesuit
  - Death squad's hardsuit
  - SWAT suit
  - Officer's beret/spacesuit

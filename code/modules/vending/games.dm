@@ -1,6 +1,6 @@
 /obj/machinery/vending/games
 	name = "\improper Good Clean Fun"
-	desc = "Vends things that the Proconsul and Prefect Pretorio are probably not going to appreciate you fiddling with instead of your job..."
+	desc = "Vends things that the Governor and Prefect Pretorio are probably not going to appreciate you fiddling with instead of your job..."
 	product_ads = "Escape to a fantasy world!;Fuel your gambling addiction!;Ruin your friendships!;Roll for initiative!;Elves and dwarves!;Paranoid computers!;Totally not satanic!;Fun times forever!"
 	icon_state = "games"
 	products = list(/obj/item/toy/cards/deck = 5,

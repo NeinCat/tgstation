@@ -128,7 +128,7 @@
 /turf/open/floor/grass/snow/crowbar_act(mob/living/user, obj/item/I)
 	return
 
-/turf/open/floor/grass/snow/basalt //By your powers combined, I am Proconsul planet
+/turf/open/floor/grass/snow/basalt //By your powers combined, I am Governor planet
 	gender = NEUTER
 	name = "volcanic floor"
 	icon = 'icons/turf/floors.dmi'

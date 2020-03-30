@@ -120,7 +120,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "Prefect Vigilum"
 
 /obj/effect/landmark/start/captain
-	name = "Proconsul"
+	name = "Governor"
 	icon_state = "captain"
 
 /obj/effect/landmark/start/detective

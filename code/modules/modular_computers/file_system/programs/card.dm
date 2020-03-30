@@ -275,7 +275,7 @@
 		departments = list("CentCom" = get_all_centcom_jobs())
 	else if(isnull(departments))
 		departments = list(
-			CARDCON_DEPARTMENT_COMMAND = list("Proconsul"),//lol
+			CARDCON_DEPARTMENT_COMMAND = list("Governor"),//lol
 			CARDCON_DEPARTMENT_ENGINEERING = GLOB.engineering_positions,
 			CARDCON_DEPARTMENT_MEDICAL = GLOB.medical_positions,
 			CARDCON_DEPARTMENT_SCIENCE = GLOB.science_positions,

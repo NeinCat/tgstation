@@ -261,7 +261,7 @@
 		S.fields["citation"]	= list()
 		S.fields["mi_crim"]		= list()
 		S.fields["ma_crim"]		= list()
-		S.fields["notes"]		= "No notes."
+		S.fields["notes"]		= H.sec_imp_notes
 		security += S
 
 		//Locked Record

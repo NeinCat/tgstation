@@ -140,7 +140,7 @@
 	item_state = "securitypack"
 
 /obj/item/storage/backpack/captain
-	name = "Proconsul's backpack"
+	name = "Governor's backpack"
 	desc = "It's a special backpack made exclusively for Empire officers."
 	icon_state = "captainpack"
 	item_state = "captainpack"
@@ -291,7 +291,7 @@
 	item_state = "satchel-explorer"
 
 /obj/item/storage/backpack/satchel/cap
-	name = "Proconsul's satchel"
+	name = "Governor's satchel"
 	desc = "An exclusive satchel for Empire officers."
 	icon_state = "satchel-cap"
 	item_state = "satchel-cap"
@@ -343,10 +343,10 @@
 	STR.max_combined_w_class = 30
 
 /obj/item/storage/backpack/duffelbag/captain
-	name = "Proconsul's duffel bag"
-	desc = "A large duffel bag for holding extra Proconsully goods."
-	icon_state = "duffel-Proconsul"
-	item_state = "duffel-Proconsul"
+	name = "Governor's duffel bag"
+	desc = "A large duffel bag for holding extra Governorly goods."
+	icon_state = "duffel-Governor"
+	item_state = "duffel-Governor"
 
 /obj/item/storage/backpack/duffelbag/med
 	name = "medical duffel bag"

@@ -633,6 +633,16 @@
 			else
 				user << browse(null,"window=mob[REF(src)]")
 
+		if(href_list["flavor_more"])
+			var/mob/A = locate(href_list["flavor_more"])
+			var/dat = A.flavor_text
+			var/datum/browser/flavor_more = new(usr, "flavor", "[A.name]", 500, 200)
+			flavor_more.set_content(dat)
+			flavor_more.open(1)
+
+		if(href_list["flavor_change"])
+			update_flavor_text()
+
 // The src mob is trying to strip an item from someone
 // Defined in living.dm
 /mob/proc/stripPanelUnequip(obj/item/what, mob/who)
@@ -1258,3 +1268,32 @@
 	SEND_SIGNAL(src, COMSIG_MOB_STATCHANGE, new_stat)
 	. = stat
 	stat = new_stat
+
+/mob/verb/update_flavor_text()
+	set src in usr
+	if(usr != src)
+		usr << "No."
+	var/temp = flavor_text
+	temp = replacetext(temp, "&#255;", "Я")
+	temp = html_decode(temp)
+	var/msg = stripped_multiline_input(usr,"Set the flavor text in your 'examine' verb. Can also be used for OOC notes about your character.","Flavor Text",temp) as message|null
+
+	if(msg)
+		msg = copytext((msg), 1, MAX_MESSAGE_LEN)
+		flavor_text = msg
+
+/mob/proc/warn_flavor_changed()
+	if(flavor_text && flavor_text != "") // don't spam people that don't use it!
+		src << "<h2 class='alert'>OOC Предупреждение!:</h2>"
+		src << "<span class='alert'>Ваше описание персонажа устарело <a href=?src=\ref[usr];flavor_change=1>Помен&#255;ть.</a></span>"
+		return
+	else
+		return
+
+/mob/proc/print_flavor_text()
+	if (flavor_text && flavor_text != "")
+		var/msg = replacetext(flavor_text, "\n", " ")
+		if (msg <= 40)
+			return "<span class='notice'>[msg]</span>"
+		else
+			return "<span class='notice'>[copytext(msg, 1, 37)]... <a href=?src=\ref[usr];flavor_more=\ref[src]>More...</a></span>"

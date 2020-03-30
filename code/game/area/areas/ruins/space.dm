@@ -257,7 +257,7 @@
 
 /area/ruin/space/has_grav/ancientstation/comm
 	name = "Charlie Station Command"
-	icon_state = "Proconsul"
+	icon_state = "Governor"
 
 /area/ruin/space/has_grav/ancientstation/hydroponics
 	name = "Charlie Station Hydroponics"

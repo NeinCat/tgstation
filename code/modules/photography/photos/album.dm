@@ -69,8 +69,8 @@
 	persistence_id = "HoP"
 
 /obj/item/storage/photo_album/captain
-	name = "photo album (Proconsul)"
-	persistence_id = "Proconsul"
+	name = "photo album (Governor)"
+	persistence_id = "Governor"
 
 /obj/item/storage/photo_album/CMO
 	name = "photo album (Prefect Medicus)"

@@ -234,7 +234,7 @@
 			Toggle off the anchor, move it, and re-anchor.<br><br>
 			Good luck. Remember the order:<br>
 			<b>Disk, Code, Safety, Timer, Disk, RUN!</b><br>
-			Intelligence Analysts believe that normal Empire procedure is for the Proconsul to secure the nuclear authorisation disk.<br>
+			Intelligence Analysts believe that normal Empire procedure is for the Governor to secure the nuclear authorisation disk.<br>
 			Good luck!
 			</body>
 			</html>"}

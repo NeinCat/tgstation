@@ -198,6 +198,10 @@
 	var/list/client_colours = list()
 	var/hud_type = /datum/hud
 
+	var/flavor_text = ""
+	var/sec_imp_notes = ""
+	var/med_imp_notes = ""
+
 	var/datum/hSB/sandbox = null
 
 	var/bloody_hands = 0
@@ -206,5 +210,5 @@
 
 	/// Used for tracking last uses of emotes for cooldown purposes
 	var/list/emotes_used
-	
+
 	vis_flags = VIS_INHERIT_PLANE //when this be added to vis_contents of something it inherit something.plane, important for visualisation of mob in openspace.

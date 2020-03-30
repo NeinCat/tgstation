@@ -155,7 +155,7 @@
 
 /obj/item/clothing/accessory/medal/conduct
 	name = "distinguished conduct medal"
-	desc = "A bronze medal awarded for distinguished conduct. Whilst a great honor, this is the most basic award given by Empire. It is often awarded by a Proconsul to a member of his crew."
+	desc = "A bronze medal awarded for distinguished conduct. Whilst a great honor, this is the most basic award given by Empire. It is often awarded by a Governor to a member of his crew."
 
 /obj/item/clothing/accessory/medal/bronze_heart
 	name = "bronze heart medal"
@@ -198,8 +198,8 @@
 	custom_materials = list(/datum/material/gold=1000)
 
 /obj/item/clothing/accessory/medal/gold/captain
-	name = "medal of Proconsulcy"
-	desc = "A golden medal awarded exclusively to those promoted to the rank of Proconsul. It signifies the codified responsibilities of a Proconsul to Empire, and their undisputable authority over their crew."
+	name = "medal of Governorcy"
+	desc = "A golden medal awarded exclusively to those promoted to the rank of Governor. It signifies the codified responsibilities of a Governor to Empire, and their undisputable authority over their crew."
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
 /obj/item/clothing/accessory/medal/gold/heroism

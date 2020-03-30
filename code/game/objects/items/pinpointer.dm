@@ -1,4 +1,4 @@
-//Pinpointers are used to track atoms from a distance as long as they're on the same z-level. The Proconsul and nuke ops have ones that track the nuclear authentication disk.
+//Pinpointers are used to track atoms from a distance as long as they're on the same z-level. The Governor and nuke ops have ones that track the nuclear authentication disk.
 /obj/item/pinpointer
 	name = "pinpointer"
 	desc = "A handheld tracking device that locks onto certain signals."

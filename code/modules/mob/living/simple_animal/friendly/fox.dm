@@ -29,7 +29,7 @@
 //captain fox
 /mob/living/simple_animal/pet/fox/Renault
 	name = "Renault"
-	desc = "Renault, the Proconsul's trustworthy fox."
+	desc = "Renault, the Governor's trustworthy fox."
 	gender = FEMALE
 	gold_core_spawnable = NO_SPAWN
 	unique_pet = TRUE

@@ -78,6 +78,15 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/preferred_ai_core_display = "Blue"
 	var/prefered_security_department = SEC_DEPT_RANDOM
 
+	// OOC Metadata:
+	var/metadata = ""
+
+	//Important Notes
+	var/flavor_text = ""
+	var/sec_imp_notes = ""
+	var/med_imp_notes = ""
+
+
 	//Quirk list
 	var/list/all_quirks = list()
 
@@ -267,6 +276,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 
 			dat += "<br><b>Uplink Spawn Location:</b><BR><a href ='?_src_=prefs;preference=uplink_loc;task=input'>[uplink_spawn_loc]</a><BR></td>"
+
+			dat += "<a href='?_src_=prefs;preference=set_char_notes'><b>Character Notes</b></a><BR>"
 
 			var/use_skintones = pref_species.use_skintones
 			if(use_skintones)
@@ -1712,6 +1723,41 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if (href_list["tab"])
 						current_tab = text2num(href_list["tab"])
 
+				if("set_char_notes")
+					set_char_notes(user)
+
+				if("flavor_text")
+					flavor_text = stripped_multiline_input(usr, "Введите описание персонажа", "Set Flavor Text", copytext(capitalize(flavor_text), 1, MAX_MESSAGE_LEN))
+					set_char_notes(user)
+
+				if("sec_notes")
+					sec_imp_notes = stripped_multiline_input(usr, "Введите важные заметки персонажа длЯ СБ", "Set Security Notes", copytext(sec_imp_notes, 1, MAX_MESSAGE_LEN))
+					sec_imp_notes = capitalize(sec_imp_notes)
+					set_char_notes(user)
+
+				if("med_notes")
+					med_imp_notes = stripped_multiline_input(usr, "Введите важные заметки персонажа длЯ медиков", "Set Medical Notes", copytext(med_imp_notes, 1, MAX_MESSAGE_LEN))
+					med_imp_notes = capitalize(med_imp_notes)
+					set_char_notes(user)
+
+				if("flavor_text_more")
+					var/dat = capitalize(flavor_text)
+					var/datum/browser/flavor_more = new(usr, "flavor", "[real_name]", 500, 200)
+					flavor_more.set_content(dat)
+					flavor_more.open(1)
+
+				if("sec_notes_more")
+					var/dat = sec_imp_notes
+					var/datum/browser/sec_more = new(usr, "sec_notes_more", "[real_name]", 500, 200)
+					sec_more.set_content(dat)
+					sec_more.open(1)
+
+				if("med_notes_more")
+					var/dat = med_imp_notes
+					var/datum/browser/med_more = new(usr, "med_notes_more", "[real_name]", 500, 200)
+					med_more.set_content(dat)
+					med_more.open(1)
+
 	ShowChoices(user)
 	return 1
 
@@ -1831,3 +1877,31 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 		if(!key_bindings[key])
 			key_bindings[key] = oldkeys[key]
 	parent.update_movement_keys()
+
+/datum/preferences/proc/set_char_notes(user)
+	var/dat = ""
+
+	dat += "<BR><a href='?_src_=prefs;preference=flavor_text'><b>Flavor Text:</b></a><BR>"
+	if(length(copytext(capitalize(flavor_text), 1, MAX_MESSAGE_LEN)) <= 160)
+		dat += "[copytext(capitalize(flavor_text), 1, MAX_MESSAGE_LEN)]<BR>"
+	else
+		dat += "[copytext(capitalize(flavor_text), 1, 160)]... <a href='?_src_=prefs;preference=flavor_text_more'>More...</a><BR>"
+
+	dat += "<BR><a href='?_src_=prefs;preference=sec_notes'><b>Security Important Notes:</b></a><BR>"
+
+	if(length(copytext(sec_imp_notes, 1, MAX_MESSAGE_LEN)) <= 160)
+		dat += "[copytext(sec_imp_notes, 1, MAX_MESSAGE_LEN)]<BR>"
+	else
+		dat += "[copytext(sec_imp_notes, 1, 160)]... <a href='?_src_=prefs;preference=sec_notes_more'>More...</a><BR>"
+
+	dat += "<BR><a href='?_src_=prefs;preference=med_notes'><b>Medical Important Notes:</b></a><BR>"
+	if(length(copytext(med_imp_notes, 1, MAX_MESSAGE_LEN)) <= 160)
+		dat += "[copytext(med_imp_notes, 1, MAX_MESSAGE_LEN)]<BR>"
+	else
+		dat += "[copytext(med_imp_notes, 1, 160)]... <a href='?_src_=prefs;preference=med_notes_more'>More...</a><BR>"
+
+	user << browse(null, "window=char_notes")
+	var/datum/browser/popup = new(user, "mob_notes", "<div align='center'>[real_name] Notes</div>", 400, 600)
+	popup.set_content(dat)
+	popup.open(0)
+	return 1

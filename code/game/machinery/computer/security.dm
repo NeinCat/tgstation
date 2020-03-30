@@ -335,7 +335,7 @@ What a mess.*/
 					active1 = null
 					active2 = null
 					authenticated = M.client.holder.admin_signature
-					rank = "Central Command"
+					rank = "Empire Senate"
 					screen = 1
 				else if(I && check_access(I))
 					active1 = null
@@ -783,7 +783,7 @@ What a mess.*/
 							temp += "<li><a href='?src=[REF(src)];choice=Change Criminal Status;criminal2=released'>Discharged</a></li>"
 							temp += "</ul>"
 					if("rank")
-						var/list/L = list( "Prefect Pretorio", "Proconsul", "AI", "Central Command" )
+						var/list/L = list( "Prefect Pretorio", "Governor", "AI", "Empire Senate" )
 						//This was so silly before the change. Now it actually works without beating your head against the keyboard. /N
 						if((istype(active1, /datum/data/record) && L.Find(rank)))
 							temp = "<h5>Rank:</h5>"

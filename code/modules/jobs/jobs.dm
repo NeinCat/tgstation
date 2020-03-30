@@ -1,5 +1,5 @@
 GLOBAL_LIST_INIT(command_positions, list(
-	"Proconsul",
+	"Governor",
 	"Prefect Pretorio",
 	"Prefect Vigilum",
 	"Prefect Fectum",
@@ -126,7 +126,7 @@ GLOBAL_PROTECT(exp_specialmap)
 	var/static/regex/borg_expand = new("(?<!cy)borg")
 
 	job = r_lowertext(job)
-	job = cap_expand.Replace(job, "Proconsul")
+	job = cap_expand.Replace(job, "Governor")
 	job = cmo_expand.Replace(job, "Prefect Medicus")
 	job = hos_expand.Replace(job, "Prefect Vigilum")
 	job = hop_expand.Replace(job, "Prefect Pretorio")

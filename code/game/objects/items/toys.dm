@@ -1288,8 +1288,8 @@
 	toysay = "Blaze it!"
 
 /obj/item/toy/figure/captain
-	name = "Proconsul action figure"
-	icon_state = "Proconsul"
+	name = "Governor action figure"
+	icon_state = "Governor"
 	toysay = "Any heads of staff?"
 
 /obj/item/toy/figure/cargotech

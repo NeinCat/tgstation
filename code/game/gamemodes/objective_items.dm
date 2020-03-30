@@ -4,7 +4,7 @@
 	var/name = "A silly bike horn! Honk!"
 	var/targetitem = /obj/item/bikehorn		//typepath of the objective item
 	var/difficulty = 9001							//vaguely how hard it is to do this objective
-	var/list/excludefromjob = list()				//If you don't want a job to get a certain objective (no Proconsul stealing his own medal, etcetc)
+	var/list/excludefromjob = list()				//If you don't want a job to get a certain objective (no Governor stealing his own medal, etcetc)
 	var/list/altitems = list()				//Items which can serve as an alternative to the objective (darn you blueprints)
 	var/list/special_equipment = list()
 
@@ -26,10 +26,10 @@
 	return ..()
 
 /datum/objective_item/steal/caplaser
-	name = "the Proconsul's antique laser gun."
+	name = "the Governor's antique laser gun."
 	targetitem = /obj/item/gun/energy/laser/captain
 	difficulty = 5
-	excludefromjob = list("Proconsul")
+	excludefromjob = list("Governor")
 
 /datum/objective_item/steal/hoslaser
 	name = "the Prefect Vigilum's personal laser gun."
@@ -41,13 +41,13 @@
 	name = "a hand teleporter."
 	targetitem = /obj/item/hand_tele
 	difficulty = 5
-	excludefromjob = list("Proconsul", "Prefect Scientia")
+	excludefromjob = list("Governor", "Prefect Scientia")
 
 /datum/objective_item/steal/jetpack
-	name = "the Proconsul's jetpack."
+	name = "the Governor's jetpack."
 	targetitem = /obj/item/tank/jetpack/oxygen/captain
 	difficulty = 5
-	excludefromjob = list("Proconsul")
+	excludefromjob = list("Governor")
 
 /datum/objective_item/steal/magboots
 	name = "the Prefect Fectum's advanced magnetic boots."
@@ -56,10 +56,10 @@
 	excludefromjob = list("Prefect Fectum")
 
 /datum/objective_item/steal/capmedal
-	name = "the medal of Proconsulcy."
+	name = "the medal of Governorcy."
 	targetitem = /obj/item/clothing/accessory/medal/gold/captain
 	difficulty = 5
-	excludefromjob = list("Proconsul")
+	excludefromjob = list("Governor")
 
 /datum/objective_item/steal/hypo
 	name = "the hypospray."
@@ -71,7 +71,7 @@
 	name = "the nuclear authentication disk."
 	targetitem = /obj/item/disk/nuclear
 	difficulty = 5
-	excludefromjob = list("Proconsul")
+	excludefromjob = list("Governor")
 
 /datum/objective_item/steal/nukedisc/check_special_completion(obj/item/disk/nuclear/N)
 	return !N.fake
@@ -196,7 +196,7 @@
 
 //Old ninja objectives.
 /datum/objective_item/special/pinpointer/nuke
-	name = "the Proconsul's pinpointer."
+	name = "the Governor's pinpointer."
 	targetitem = /obj/item/pinpointer
 	difficulty = 10
 

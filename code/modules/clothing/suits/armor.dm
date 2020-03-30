@@ -90,7 +90,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/suit/armor/vest/capcarapace
-	name = "Proconsul's carapace"
+	name = "Governor's carapace"
 	desc = "A fireproof armored chestpiece reinforced with ceramic plates and plasteel pauldrons to provide additional protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest, although it does chafe your nipples."
 	icon_state = "capcarapace"
 	item_state = "armor"
@@ -100,12 +100,12 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
-	name = "syndicate Proconsul's vest"
+	name = "syndicate Governor's vest"
 	desc = "A sinister looking vest of advanced armor worn over a black and red fireproof jacket. The gold collar and shoulders denote that this belongs to a high ranking syndicate officer."
 	icon_state = "syndievest"
 
 /obj/item/clothing/suit/armor/vest/capcarapace/alt
-	name = "Proconsul's parade jacket"
+	name = "Governor's parade jacket"
 	desc = "For when an armoured vest isn't fashionable enough."
 	icon_state = "capformal"
 	item_state = "capspacesuit"
