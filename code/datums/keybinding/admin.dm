@@ -5,16 +5,6 @@
 /datum/keybinding/admin/can_use(client/user)
 	return user.holder ? TRUE : FALSE
 
-/datum/keybinding/admin/admin_say
-	hotkey_keys = list("F3")
-	name = "admin_say"
-	full_name = "Admin say"
-	description = "Talk with other admins."
-
-/datum/keybinding/admin/admin_say/down(client/user)
-	user.get_admin_say()
-	return TRUE
-
 /datum/keybinding/admin/admin_ghost
 	hotkey_keys = list("F5")
 	name = "admin_ghost"

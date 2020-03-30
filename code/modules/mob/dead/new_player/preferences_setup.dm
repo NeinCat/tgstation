@@ -39,6 +39,9 @@
 		var/rando_race = pick(GLOB.roundstart_races)
 		pref_species = new rando_race()
 	features = random_features()
+	flavor_text = ""
+	sec_imp_notes = ""
+	med_imp_notes = ""
 
 /datum/preferences/proc/random_species()
 	var/random_species_type = GLOB.species_list[pick(GLOB.roundstart_races)]

@@ -1808,6 +1808,10 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	character.backpack = backpack
 
+	character.flavor_text = capitalize(flavor_text)
+	character.sec_imp_notes = capitalize(sec_imp_notes)
+	character.med_imp_notes = capitalize(med_imp_notes)
+
 	character.jumpsuit_style = jumpsuit_style
 
 	var/datum/species/chosen_species

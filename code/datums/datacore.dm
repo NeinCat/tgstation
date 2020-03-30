@@ -251,6 +251,7 @@
 		M.fields["cdi"]			= "None"
 		M.fields["cdi_d"]		= "No diseases have been diagnosed at the moment."
 		M.fields["notes"]		= H.get_trait_string(medical)
+		M.fields["notes"]		= H.med_imp_notes
 		medical += M
 
 		//Security Record
