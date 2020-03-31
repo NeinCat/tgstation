@@ -635,10 +635,10 @@
 
 		if(href_list["flavor_more"])
 			var/mob/A = locate(href_list["flavor_more"])
-			var/dat = A.flavor_text
-			var/datum/browser/flavor_more = new(usr, "flavor", "[A.name]", 500, 200)
-			flavor_more.set_content(dat)
-			flavor_more.open(1)
+			var/dat = capitalize(A.flavor_text)
+			var/datum/browser/popup = new(usr, "flavor", "[A.name]", 500, 200)
+			popup.set_content(dat)
+			popup.open(1)
 
 		if(href_list["flavor_change"])
 			update_flavor_text()
@@ -1293,4 +1293,7 @@
 /mob/proc/print_flavor_text()
 	if (flavor_text && flavor_text != "")
 		var/msg = replacetext(flavor_text, "\n", " ")
-		return "<span class='notice'>[msg]</span>"
+		if(length(msg) <= 40)
+			return "<span class='notice'>[msg]</span>"
+		else
+			return "<span class='notice'>[copytext(msg, 1, 37)]... <a href=?src=[REF(usr)];flavor_more=[REF(src)]>\[More...]</a></span>"

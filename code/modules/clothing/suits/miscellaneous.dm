@@ -556,8 +556,8 @@
 
 /obj/item/clothing/suit/hooded/wintercoat/captain
 	name = "Governor's winter coat"
-	icon_state = "coatGovernor"
-	item_state = "coatGovernor"
+	icon_state = "coatcaptain"
+	item_state = "coatcaptain"
 	armor = list("melee" = 25, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 50)
 	hoodtype = /obj/item/clothing/head/hooded/winterhood/captain
 
@@ -566,7 +566,7 @@
 	allowed = GLOB.security_wintercoat_allowed
 
 /obj/item/clothing/head/hooded/winterhood/captain
-	icon_state = "winterhood_Governor"
+	icon_state = "winterhood_captain"
 
 /obj/item/clothing/suit/hooded/wintercoat/security
 	name = "security winter coat"

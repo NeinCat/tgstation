@@ -345,8 +345,8 @@
 /obj/item/storage/backpack/duffelbag/captain
 	name = "Governor's duffel bag"
 	desc = "A large duffel bag for holding extra Governorly goods."
-	icon_state = "duffel-Governor"
-	item_state = "duffel-Governor"
+	icon_state = "duffel-captain"
+	item_state = "duffel-captain"
 
 /obj/item/storage/backpack/duffelbag/med
 	name = "medical duffel bag"

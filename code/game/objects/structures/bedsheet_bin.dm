@@ -120,8 +120,8 @@ LINEN BINS
 /obj/item/bedsheet/captain
 	name = "Governor's bedsheet"
 	desc = "It has a Empire symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern Governors."
-	icon_state = "sheetGovernor"
-	item_state = "sheetGovernor"
+	icon_state = "sheetcaptain"
+	item_state = "sheetcaptain"
 	dream_messages = list("authority", "a golden ID", "sunglasses", "a green disc", "an antique gun", "the Governor")
 
 /obj/item/bedsheet/rd

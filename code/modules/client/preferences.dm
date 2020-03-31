@@ -1742,21 +1742,21 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 				if("flavor_text_more")
 					var/dat = capitalize(flavor_text)
-					var/datum/browser/flavor_more = new(usr, "flavor", "[real_name]", 500, 200)
-					flavor_more.set_content(dat)
-					flavor_more.open(1)
+					var/datum/browser/popup = new(usr, "flavor", "[real_name]", 500, 200)
+					popup.set_content(dat)
+					popup.open(1)
 
 				if("sec_notes_more")
 					var/dat = sec_imp_notes
-					var/datum/browser/sec_more = new(usr, "sec_notes_more", "[real_name]", 500, 200)
-					sec_more.set_content(dat)
-					sec_more.open(1)
+					var/datum/browser/popup = new(usr, "sec_notes_more", "[real_name]", 500, 200)
+					popup.set_content(dat)
+					popup.open(1)
 
 				if("med_notes_more")
 					var/dat = med_imp_notes
-					var/datum/browser/med_more = new(usr, "med_notes_more", "[real_name]", 500, 200)
-					med_more.set_content(dat)
-					med_more.open(1)
+					var/datum/browser/popup = new(usr, "med_notes_more", "[real_name]", 500, 200)
+					popup.set_content(dat)
+					popup.open(1)
 
 	ShowChoices(user)
 	return 1
