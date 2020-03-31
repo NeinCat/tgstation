@@ -6,6 +6,7 @@
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
+	social_class = SOCIAL_CLASS_MED
 	supervisors = "the prefect pretorio"
 	selection_color = "#dddddd"
 	var/lawyers = 0 //Counts lawyer amount

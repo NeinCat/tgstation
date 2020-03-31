@@ -10,6 +10,7 @@
 	supervisors = "the Prefect vigilum"
 	selection_color = "#ffeeee"
 	minimal_player_age = 7
+	social_class = SOCIAL_CLASS_MED
 	exp_requirements = 300
 	exp_type = EXP_TYPE_CREW
 

@@ -17,6 +17,8 @@
 
 	var/list/obscured = check_obscured_slots()
 	var/skipface = (wear_mask && (wear_mask.flags_inv & HIDEFACE)) || (head && (head.flags_inv & HIDEFACE))
+	var/classdesc = get_social_description()
+
 
 	//uniform
 	if(w_uniform && !(ITEM_SLOT_ICLOTHING in obscured))
@@ -358,6 +360,7 @@
 					"<a href='?src=[REF(src)];hud=s;add_comment=1'>\[Add comment\]</a>"), "")
 	else if(isobserver(user) && traitstring)
 		. += "<span class='info'><b>Traits:</b> [traitstring]</span>"
+	.+= "[t_He] [t_is] a [get_social_class()] [classdesc]\n"
 	if(print_flavor_text())
 		. += "<span class='info'[print_flavor_text()]\n</span>"
 

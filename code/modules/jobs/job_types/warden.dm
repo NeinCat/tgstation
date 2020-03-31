@@ -7,6 +7,7 @@
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
+	social_class = SOCIAL_CLASS_HIGH
 	supervisors = "the Prefect vigilum"
 	selection_color = "#ffeeee"
 	minimal_player_age = 7

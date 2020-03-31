@@ -7,6 +7,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Prefect Pretorio"
+	social_class = SOCIAL_CLASS_MED
 	selection_color = "#dddddd"
 
 	outfit = /datum/outfit/job/chaplain

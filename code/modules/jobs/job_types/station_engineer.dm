@@ -6,6 +6,7 @@
 	faction = "Station"
 	total_positions = 5
 	spawn_positions = 5
+	social_class = SOCIAL_CLASS_MED
 	supervisors = "the Prefect fectum"
 	selection_color = "#fff5cc"
 	exp_requirements = 60

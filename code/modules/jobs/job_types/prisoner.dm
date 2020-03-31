@@ -6,6 +6,7 @@
 	faction = "Station"
 	total_positions = 0
 	spawn_positions = 2
+	social_class = SOCIAL_CLASS_MIN
 	supervisors = "the vigilia team"
 
 	outfit = /datum/outfit/job/prisoner

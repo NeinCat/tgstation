@@ -6,6 +6,7 @@
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
+	social_class = SOCIAL_CLASS_MIN
 	supervisors = "the prefect pretorio"
 	selection_color = "#dddddd"
 

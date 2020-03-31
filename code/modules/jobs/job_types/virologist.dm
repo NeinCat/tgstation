@@ -7,6 +7,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Prefect medicus"
+	social_class = SOCIAL_CLASS_MED
 	selection_color = "#ffeef0"
 	exp_type = EXP_TYPE_CREW
 	exp_requirements = 60

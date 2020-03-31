@@ -7,6 +7,7 @@
 	total_positions = 2
 	spawn_positions = 1
 	supervisors = "the Prefect Pretorio"
+	social_class = SOCIAL_CLASS_MED
 	selection_color = "#bbe291"
 	var/cooks = 0 //Counts cooks amount
 

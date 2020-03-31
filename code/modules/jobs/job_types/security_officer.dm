@@ -9,6 +9,7 @@
 	spawn_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	supervisors = "the Prefect vigilum, and the head of your assigned department (if applicable)"
 	selection_color = "#ffeeee"
+	social_class = SOCIAL_CLASS_MED
 	minimal_player_age = 7
 	exp_requirements = 300
 	exp_type = EXP_TYPE_CREW

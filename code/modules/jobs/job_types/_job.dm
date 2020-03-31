@@ -60,6 +60,7 @@
 
 	var/display_order = JOB_DISPLAY_ORDER_DEFAULT
 
+	var/social_class = SOCIAL_CLASS_MED	  //Job's social standing.
 
 	///Levels unlocked at roundstart in physiology
 	var/list/roundstart_experience
@@ -95,6 +96,7 @@
 
 //Don't override this unless the job transforms into a non-human (Silicons do this for example)
 /datum/job/proc/equip(mob/living/carbon/human/H, visualsOnly = FALSE, announce = TRUE, latejoin = FALSE, datum/outfit/outfit_override = null, client/preference_source)
+	H.social_class = social_class
 	if(!H)
 		return FALSE
 	if(CONFIG_GET(flag/enforce_human_authority) && (title in GLOB.command_positions))
@@ -105,6 +107,7 @@
 		var/datum/bank_account/bank_account = new(H.real_name, src)
 		bank_account.payday(STARTING_PAYCHECKS, TRUE)
 		H.account_id = bank_account.account_id
+
 
 	//Equip the rest of the gear
 	H.dna.species.before_equip_job(src, H, visualsOnly)

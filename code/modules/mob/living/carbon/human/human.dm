@@ -1075,6 +1075,15 @@
 	if(is_type_in_typecache(active_item, GLOB.shove_disarming_types))
 		visible_message("<span class='warning'>[src.name] regains their grip on \the [active_item]!</span>", "<span class='warning'>You regain your grip on \the [active_item]</span>", null, COMBAT_MESSAGE_RANGE)
 
+/mob/living/carbon/human/proc/get_social_description(var/mob/living/carbon/human/H)
+	var/socclass = social_class
+	if(socclass < H.social_class)
+		return "Персонаж <b>младше</b> вас по социальному статусу."
+	else if(socclass > H.social_class)
+		return "Персонаж <b>старше</b> вас по социальному статусу."
+	else
+		return "Персонаж такого же социального статуса."
+
 /mob/living/carbon/human/do_after_coefficent()
 	. = ..()
 	. *= physiology.do_after_speed
@@ -1294,3 +1303,5 @@
 
 /mob/living/carbon/human/species/zombie/krokodil_addict
 	race = /datum/species/krokodil_addict
+
+

@@ -9,6 +9,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Governor"
+	social_class = SOCIAL_CLASS_HIGH
 	selection_color = "#ffeeaa"
 	req_admin_notify = 1
 	minimal_player_age = 7

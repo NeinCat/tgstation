@@ -6,6 +6,7 @@
 	department_flag = ENGSEC
 	faction = "Station"
 	total_positions = 1
+	social_class = SOCIAL_CLASS_MAX
 	spawn_positions = 1
 	supervisors = "Empire officials and Space law"
 	selection_color = "#ccccff"

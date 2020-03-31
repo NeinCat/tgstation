@@ -6,6 +6,7 @@
 	faction = "Station"
 	total_positions = 5
 	spawn_positions = 3
+	social_class = SOCIAL_CLASS_MED
 	supervisors = "the Prefect scientia"
 	selection_color = "#ffeeff"
 	exp_requirements = 60

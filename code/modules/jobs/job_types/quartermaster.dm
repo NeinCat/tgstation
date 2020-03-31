@@ -5,6 +5,7 @@
 	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 1
+	social_class = SOCIAL_CLASS_MED
 	spawn_positions = 1
 	supervisors = "the prefect pretorio"
 	selection_color = "#d7b088"

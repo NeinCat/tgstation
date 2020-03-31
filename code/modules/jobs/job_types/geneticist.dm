@@ -9,6 +9,7 @@
 	supervisors = "the Prefect scientia"
 	selection_color = "#ffeeff"
 	exp_type = EXP_TYPE_CREW
+	social_class = SOCIAL_CLASS_MED
 	exp_requirements = 60
 
 	outfit = /datum/outfit/job/geneticist

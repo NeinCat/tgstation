@@ -1067,3 +1067,16 @@
 
 	if(shoes && !(HIDESHOES in obscured) && shoes.washed(washer))
 		update_inv_shoes()
+
+/mob/living/carbon/proc/get_social_class()
+	var/socclass = social_class
+	switch(socclass)
+		if(SOCIAL_CLASS_MIN)
+			return "<b>slave</b>."
+		if(SOCIAL_CLASS_MED)
+			return "<b>plebeian</b>."
+		if(SOCIAL_CLASS_HIGH)
+			return "<b>nobile</b>."
+		if(SOCIAL_CLASS_MAX)
+			return "<b>patricius</b>."
+

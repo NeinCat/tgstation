@@ -8,6 +8,7 @@
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
+	social_class = SOCIAL_CLASS_HIGH
 	supervisors = "the Governor"
 	selection_color = "#ffddff"
 	req_admin_notify = 1
