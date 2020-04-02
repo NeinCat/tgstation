@@ -11,6 +11,7 @@
 
 	pipe_flags = PIPING_ONE_PER_TURF
 	pipe_state = "connector"
+	hide = TRUE
 
 	var/obj/machinery/portable_atmospherics/connected_device
 
@@ -48,6 +49,9 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/layer3
 	piping_layer = 3
 	icon_state = "connector_map-3"
+
+/obj/machinery/atmospherics/components/unary/portables_connector/visible
+	hide = FALSE
 
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer1
 	piping_layer = 1

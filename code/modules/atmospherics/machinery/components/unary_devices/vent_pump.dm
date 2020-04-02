@@ -30,6 +30,7 @@
 	var/datum/radio_frequency/radio_connection
 	var/radio_filter_out
 	var/radio_filter_in
+	hide = TRUE
 
 	pipe_state = "uvent"
 

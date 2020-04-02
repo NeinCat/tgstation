@@ -3,11 +3,11 @@
 
 /obj/machinery/atmospherics/components
 	var/welded = FALSE //Used on pumps and scrubbers
-	var/showpipe = FALSE
 	var/shift_underlay_only = TRUE //Layering only shifts underlay?
-
+	hide = FALSE
 	var/list/datum/pipeline/parents
 	var/list/datum/gas_mixture/airs
+	var/showpipe = TRUE
 
 /obj/machinery/atmospherics/components/New()
 	parents = new(device_type)
@@ -23,7 +23,8 @@
 /obj/machinery/atmospherics/components/Initialize()
 	. = ..()
 
-	RegisterSignal(src, COMSIG_OBJ_HIDE, .proc/hide_pipe)
+	if(hide)
+		RegisterSignal(src, COMSIG_OBJ_HIDE, .proc/hide_pipe)
 
 // Iconnery
 

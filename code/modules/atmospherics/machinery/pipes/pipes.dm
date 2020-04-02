@@ -20,8 +20,8 @@
 ///I have no idea why there's a new and at this point I'm too afraid to ask
 /obj/machinery/atmospherics/pipe/Initialize(mapload)
 	. = ..()
-
-	AddElement(/datum/element/undertile, TRAIT_T_RAY_VISIBLE)
+	if(hide)
+		AddElement(/datum/element/undertile, TRAIT_T_RAY_VISIBLE)
 
 /obj/machinery/atmospherics/pipe/nullifyNode(i)
 	var/obj/machinery/atmospherics/oldN = nodes[i]

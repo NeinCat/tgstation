@@ -25,6 +25,7 @@
 	var/pipe_color
 	var/piping_layer = PIPING_LAYER_DEFAULT
 	var/pipe_flags = NONE
+	var/hide = TRUE
 
 	var/static/list/iconsetids = list()
 	var/static/list/pipeimages = list()
