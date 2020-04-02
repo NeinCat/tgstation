@@ -1,10 +1,10 @@
 
 /obj/machinery/vending/cola
-	name = "\improper Robust Softdrinks"
-	desc = "A softdrink vendor provided by Robust Industries, LLC."
+	name = "\improper Boba Bola"
+	desc = "A softdrink vendor provided by Boba Bola, LLC."
 	icon_state = "Cola_Machine"
-	product_slogans = "Robust Softdrinks: More robust than a toolbox to the head!"
-	product_ads = "Refreshing!;Hope you're thirsty!;Over 1 million drinks sold!;Thirsty? Why not cola?;Please, have a drink!;Drink up!;The best drinks in space."
+	product_slogans = "Boba Bola Drinks: Better than a bang!"
+	product_ads = "Refreshing!;Hope you're thirsty get Boba Bola!;Over 1 million Boba Bola cans sold!;Thirsty? Why not Bola?;Please, have a Boba Bola!;Drink Boba Bola!;The best Boba Bola in space"
 	products = list(/obj/item/reagent_containers/food/drinks/soda_cans/cola = 10,
 		            /obj/item/reagent_containers/food/drinks/soda_cans/space_mountain_wind = 10,
 					/obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb = 10,
@@ -25,7 +25,7 @@
 	extra_price = 200
 	payment_department = ACCOUNT_SRV
 /obj/item/vending_refill/cola
-	machine_name = "Robust Softdrinks"
+	machine_name = "Boba Bola"
 	icon_state = "refill_cola"
 
 /obj/machinery/vending/cola/random

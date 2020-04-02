@@ -372,8 +372,8 @@
 	icon_state = "poster36"
 
 /obj/structure/sign/poster/contraband/robust_softdrinks
-	name = "Robust Softdrinks"
-	desc = "Robust Softdrinks: More robust than a toolbox to the head!"
+	name = "Boba Bola Drinks"
+	desc = "Boba Bola Drinks: Better than a bang!"
 	icon_state = "poster37"
 
 /obj/structure/sign/poster/contraband/shamblers_juice
