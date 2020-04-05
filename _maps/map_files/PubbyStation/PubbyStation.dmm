@@ -5302,18 +5302,7 @@
 "amg" = (
 /turf/closed/wall/r_wall,
 /area/security/warden)
-"amh" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/security/warden)
 "ami" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/window/southleft{
-	base_state = "right";
-	icon_state = "right";
-	name = "Armory";
-	req_access_txt = "3"
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -5332,13 +5321,6 @@
 /turf/closed/wall,
 /area/maintenance/department/security/brig)
 "amk" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/window/southleft{
-	base_state = "right";
-	icon_state = "right";
-	name = "Armory";
-	req_access_txt = "3"
-	},
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -80644,7 +80626,7 @@ ajg
 ajP
 akL
 alA
-amh
+amg
 amV
 anF
 gyG
@@ -81158,7 +81140,7 @@ ajh
 ajR
 ulV
 akN
-amh
+amg
 amX
 anH
 aoq
@@ -81672,7 +81654,7 @@ ajj
 ajT
 akP
 alA
-amh
+amg
 amZ
 anJ
 anC

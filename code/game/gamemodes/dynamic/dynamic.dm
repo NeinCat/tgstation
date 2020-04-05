@@ -119,7 +119,7 @@ GLOBAL_VAR_INIT(dynamic_forced_threat_level, -1)
 	var/antags_rolled = 0
 
 /datum/game_mode/dynamic/admin_panel()
-	var/list/dat = list("<html><head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8'><title>Game Mode Panel</title></head><body><h1><B>Game Mode Panel</B></h1>")
+	var/list/dat = list("<html><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'><title>Game Mode Panel</title></head><body><h1><B>Game Mode Panel</B></h1>")
 	dat += "Dynamic Mode <a href='?_src_=vars;[HrefToken()];Vars=[REF(src)]'>\[VV\]</A><a href='?src=\ref[src];[HrefToken()]'>\[Refresh\]</A><BR>"
 	dat += "Threat Level: <b>[threat_level]</b><br/>"
 
@@ -195,7 +195,7 @@ GLOBAL_VAR_INIT(dynamic_forced_threat_level, -1)
 	return ..()
 
 /datum/game_mode/dynamic/send_intercept()
-	. = "<b><i>Empire Senate Status Summary</i></b><hr>"
+	. = "<b><i>Imperial Senate Status Summary</i></b><hr>"
 	switch(round(threat_level))
 		if(0 to 19)
 			update_playercounts()
@@ -228,7 +228,7 @@ GLOBAL_VAR_INIT(dynamic_forced_threat_level, -1)
 			G.on_report()
 			. += G.get_report()
 
-	print_command_report(., "Empire Senate Status Summary", announce=FALSE)
+	print_command_report(., "Imperial Senate Status Summary", announce=FALSE)
 	priority_announce("A summary has been copied and printed to all communications consoles.", "Security level elevated.", 'sound/ai/intercept.ogg')
 	if(GLOB.security_level < SEC_LEVEL_BLUE)
 		set_security_level(SEC_LEVEL_BLUE)

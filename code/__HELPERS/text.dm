@@ -122,7 +122,7 @@
 #define LETTERS_DETECTED 4
 
 //Filters out undesirable characters from names
-/proc/reject_bad_name(t_in, allow_numbers = FALSE, max_length = MAX_NAME_LEN, ascii_only = TRUE)
+/proc/reject_bad_name(t_in, allow_numbers = FALSE, max_length = MAX_NAME_LEN, ascii_only = FALSE)
 	if(!t_in)
 		return //Rejects the input if it is null
 
@@ -138,6 +138,8 @@
 		char = t_in[i]
 
 		switch(text2ascii(char))
+			if(1105 to 1e31)
+				continue
 			// A  .. Z
 			if(65 to 90)			//Uppercase Letters
 				number_of_alphanumeric++
@@ -145,6 +147,16 @@
 
 			// a  .. z
 			if(97 to 122)			//Lowercase Letters
+				if(last_char_group == NO_CHARS_DETECTED || last_char_group == SPACES_DETECTED || last_char_group == SYMBOLS_DETECTED) //start of a word
+					char = uppertext(char)
+				number_of_alphanumeric++
+				last_char_group = LETTERS_DETECTED
+
+			if(1040 to 1071)			//Русские буковки
+				number_of_alphanumeric++
+				last_char_group = LETTERS_DETECTED
+
+			if(1072 to 1105)			//Русские буковки
 				if(last_char_group == NO_CHARS_DETECTED || last_char_group == SPACES_DETECTED || last_char_group == SYMBOLS_DETECTED) //start of a word
 					char = r_uppertext(char)
 				number_of_alphanumeric++
@@ -174,16 +186,6 @@
 				if(last_char_group == NO_CHARS_DETECTED || last_char_group == SPACES_DETECTED) //suppress double-spaces and spaces at start of string
 					continue
 				last_char_group = SPACES_DETECTED
-
-			if(1040 to 1071)			//Русские буковки
-				number_of_alphanumeric++
-				last_char_group = LETTERS_DETECTED
-
-			if(1072 to 1105)			//Русские буковки
-				if(last_char_group == NO_CHARS_DETECTED || last_char_group == SPACES_DETECTED || last_char_group == SYMBOLS_DETECTED) //start of a word
-					char = r_uppertext(char)
-				number_of_alphanumeric++
-				last_char_group = LETTERS_DETECTED
 
 			if(127 to INFINITY)
 				if(ascii_only)
@@ -215,7 +217,27 @@
 #undef NUMBERS_DETECTED
 #undef LETTERS_DETECTED
 
+//Checks the end of a string for a specified substring.
+//Returns the position of the substring or 0 if it was not found
+/proc/dd_hassuffix(text, suffix)
+	var/start = length(text) - length(suffix)
+	if(start)
+		return findtext(text, suffix, start, null)
+	return
 
+//Checks the end of a string for a specified substring. This proc is case sensitive
+//Returns the position of the substring or 0 if it was not found
+/proc/dd_hassuffix_case(text, suffix)
+	var/start = length(text) - length(suffix)
+	if(start)
+		return findtextEx(text, suffix, start, null)
+
+//Limits the length of the text. Note: MAX_MESSAGE_LEN and MAX_NAME_LEN are widely used for this purpose
+/proc/dd_limittext(message, length)
+	var/size = length(message)
+	if(size <= length)
+		return message
+	return copytext(message, 1, length + 1)
 
 //html_encode helper proc that returns the smallest non null of two numbers
 //or 0 if they're both null (needed because of findtext returning 0 when a value is not present)
@@ -581,6 +603,10 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 				ascii += 13
 			if(78 to 90, 110 to 122) //N to Z, n to z
 				ascii -= 13
+			if(1040 to 1058, 1072 to 1092)
+				ascii += 13
+			if(1059 to 1071, 1093 to 1105)
+				ascii -= 13
 		. += ascii2text(ascii)
 
 //Takes a list of values, sanitizes it down for readability and character count,
@@ -699,7 +725,7 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 		return string
 
 	var/base = next_backslash == 1 ? "" : copytext(string, 1, next_backslash)
-	var/macro = r_lowertext(copytext(string, next_backslash + length(string[next_backslash]), next_space))
+	var/macro = lowertext(copytext(string, next_backslash + length(string[next_backslash]), next_space))
 	var/rest = next_backslash > leng ? "" : copytext(string, next_space + length(string[next_space]))
 
 	//See https://secure.byond.com/docs/ref/info.html#/DM/text/macros
@@ -773,7 +799,7 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 
 
 /proc/random_capital_letter()
-	return r_uppertext(pick(GLOB.alphabet))
+	return uppertext(pick(GLOB.alphabet))
 
 /proc/unintelligize(message)
 	var/regex/word_boundaries = regex(@"\b[\S]+\b", "g")
@@ -828,4 +854,3 @@ GLOBAL_LIST_INIT(binary, list("0","1"))
 		return r_json_decode(data)
 	catch
 		return
-

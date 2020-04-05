@@ -86,6 +86,7 @@
 	if(!report)
 		report = !CONFIG_GET(flag/no_intercept_report)
 	addtimer(CALLBACK(GLOBAL_PROC, .proc/display_roundstart_logout_report), ROUNDSTART_LOGOUT_REPORT_TIME)
+	addtimer(CALLBACK(GLOBAL_PROC, .proc/send_edict, 0), rand(waittime_l, waittime_h))
 
 	if(CONFIG_GET(flag/reopen_roundstart_suicide_roles))
 		var/delay = CONFIG_GET(number/reopen_roundstart_suicide_roles_delay)
@@ -267,8 +268,8 @@
 	return 0
 
 /datum/game_mode/proc/send_intercept()
-	var/intercepttext = "<b><i>Empire Senate Status Summary</i></b><hr>"
-	intercepttext += "<b>Empire Senate has intercepted and partially decoded a Syndicate transmission with vital information regarding their movements. The following report outlines the most \
+	var/intercepttext = "<b><i>Imperial Senate Status Summary</i></b><hr>"
+	intercepttext += "<b>Imperial Senate has intercepted and partially decoded a Syndicate transmission with vital information regarding their movements. The following report outlines the most \
 	likely threats to appear in your sector.</b>"
 	var/list/report_weights = config.mode_false_report_weight.Copy()
 	report_weights[report_type] = 0 //Prevent the current mode from being falsely selected.
@@ -294,7 +295,7 @@
 			G.on_report()
 			intercepttext += G.get_report()
 
-	print_command_report(intercepttext, "Empire Senate Status Summary", announce=FALSE)
+	print_command_report(intercepttext, "Imperial Senate Status Summary", announce=FALSE)
 	priority_announce("A summary has been copied and printed to all communications consoles.", "Enemy communication intercepted. Security level elevated.", 'sound/ai/intercept.ogg')
 	if(GLOB.security_level < SEC_LEVEL_BLUE)
 		set_security_level(SEC_LEVEL_BLUE)
@@ -453,7 +454,7 @@
 			for(var/dead_dudes_job in reopened_jobs)
 				reopened_job_report_positions = "[reopened_job_report_positions ? "[reopened_job_report_positions]\n":""][dead_dudes_job]"
 
-			var/suicide_command_report = "<font size = 3><b>Empire Senate Human Resources Board</b><br>\
+			var/suicide_command_report = "<font size = 3><b>Imperial Senate Human Resources Board</b><br>\
 								Notice of Personnel Change</font><hr>\
 								To personnel management staff aboard [station_name()]:<br><br>\
 								Our medical staff have detected a series of anomalies in the vital sensors \
@@ -467,7 +468,7 @@
 								<i>The following positions have been reopened on our behalf:<br><br>\
 								[reopened_job_report_positions]</i>"
 
-			print_command_report(suicide_command_report, "Empire Senate Personnel Update")
+			print_command_report(suicide_command_report, "Imperial Senate Personnel Update")
 
 //////////////////////////
 //Reports player logouts//

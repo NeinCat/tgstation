@@ -21,7 +21,7 @@ GLOBAL_VAR(command_name)
 	if (GLOB.command_name)
 		return GLOB.command_name
 
-	var/name = "Empire Senate"
+	var/name = "Imperial Senate"
 
 	GLOB.command_name = name
 	return name
@@ -129,6 +129,7 @@ GLOBAL_VAR(command_name)
 GLOBAL_VAR(syndicate_code_phrase) //Code phrase for traitors.
 GLOBAL_VAR(syndicate_code_response) //Code response for traitors.
 
+GLOBAL_VAR(accepted_edict)
 //Cached regex search - for checking if codewords are used.
 GLOBAL_DATUM(syndicate_code_phrase_regex, /regex)
 GLOBAL_DATUM(syndicate_code_response_regex, /regex)

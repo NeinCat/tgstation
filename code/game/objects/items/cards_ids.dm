@@ -488,10 +488,10 @@ update_label()
 /obj/item/card/id/centcom
 	name = "\improper CentCom ID"
 	id_type_name = "\improper CentCom ID"
-	desc = "An ID straight from Empire Senate."
+	desc = "An ID straight from Imperial Senate."
 	icon_state = "centcom"
-	registered_name = "Empire Senate"
-	assignment = "Empire Senate"
+	registered_name = "Imperial Senate"
+	assignment = "Imperial Senate"
 	uses_overlays = FALSE
 
 /obj/item/card/id/centcom/Initialize()

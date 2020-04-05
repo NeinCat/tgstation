@@ -6,7 +6,7 @@
 
 /datum/bounty/item/botany/New()
 	..()
-	description = "Empire Senate's head chef is looking to prepare a fine [foodtype] with [name]. [bonus_desc]"
+	description = "Imperial Senate's head chef is looking to prepare a fine [foodtype] with [name]. [bonus_desc]"
 	reward += multiplier * 1000
 	required_count = rand(5, 10)
 

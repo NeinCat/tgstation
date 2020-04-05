@@ -189,12 +189,12 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/AI_Module))
 		return
 	owner.playsound_local(owner, 'sound/misc/bloblarm.ogg', 50, 0)
 	to_chat(owner, "<span class='userdanger'>!!! UNAUTHORIZED SELF-DESTRUCT ACCESS !!!</span>")
-	to_chat(owner, "<span class='boldannounce'>This is a class-3 security violation. This incident will be reported to Empire Senate.</span>")
+	to_chat(owner, "<span class='boldannounce'>This is a class-3 security violation. This incident will be reported to Imperial Senate.</span>")
 	for(var/i in 1 to 3)
 		sleep(20)
 		if(!owner || QDELETED(owner))
 			return
-		to_chat(owner, "<span class='boldannounce'>Sending security report to Empire Senate.....[rand(0, 9) + (rand(20, 30) * i)]%</span>")
+		to_chat(owner, "<span class='boldannounce'>Sending security report to Imperial Senate.....[rand(0, 9) + (rand(20, 30) * i)]%</span>")
 	sleep(3)
 	if(!owner || QDELETED(owner))
 		return

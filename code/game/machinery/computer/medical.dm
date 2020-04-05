@@ -221,7 +221,7 @@
 				active1 = null
 				active2 = null
 				authenticated = 1
-				rank = "Empire Senate"
+				rank = "Imperial Senate"
 				screen = 1
 			else if(istype(I) && check_access(I))
 				active1 = null
