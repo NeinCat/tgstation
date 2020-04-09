@@ -1,5 +1,5 @@
 /proc/send_edict()
-	var/edicttext = "ОБЪЯВЛЯЕТСЯ НОВЫЙ ЗАКОН!!!"
+	var/edicttext = "ОБЪЯВЛЯЕТСЯ НОВЫЙ ЗАКОН!!! "
 	edicttext += GLOB.accepted_edict
 	print_command_report(edicttext, "Новый Эдикт Имперского Сената", announce=TRUE)
 	priority_announce(edicttext)

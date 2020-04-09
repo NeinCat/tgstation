@@ -100,7 +100,7 @@
 /obj/machinery/shower{
 	pixel_y = 22
 	},
-/obj/item/soap/nanotrasen,
+/obj/item/soap/Empire,
 /obj/item/bikehorn/rubberducky/plasticducky,
 /turf/open/floor/plasteel/freezer,
 /area/mine/laborcamp)

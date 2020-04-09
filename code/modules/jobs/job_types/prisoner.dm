@@ -1,13 +1,13 @@
 /datum/job/prisoner
 	title = "Prisoner"
 	flag = PRISONER
-	department_head = list("The Vigilia Team")
+	department_head = list("The Templar Team")
 	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 0
 	spawn_positions = 2
 	social_class = SOCIAL_CLASS_MIN
-	supervisors = "the vigilia team"
+	supervisors = "the Templar team"
 
 	outfit = /datum/outfit/job/prisoner
 

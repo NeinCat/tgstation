@@ -30,7 +30,7 @@
 	back = /obj/item/storage/backpack/ert
 	belt = /obj/item/storage/belt/security/full
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/gun/energy/e_gun=1)
 	l_pocket = /obj/item/switchblade
 
@@ -49,7 +49,7 @@
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	glasses = /obj/item/clothing/glasses/thermal/eyepatch
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/gun/energy/pulse/pistol/loyalpin=1)
 	l_pocket = /obj/item/melee/transforming/energy/sword/saber
 
@@ -65,7 +65,7 @@
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
 		/obj/item/storage/box/handcuffs=1,\
 		/obj/item/gun/energy/e_gun/stun=1,\
-		/obj/item/melee/baton/loaded=1)
+		/obj/item/melee/grim/csword/grandmaster=1)
 
 /datum/outfit/centcom/ert/security/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -83,7 +83,7 @@
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
 		/obj/item/storage/box/handcuffs=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/gun/energy/pulse/carbine/loyalpin=1)
 
 
@@ -97,7 +97,7 @@
 	belt = /obj/item/storage/belt/medical
 	r_hand = /obj/item/storage/firstaid/regular
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/gun/energy/e_gun=1,\
 		/obj/item/reagent_containers/hypospray/combat=1,\
 		/obj/item/gun/medbeam=1)
@@ -117,7 +117,7 @@
 
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/gun/energy/pulse/pistol/loyalpin=1,\
 		/obj/item/reagent_containers/hypospray/combat/nanites=1,\
 		/obj/item/gun/medbeam=1)
@@ -133,7 +133,7 @@
 	l_pocket = /obj/item/rcd_ammo/large
 	r_hand = /obj/item/storage/firstaid/regular
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/gun/energy/e_gun=1,\
 		/obj/item/construction/rcd/loaded=1)
 
@@ -152,7 +152,7 @@
 
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/gun/energy/pulse/pistol/loyalpin=1,\
 		/obj/item/construction/rcd/combat=1)
 
@@ -204,7 +204,7 @@
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,
 		/obj/item/storage/box/handcuffs=1,
 		/obj/item/gun/energy/e_gun/stun=1,
-		/obj/item/melee/baton/loaded=1,
+		/obj/item/melee/grim/csword/grandmaster=1,
 		/obj/item/construction/rcd/loaded=1)
 
 /datum/outfit/centcom/ert/medic/inquisitor
@@ -213,7 +213,7 @@
 	suit = /obj/item/clothing/suit/space/hardsuit/ert/paranormal/inquisitor
 
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,
-		/obj/item/melee/baton/loaded=1,
+		/obj/item/melee/grim/csword/grandmaster=1,
 		/obj/item/gun/energy/e_gun=1,
 		/obj/item/reagent_containers/hypospray/combat=1,
 		/obj/item/reagent_containers/hypospray/combat/heresypurge=1,
@@ -263,7 +263,7 @@
 	l_hand = /obj/item/storage/bag/trash/bluespace
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
 		/obj/item/storage/box/lights/mixed=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/mop/advanced=1,\
 		/obj/item/reagent_containers/glass/bucket=1,\
 		/obj/item/grenade/clusterbuster/cleaner=1)
@@ -285,7 +285,7 @@
 	r_hand = /obj/item/reagent_containers/spray/chemsprayer/janitor
 	backpack_contents = list(/obj/item/storage/box/survival/engineer=1,\
 		/obj/item/storage/box/lights/mixed=1,\
-		/obj/item/melee/baton/loaded=1,\
+		/obj/item/melee/grim/csword/grandmaster=1,\
 		/obj/item/grenade/clusterbuster/cleaner=3)
 
 /datum/outfit/centcom/ert/clown
@@ -346,7 +346,7 @@
 
 /datum/outfit/centcom/centcom_intern/leader
 	name = "CentCom Head Intern"
-	belt = /obj/item/melee/baton/loaded
+	belt = /obj/item/melee/grim/csword/grandmaster
 	suit = /obj/item/clothing/suit/armor/vest
 	suit_store = /obj/item/gun/ballistic/rifle/boltaction
 	r_hand = /obj/item/megaphone

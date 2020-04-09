@@ -185,4 +185,4 @@
 	return attack_self(user)
 
 /obj/item/storage/secure/safe/HoS
-	name = "Prefect Vigilum's safe"
+	name = "Commander's safe"

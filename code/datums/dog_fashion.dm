@@ -105,7 +105,7 @@
 
 /datum/dog_fashion/head/ushanka/New(mob/M)
 	..()
-	name = "[pick("Comrade","Commissar","Glorious Leader")] [M.real_name]"
+	name = "[pick("Comrade","Knight-Sergeant","Glorious Leader")] [M.real_name]"
 
 /datum/dog_fashion/head/warden
 	name = "Officer REAL_NAME"

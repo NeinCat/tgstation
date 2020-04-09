@@ -123,11 +123,11 @@
 			//Security/Command
 			if("Governor")
 				heirloom_type = /obj/item/reagent_containers/food/drinks/flask/gold
-			if("Prefect Vigilum")
+			if("Commander")
 				heirloom_type = /obj/item/book/manual/wiki/security_space_law
-			if("Commissar")
+			if("Knight-Sergeant")
 				heirloom_type = /obj/item/book/manual/wiki/security_space_law
-			if("Vigilia")
+			if("Templar")
 				heirloom_type = pick(/obj/item/book/manual/wiki/security_space_law, /obj/item/clothing/head/beret/sec)
 			if("Detective")
 				heirloom_type = /obj/item/reagent_containers/food/drinks/bottle/whiskey

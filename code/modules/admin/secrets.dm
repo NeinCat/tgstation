@@ -571,7 +571,7 @@
 		if("infinite_sec")
 			if(!check_rights(R_DEBUG))
 				return
-			var/datum/job/J = SSjob.GetJob("Vigilia")
+			var/datum/job/J = SSjob.GetJob("Templar")
 			if(!J)
 				return
 			J.total_positions = -1

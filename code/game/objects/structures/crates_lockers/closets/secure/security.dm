@@ -63,7 +63,7 @@
 	new /obj/item/storage/photo_album/HoP(src)
 
 /obj/structure/closet/secure_closet/hos
-	name = "\proper Prefect Vigilum's locker"
+	name = "\proper Commander's locker"
 	req_access = list(ACCESS_HOS)
 	icon_state = "hos"
 
@@ -95,9 +95,9 @@
 	new /obj/item/storage/photo_album/HoS(src)
 
 /obj/structure/closet/secure_closet/warden
-	name = "\proper Commissar's locker"
+	name = "\proper Knight-Sergeant's locker"
 	req_access = list(ACCESS_ARMORY)
-	icon_state = "Commissar"
+	icon_state = "warden"
 
 /obj/structure/closet/secure_closet/warden/PopulateContents()
 	..()
@@ -107,8 +107,6 @@
 	new /obj/item/clothing/head/warden/drill(src)
 	new /obj/item/clothing/head/beret/sec/navywarden(src)
 	new /obj/item/clothing/suit/armor/vest/warden/alt(src)
-	new /obj/item/clothing/under/rank/security/warden/formal(src)
-	new /obj/item/clothing/under/rank/security/warden/skirt(src)
 	new /obj/item/clothing/glasses/hud/security/sunglasses(src)
 	new /obj/item/holosign_creator/security(src)
 	new /obj/item/clothing/mask/gas/sechailer(src)
@@ -121,7 +119,7 @@
 	new /obj/item/gun/ballistic/shotgun/automatic/combat/compact(src)
 
 /obj/structure/closet/secure_closet/security
-	name = "Vigilia's locker"
+	name = "Templar's locker"
 	req_access = list(ACCESS_SECURITY)
 	icon_state = "sec"
 

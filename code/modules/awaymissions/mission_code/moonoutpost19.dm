@@ -112,7 +112,7 @@
 
 /obj/item/paper/fluff/awaymissions/moonoutpost19/welcome
 	name = "Welcome Notice"
-	info = "<p><p align=center><h2>Welcome to Moon Outpost 19! Property of Empire Inc.</h2></p><hr><br><br>Staff Roster:<br>-Dr. Gerald Rosswell: Prefect Scientia & Acting Governor<br>-Dr. Sakuma Sano: Xenobiologist<br>-Dr. Mark Douglas: Xenobiologist<br>-Kenneth Cunningham: Vigilia-Ivan Volodin: Engineer<br>-Mathias Kuester: Bartender<br>-Sven Edling: Chef<br>-Steve: Assistant<br><br>Please enjoy your stay, and report any abnormalities to an officer."
+	info = "<p><p align=center><h2>Welcome to Moon Outpost 19! Property of Empire Inc.</h2></p><hr><br><br>Staff Roster:<br>-Dr. Gerald Rosswell: Prefect Scientia & Acting Governor<br>-Dr. Sakuma Sano: Xenobiologist<br>-Dr. Mark Douglas: Xenobiologist<br>-Kenneth Cunningham: Templar-Ivan Volodin: Engineer<br>-Mathias Kuester: Bartender<br>-Sven Edling: Chef<br>-Steve: Assistant<br><br>Please enjoy your stay, and report any abnormalities to an officer."
 
 /obj/item/paper/fluff/awaymissions/moonoutpost19/goodbye_note
 	name = "Note"

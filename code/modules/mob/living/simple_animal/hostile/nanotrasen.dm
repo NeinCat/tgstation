@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/Empire
-	name = "\improper Empire Private Vigilia"
+	name = "\improper Empire Private Templar"
 	desc = "An officer part of Empire's private security force, he seems rather unpleased to meet you."
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "Empire"

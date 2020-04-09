@@ -32,7 +32,7 @@
 
 /datum/bounty/item/mining/skull_helmet
 	name = "Skull Helmet"
-	description = "Station 42's Prefect Vigilum has her birthday tomorrow! We want to suprise her with a fashionable skull helmet."
+	description = "Station 42's Commander has her birthday tomorrow! We want to suprise her with a fashionable skull helmet."
 	reward = 4000
 	wanted_types = list(/obj/item/clothing/head/helmet/skull)
 

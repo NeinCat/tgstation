@@ -1,7 +1,7 @@
 GLOBAL_LIST_INIT(command_positions, list(
 	"Governor",
 	"Prefect Pretorio",
-	"Prefect Vigilum",
+	"Commander",
 	"Prefect Fectum",
 	"Prefect Scientia",
 	"Prefect Medicus"))
@@ -50,10 +50,10 @@ GLOBAL_LIST_INIT(civilian_positions, list(
 
 
 GLOBAL_LIST_INIT(security_positions, list(
-	"Prefect Vigilum",
-	"Commissar",
+	"Commander",
+	"Knight-Sergeant",
 	"Detective",
-	"Vigilia"))
+	"Templar"))
 
 
 GLOBAL_LIST_INIT(nonhuman_positions, list(
@@ -128,12 +128,12 @@ GLOBAL_PROTECT(exp_specialmap)
 	job = r_lowertext(job)
 	job = cap_expand.Replace(job, "Governor")
 	job = cmo_expand.Replace(job, "Prefect Medicus")
-	job = hos_expand.Replace(job, "Prefect Vigilum")
+	job = hos_expand.Replace(job, "Commander")
 	job = hop_expand.Replace(job, "Prefect Pretorio")
 	job = rd_expand.Replace(job, "Prefect Scientia")
 	job = ce_expand.Replace(job, "Prefect Fectum")
 	job = qm_expand.Replace(job, "quartermaster")
-	job = sec_expand.Replace(job, "Vigilia")
+	job = sec_expand.Replace(job, "Templar")
 	job = engi_expand.Replace(job, "station engineer")
 	job = atmos_expand.Replace(job, "atmospheric technician")
 	job = doc_expand.Replace(job, "medical doctor")

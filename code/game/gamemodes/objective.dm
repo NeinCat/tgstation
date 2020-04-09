@@ -960,10 +960,10 @@ GLOBAL_LIST_EMPTY(possible_items_special)
 	department_minds = list()
 	department_real_names = list()
 
-	var/list/departments = list("Prefect Vigilum","Prefect Scientia","Prefect Fectum","Prefect Medicus")
+	var/list/departments = list("Commander","Prefect Scientia","Prefect Fectum","Prefect Medicus")
 	var/department_head = pick(departments)
 	switch(department_head)
-		if("Prefect Vigilum")
+		if("Commander")
 			department_string = "security"
 		if("Prefect Scientia")
 			department_string = "science"

@@ -11,7 +11,7 @@
 	antag_flag = ROLE_TRAITOR
 	antag_datum = /datum/antagonist/traitor/
 	minimum_required_age = 0
-	protected_roles = list("Prisoner","Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor")
+	protected_roles = list("Prisoner","Templar", "Knight-Sergeant", "Detective", "Commander", "Governor")
 	restricted_roles = list("Cyborg")
 	required_candidates = 1
 	weight = 5
@@ -51,7 +51,7 @@
 	name = "Blood Brothers"
 	antag_flag = ROLE_BROTHER
 	antag_datum = /datum/antagonist/brother/
-	protected_roles = list("Prisoner","Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor")
+	protected_roles = list("Prisoner","Templar", "Knight-Sergeant", "Detective", "Commander", "Governor")
 	restricted_roles = list("Cyborg", "AI")
 	required_candidates = 2
 	weight = 4
@@ -101,7 +101,7 @@
 	name = "Changelings"
 	antag_flag = ROLE_CHANGELING
 	antag_datum = /datum/antagonist/changeling
-	protected_roles = list("Prisoner","Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor")
+	protected_roles = list("Prisoner","Templar", "Knight-Sergeant", "Detective", "Commander", "Governor")
 	restricted_roles = list("AI", "Cyborg")
 	required_candidates = 1
 	weight = 3
@@ -154,7 +154,7 @@
 	antag_flag = ROLE_WIZARD
 	antag_datum = /datum/antagonist/wizard
 	minimum_required_age = 14
-	restricted_roles = list("Prefect Vigilum", "Governor") // Just to be sure that a wizard getting picked won't ever imply a Governor or HoS not getting drafted
+	restricted_roles = list("Commander", "Governor") // Just to be sure that a wizard getting picked won't ever imply a Governor or HoS not getting drafted
 	required_candidates = 1
 	weight = 2
 	cost = 30
@@ -198,7 +198,7 @@
 	antag_flag = ROLE_CULTIST
 	antag_datum = /datum/antagonist/cult
 	minimum_required_age = 14
-	restricted_roles = list("AI", "Cyborg", "Prisoner", "Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor", "Chaplain", "Prefect Pretorio")
+	restricted_roles = list("AI", "Cyborg", "Prisoner", "Templar", "Knight-Sergeant", "Detective", "Commander", "Governor", "Chaplain", "Prefect Pretorio")
 	required_candidates = 2
 	weight = 3
 	cost = 35
@@ -257,7 +257,7 @@
 	antag_datum = /datum/antagonist/nukeop
 	var/datum/antagonist/antag_leader_datum = /datum/antagonist/nukeop/leader
 	minimum_required_age = 14
-	restricted_roles = list("Prefect Vigilum", "Governor") // Just to be sure that a nukie getting picked won't ever imply a Governor or HoS not getting drafted
+	restricted_roles = list("Commander", "Governor") // Just to be sure that a nukie getting picked won't ever imply a Governor or HoS not getting drafted
 	required_candidates = 5
 	weight = 3
 	cost = 40
@@ -343,7 +343,7 @@
 	antag_flag_override = ROLE_REV
 	antag_datum = /datum/antagonist/rev/head
 	minimum_required_age = 14
-	restricted_roles = list("AI", "Cyborg", "Prisoner", "Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor", "Prefect Pretorio", "Prefect Fectum", "Prefect Medicus", "Prefect Scientia")
+	restricted_roles = list("AI", "Cyborg", "Prisoner", "Templar", "Knight-Sergeant", "Detective", "Commander", "Governor", "Prefect Pretorio", "Prefect Fectum", "Prefect Medicus", "Prefect Scientia")
 	required_candidates = 3
 	weight = 2
 	delay = 7 MINUTES
@@ -514,7 +514,7 @@
 	name = "Devil"
 	antag_flag = ROLE_DEVIL
 	antag_datum = /datum/antagonist/devil
-	restricted_roles = list("Lawyer", "Curator", "Chaplain", "Prisoner", "Prefect Vigilum", "Governor", "AI")
+	restricted_roles = list("Lawyer", "Curator", "Chaplain", "Prisoner", "Commander", "Governor", "AI")
 	required_candidates = 1
 	weight = 3
 	cost = 0

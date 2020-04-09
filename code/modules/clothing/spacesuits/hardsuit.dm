@@ -571,9 +571,9 @@
 	. = ..()
 	allowed = GLOB.security_hardsuit_allowed
 
-	//Prefect Vigilum hardsuit
+	//Commander hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/security/hos
-	name = "Prefect Vigilum's hardsuit helmet"
+	name = "Commander's hardsuit helmet"
 	desc = "A special bulky helmet designed for work in a hazardous, low pressure environment. Has an additional layer of armor."
 	icon_state = "hardsuit0-hos"
 	hardsuit_type = "hos"
@@ -582,7 +582,7 @@
 
 /obj/item/clothing/suit/space/hardsuit/security/hos
 	icon_state = "hardsuit-hos"
-	name = "Prefect Vigilum's hardsuit"
+	name = "Commander's hardsuit"
 	desc = "A special bulky suit that protects against hazardous, low pressure environments. Has an additional layer of armor."
 	armor = list("melee" = 45, "bullet" = 25, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 100, "rad" = 50, "fire" = 95, "acid" = 95)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/hos

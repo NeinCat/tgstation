@@ -8,7 +8,7 @@
 	var/datum/team/ert/ert_team
 	var/leader = FALSE
 	var/datum/outfit/outfit = /datum/outfit/centcom/ert/security
-	var/role = "Vigilia"
+	var/role = "Templar"
 	var/list/name_source
 	var/random_names = TRUE
 	var/rip_and_tear = FALSE

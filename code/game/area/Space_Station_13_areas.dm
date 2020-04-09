@@ -336,7 +336,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "hop_office"
 
 /area/crew_quarters/heads/hos
-	name = "Prefect Vigilum's Office"
+	name = "Commander's Office"
 	icon_state = "hos_office"
 
 /area/crew_quarters/heads/hor
@@ -796,6 +796,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Security Office"
 	icon_state = "security"
 
+/area/security/equip
+	name = "Security Equiptment Room"
+	icon_state = "security"
+
 /area/security/brig
 	name = "Brig"
 	icon_state = "brig"
@@ -1135,8 +1139,8 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "vacant_office"
 
 /area/vacant_room/wardeny
-	name = "Vacant Commissary"
-	icon_state = "vacant_commissary"
+	name = "Vacant Knight-Sergeanty"
+	icon_state = "vacant_Knight-Sergeanty"
 
 //AI
 

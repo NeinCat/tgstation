@@ -2,12 +2,12 @@
 	title = "Detective"
 	flag = DETECTIVE
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
-	department_head = list("Prefect Vigilum")
+	department_head = list("Commander")
 	department_flag = ENGSEC
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Prefect vigilum"
+	supervisors = "the Commander"
 	selection_color = "#ffeeee"
 	minimal_player_age = 7
 	social_class = SOCIAL_CLASS_MED

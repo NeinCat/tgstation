@@ -59,7 +59,7 @@
 	name = "Syndicate Infiltrator"
 	antag_datum = /datum/antagonist/traitor
 	antag_flag = ROLE_TRAITOR
-	protected_roles = list("Vigilia", "Commissar", "Prefect Pretorio", "Detective", "Prefect Vigilum", "Governor")
+	protected_roles = list("Templar", "Knight-Sergeant", "Prefect Pretorio", "Detective", "Commander", "Governor")
 	restricted_roles = list("AI","Cyborg")
 	required_candidates = 1
 	weight = 7
@@ -81,8 +81,8 @@
 	antag_datum = /datum/antagonist/rev/head
 	antag_flag = ROLE_REV_HEAD
 	antag_flag_override = ROLE_REV
-	restricted_roles = list("AI", "Cyborg", "Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor", "Prefect Pretorio", "Prefect Fectum", "Prefect Medicus", "Prefect Scientia")
-	enemy_roles = list("AI", "Cyborg", "Vigilia","Detective","Prefect Vigilum", "Governor", "Commissar")
+	restricted_roles = list("AI", "Cyborg", "Templar", "Knight-Sergeant", "Detective", "Commander", "Governor", "Prefect Pretorio", "Prefect Fectum", "Prefect Medicus", "Prefect Scientia")
+	enemy_roles = list("AI", "Cyborg", "Templar","Detective","Commander", "Governor", "Knight-Sergeant")
 	required_enemies = list(2,2,1,1,1,1,1,0,0,0)
 	required_candidates = 1
 	weight = 2

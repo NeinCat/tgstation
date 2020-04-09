@@ -36,7 +36,7 @@
 	report_type = "cult"
 	antag_flag = ROLE_CULTIST
 	false_report_weight = 10
-	restricted_jobs = list("Prisoner","Chaplain","AI", "Cyborg", "Vigilia", "Commissar", "Detective", "Prefect Vigilum", "Governor", "Prefect Pretorio")
+	restricted_jobs = list("Prisoner","Chaplain","AI", "Cyborg", "Templar", "Knight-Sergeant", "Detective", "Commander", "Governor", "Prefect Pretorio")
 	protected_jobs = list()
 	required_players = 29
 	required_enemies = 4

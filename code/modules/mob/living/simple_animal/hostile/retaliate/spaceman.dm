@@ -28,7 +28,7 @@
 	footstep_type = FOOTSTEP_MOB_SHOE
 
 /mob/living/simple_animal/hostile/retaliate/nanotrasenpeace //this should be in a different file
-	name = "\improper Empire Private Vigilia"
+	name = "\improper Empire Private Templar"
 	desc = "An officer part of Empire's private security force."
 	icon = 'icons/mob/simple_human.dmi'
 	icon_state = "Empire"

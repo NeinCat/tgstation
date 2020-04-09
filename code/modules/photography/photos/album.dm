@@ -57,7 +57,7 @@
 				qdel(P)
 
 /obj/item/storage/photo_album/HoS
-	name = "photo album (Prefect Vigilum)"
+	name = "photo album (Commander)"
 	persistence_id = "HoS"
 
 /obj/item/storage/photo_album/RD

@@ -47,7 +47,7 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/security/officer/formal
-	name = "Vigilia's formal uniform"
+	name = "Templar's formal uniform"
 	desc = "The latest in fashionable security outfits."
 	icon_state = "officerblueclothes"
 	item_state = "officerblueclothes"
@@ -75,11 +75,11 @@
 /obj/item/clothing/under/rank/security/warden/grey
 	name = "grey security suit"
 	desc = "A formal relic of years past before Empire decided it was cheaper to dye the suits red instead of washing out the blood."
-	icon_state = "Commissar"
+	icon_state = "warden"
 	item_state = "gy_suit"
 
 /obj/item/clothing/under/rank/security/warden/skirt
-	name = "Commissar's suitskirt"
+	name = "Knight-Sergeant's suitskirt"
 	desc = "A formal security suitskirt for officers complete with Empire belt buckle."
 	icon_state = "rwarden_skirt"
 	item_state = "r_suit"
@@ -88,8 +88,8 @@
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/security/warden/formal
-	desc = "The insignia on this uniform tells you that this uniform belongs to the Commissar."
-	name = "Commissar's formal uniform"
+	desc = "The insignia on this uniform tells you that this uniform belongs to the Knight-Sergeant."
+	name = "Knight-Sergeant's formal uniform"
 	icon_state = "wardenblueclothes"
 	item_state = "wardenblueclothes"
 	alt_covers_chest = TRUE
@@ -134,11 +134,11 @@
 	fitted = FEMALE_UNIFORM_TOP
 
 /*
- * Prefect Vigilum
+ * Commander
  */
 /obj/item/clothing/under/rank/security/head_of_security
-	name = "Prefect Vigilum's jumpsuit"
-	desc = "A security jumpsuit decorated for those few with the dedication to achieve the position of Prefect Vigilum."
+	name = "Commander's jumpsuit"
+	desc = "A security jumpsuit decorated for those few with the dedication to achieve the position of Commander."
 	icon_state = "hos"
 	item_state = "r_suit"
 	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
@@ -148,8 +148,8 @@
 	random_sensor = FALSE
 
 /obj/item/clothing/under/rank/security/head_of_security/skirt
-	name = "Prefect Vigilum's jumpskirt"
-	desc = "A security jumpskirt decorated for those few with the dedication to achieve the position of Prefect Vigilum."
+	name = "Commander's jumpskirt"
+	desc = "A security jumpskirt decorated for those few with the dedication to achieve the position of Commander."
 	icon_state = "rhos_skirt"
 	item_state = "r_suit"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -157,7 +157,7 @@
 	fitted = FEMALE_UNIFORM_TOP
 
 /obj/item/clothing/under/rank/security/head_of_security/grey
-	name = "Prefect Vigilum's grey jumpsuit"
+	name = "Commander's grey jumpsuit"
 	desc = "There are old men, and there are bold men, but there are very few old, bold men."
 	icon_state = "rhos"
 	item_state = "gy_suit"
@@ -165,23 +165,23 @@
 
 
 /obj/item/clothing/under/rank/security/head_of_security/parade
-	name = "Prefect Vigilum's parade uniform"
-	desc = "A male Prefect Vigilum's luxury-wear, for special occasions."
+	name = "Commander's parade uniform"
+	desc = "A male Commander's luxury-wear, for special occasions."
 	icon_state = "hos_parade_male"
 	item_state = "r_suit"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/security/head_of_security/parade/female
-	name = "Prefect Vigilum's parade uniform"
-	desc = "A female Prefect Vigilum's luxury-wear, for special occasions."
+	name = "Commander's parade uniform"
+	desc = "A female Commander's luxury-wear, for special occasions."
 	icon_state = "hos_parade_fem"
 	item_state = "r_suit"
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/security/head_of_security/formal
-	desc = "The insignia on this uniform tells you that this uniform belongs to the Prefect Vigilum."
-	name = "Prefect Vigilum's formal uniform"
+	desc = "The insignia on this uniform tells you that this uniform belongs to the Commander."
+	name = "Commander's formal uniform"
 	icon_state = "hosblueclothes"
 	item_state = "hosblueclothes"
 	alt_covers_chest = TRUE

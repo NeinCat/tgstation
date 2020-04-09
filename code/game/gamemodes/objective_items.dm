@@ -32,10 +32,10 @@
 	excludefromjob = list("Governor")
 
 /datum/objective_item/steal/hoslaser
-	name = "the Prefect Vigilum's personal laser gun."
+	name = "the Commander's personal laser gun."
 	targetitem = /obj/item/gun/energy/e_gun/hos
 	difficulty = 10
-	excludefromjob = list("Prefect Vigilum")
+	excludefromjob = list("Commander")
 
 /datum/objective_item/steal/handtele
 	name = "a hand teleporter."
@@ -80,7 +80,7 @@
 	name = "a reflector trenchcoat."
 	targetitem = /obj/item/clothing/suit/hooded/ablative
 	difficulty = 3
-	excludefromjob = list("Prefect Vigilum", "Commissar")
+	excludefromjob = list("Commander", "Knight-Sergeant")
 
 /datum/objective_item/steal/reactive
 	name = "the reactive teleport armor."

@@ -63,7 +63,7 @@
 	strip_delay = 80
 
 /obj/item/clothing/suit/armor/vest/warden
-	name = "Commissar's jacket"
+	name = "Knight-Sergeant's jacket"
 	desc = "A navy-blue armored jacket with blue shoulder designations and '/warden/' stitched into one of the chest pockets."
 	icon_state = "warden_alt"
 	item_state = "armor"
@@ -75,7 +75,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/suit/armor/vest/warden/alt
-	name = "Commissar's armored jacket"
+	name = "Knight-Sergeant's armored jacket"
 	desc = "A red jacket with silver rank pips and body armor strapped on top."
 	icon_state = "warden_jacket"
 

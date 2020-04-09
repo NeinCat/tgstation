@@ -663,9 +663,9 @@ update_label()
 	desc = "A perfectly generic identification card. Looks like it could use some flavor."
 
 /obj/item/card/id/away/old/sec
-	name = "Charlie Station Vigilia's ID card"
-	desc = "A faded Charlie Station ID card. You can make out the rank \"Vigilia\"."
-	assignment = "Charlie Station Vigilia"
+	name = "Charlie Station Templar's ID card"
+	desc = "A faded Charlie Station ID card. You can make out the rank \"Templar\"."
+	assignment = "Charlie Station Templar"
 	access = list(ACCESS_AWAY_GENERAL, ACCESS_AWAY_SEC)
 
 /obj/item/card/id/away/old/sci

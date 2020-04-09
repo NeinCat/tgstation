@@ -138,8 +138,8 @@
 //Security
 
 /obj/item/clothing/head/HoS
-	name = "Prefect Vigilum cap"
-	desc = "The robust standard-issue cap of the Prefect Vigilum. For showing the officers who's in charge."
+	name = "Commander cap"
+	desc = "The robust standard-issue cap of the Commander. For showing the officers who's in charge."
 	icon_state = "hoscap"
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 10, "rad" = 0, "fire" = 50, "acid" = 60)
 	strip_delay = 80
@@ -150,8 +150,8 @@
 	desc = "A black cap fit for a high ranking syndicate officer."
 
 /obj/item/clothing/head/HoS/beret
-	name = "Prefect Vigilum beret"
-	desc = "A robust beret for the Prefect Vigilum, for looking stylish while not sacrificing protection."
+	name = "Commander beret"
+	desc = "A robust beret for the Commander, for looking stylish while not sacrificing protection."
 	icon_state = "hosberetblack"
 
 /obj/item/clothing/head/HoS/beret/syndicate
@@ -159,15 +159,15 @@
 	desc = "A black beret with thick armor padding inside. Stylish and robust."
 
 /obj/item/clothing/head/warden
-	name = "Commissar's police hat"
-	desc = "It's a special armored hat issued to the Commissar of a security force. Protects the head from impacts."
+	name = "Knight-Sergeant's police hat"
+	desc = "It's a special armored hat issued to the Knight-Sergeant of a security force. Protects the head from impacts."
 	icon_state = "policehelm"
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
 	strip_delay = 60
 	dog_fashion = /datum/dog_fashion/head/warden
 
 /obj/item/clothing/head/warden/drill
-	name = "Commissar's campaign hat"
+	name = "Knight-Sergeant's campaign hat"
 	desc = "A special armored campaign hat with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection."
 	icon_state = "wardendrill"
 	item_state = "wardendrill"
@@ -243,13 +243,13 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/beret/sec/navyhos
-	name = "Prefect Vigilum's beret"
-	desc = "A special beret with the Prefect Vigilum's insignia emblazoned on it. A symbol of excellence, a badge of courage, a mark of distinction."
+	name = "Commander's beret"
+	desc = "A special beret with the Commander's insignia emblazoned on it. A symbol of excellence, a badge of courage, a mark of distinction."
 	icon_state = "hosberet"
 
 /obj/item/clothing/head/beret/sec/navywarden
-	name = "Commissar's beret"
-	desc = "A special beret with the Commissar's insignia emblazoned on it. For wardens with class."
+	name = "Knight-Sergeant's beret"
+	desc = "A special beret with the Knight-Sergeant's insignia emblazoned on it. For wardens with class."
 	icon_state = "wardenberet"
 	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 50)
 	strip_delay = 60

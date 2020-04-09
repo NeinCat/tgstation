@@ -133,7 +133,7 @@
 
 /datum/bounty/item/assistant/poppy
 	name = "Poppies"
-	description = "Commander Zot really wants to sweep Vigilia Olivia off her feet. Send a shipment of Poppies - her favorite flower - and he'll happily reward you."
+	description = "Commander Zot really wants to sweep Templar Olivia off her feet. Send a shipment of Poppies - her favorite flower - and he'll happily reward you."
 	reward = 1000
 	required_count = 3
 	wanted_types = list(/obj/item/reagent_containers/food/snacks/grown/poppy)

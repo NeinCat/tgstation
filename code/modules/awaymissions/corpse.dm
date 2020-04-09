@@ -482,13 +482,13 @@
 
 
 /obj/effect/mob_spawn/human/nanotrasensoldier
-	name = "\improper Empire Private Vigilia"
+	name = "\improper Empire Private Templar"
 	id_job = "Private Security Force"
 	id_access_list = list(ACCESS_CENT_CAPTAIN, ACCESS_CENT_GENERAL, ACCESS_CENT_SPECOPS, ACCESS_CENT_MEDICAL, ACCESS_CENT_STORAGE, ACCESS_SECURITY, ACCESS_MECH_SECURITY)
 	outfit = /datum/outfit/nanotrasensoldiercorpse
 
 /datum/outfit/nanotrasensoldiercorpse
-	name = "NT Private Vigilia Corpse"
+	name = "NT Private Templar Corpse"
 	uniform = /obj/item/clothing/under/rank/security/officer
 	suit = /obj/item/clothing/suit/armor/vest
 	shoes = /obj/item/clothing/shoes/combat
@@ -511,12 +511,12 @@
 /obj/effect/mob_spawn/human/nanotrasensoldier/alive
 	death = FALSE
 	roundstart = FALSE
-	mob_name = "Private Vigilia"
+	mob_name = "Private Templar"
 	name = "sleeper"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 	faction = "nanotrasenprivate"
-	short_desc = "You are a Empire Private Vigilia!"
+	short_desc = "You are a Empire Private Templar!"
 
 
 /////////////////Spooky Undead//////////////////////

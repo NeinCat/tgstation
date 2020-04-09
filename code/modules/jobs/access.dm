@@ -357,7 +357,7 @@
 	return list("Assistant", "Governor", "Prefect Pretorio", "Bartender", "Cook", "Botanist", "Quartermaster", "Cargo Technician",
 				"Shaft Miner", "Clown", "Mime", "Janitor", "Curator", "Lawyer", "Chaplain", "Prefect Fectum", "Station Engineer",
 				"Atmospheric Technician", "Prefect Medicus", "Medical Doctor", "Paramedic", "Chemist", "Geneticist", "Virologist",
-				"Prefect Scientia", "Scientist", "Roboticist", "Prefect Vigilum", "Commissar", "Detective", "Vigilia", "Prisoner")
+				"Prefect Scientia", "Scientist", "Roboticist", "Commander", "Knight-Sergeant", "Detective", "Templar", "Prisoner")
 
 /proc/get_all_job_icons() //For all existing HUD icons
 	return get_all_jobs() + list("Emergency Response Team Commander", "Security Response Officer", "Engineering Response Officer", "Medical Response Officer", "Entertainment Response Officer", "Religious Response Officer", "Janitorial Response Officer", "Death Commando")

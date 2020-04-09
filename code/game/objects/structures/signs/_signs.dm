@@ -144,11 +144,26 @@
 	setDir(turn(dir, 90))
 
 /obj/structure/sign/empire
-	name = "\improper Empire logo"
-	desc = "A sign with the Empire logo on it. Glory to Empire!"
+	name = "\improper Empire flag"
+	desc = "A flag with the Empire logo on it. Glory to Empire!"
 	icon_state = "nanotrasen"
 
 /obj/structure/sign/logo
 	name = "\improper Empire logo"
 	desc = "The Empire corporate logo."
 	icon_state = "nanotrasen_sign1"
+
+/obj/structure/sign/shield
+	name = "\improper Empire shield"
+	desc = "Imperial shield. Old and beautiful. Glory to Empire!"
+	icon_state = "shield-station"
+
+/obj/structure/sign/shield/templar
+	name = "\improper Templar shield"
+	desc = "Shield of the Templars. Old knight's shield."
+	icon_state = "shield-templar"
+
+/obj/structure/sign/templar
+	name = "\improper Flag of the Order"
+	desc = "A flag with the Order ensigna on it."
+	icon_state = "templar"

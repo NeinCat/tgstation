@@ -165,15 +165,15 @@
 
 
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier
-	name = "\improper Empire Private Vigilia"
+	name = "\improper Empire Private Templar"
 	id_job = "Private Security Force"
-	id_access = "Vigilia"
+	id_access = "Templar"
 	outfit = /datum/outfit/nanotrasensoldiercorpse2
 	hairstyle = "Bald"
 	facial_hairstyle = "Shaved"
 
 /datum/outfit/nanotrasensoldiercorpse2
-	name = "NT Private Vigilia Corpse"
+	name = "NT Private Templar Corpse"
 	uniform = /obj/item/clothing/under/rank/security/officer
 	suit = /obj/item/clothing/suit/armor/vest
 	shoes = /obj/item/clothing/shoes/combat

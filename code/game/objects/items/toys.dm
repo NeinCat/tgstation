@@ -1354,7 +1354,7 @@
 	toysay = "Giving out all access!"
 
 /obj/item/toy/figure/hos
-	name = "Prefect Vigilum action figure"
+	name = "Commander action figure"
 	icon_state = "hos"
 	toysay = "Go ahead, make my day."
 
@@ -1433,7 +1433,7 @@
 	toysay = "Get that fucking disk!"
 
 /obj/item/toy/figure/secofficer
-	name = "Vigilia action figure"
+	name = "Templar action figure"
 	icon_state = "secofficer"
 	toysay = "I am the law!"
 	toysound = 'sound/voice/complionator/dredd.ogg'
@@ -1444,8 +1444,8 @@
 	toysay = "The cure is potassium!"
 
 /obj/item/toy/figure/warden
-	name = "Commissar action figure"
-	icon_state = "Commissar"
+	name = "Knight-Sergeant action figure"
+	icon_state = "Knight-Sergeant"
 	toysay = "Seventeen minutes for coughing at an officer!"
 
 

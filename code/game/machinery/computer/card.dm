@@ -31,7 +31,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 		"Cyborg",
 		"Governor",
 		"Prefect Pretorio",
-		"Prefect Vigilum",
+		"Commander",
 		"Prefect Fectum",
 		"Prefect Scientia",
 		"Prefect Medicus",
@@ -412,7 +412,7 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 							get_subordinates("Prefect Pretorio")
 						if((ACCESS_HOS in inserted_scan_id.access) && ((target_dept==2) || !target_dept))
 							region_access |= 2
-							get_subordinates("Prefect Vigilum")
+							get_subordinates("Commander")
 						if((ACCESS_CMO in inserted_scan_id.access) && ((target_dept==3) || !target_dept))
 							region_access |= 3
 							get_subordinates("Prefect Medicus")

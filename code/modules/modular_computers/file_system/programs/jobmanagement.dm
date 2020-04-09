@@ -18,7 +18,7 @@
 		"Cyborg",
 		"Governor",
 		"Prefect Pretorio",
-		"Prefect Vigilum",
+		"Commander",
 		"Prefect Fectum",
 		"Prefect Scientia",
 		"Prefect Medicus")

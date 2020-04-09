@@ -40,7 +40,7 @@
 		"[ACCESS_HOS]" = list(
 			"department" = CARDCON_DEPARTMENT_SECURITY,
 			"region" = 2,
-			"head" = "Prefect Vigilum"
+			"head" = "Commander"
 		),
 		"[ACCESS_CMO]" = list(
 			"department" = CARDCON_DEPARTMENT_MEDICAL,

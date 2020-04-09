@@ -1,12 +1,12 @@
 /datum/job/chaplain
 	title = "Chaplain"
 	flag = CHAPLAIN
-	department_head = list("Prefect Pretorio")
+	department_head = list("Commander")
 	department_flag = CIVILIAN
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Prefect Pretorio"
+	supervisors = "the Commander"
 	social_class = SOCIAL_CLASS_MED
 	selection_color = "#dddddd"
 

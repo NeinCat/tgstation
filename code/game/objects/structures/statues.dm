@@ -153,7 +153,7 @@
 	desc = "This is a highly valuable statue made from gold."
 
 /obj/structure/statue/gold/hos
-	name = "statue of the Prefect Vigilum"
+	name = "statue of the Commander"
 	icon_state = "hos"
 
 /obj/structure/statue/gold/hop
@@ -189,7 +189,7 @@
 	icon_state = "jani"
 
 /obj/structure/statue/silver/sec
-	name = "statue of a Vigilia"
+	name = "statue of a Templar"
 	icon_state = "sec"
 
 /obj/structure/statue/silver/secborg

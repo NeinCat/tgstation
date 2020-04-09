@@ -81,7 +81,7 @@
 	item_state = "banner_security"
 	lefthand_file = 'icons/mob/inhands/equipment/banners_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/banners_righthand.dmi'
-	job_loyalties = list("Vigilia", "Commissar", "Detective", "Prefect Vigilum")
+	job_loyalties = list("Templar", "Knight-Sergeant", "Detective", "Commander")
 	warcry = "EVERYONE DOWN ON THE GROUND!!"
 
 /obj/item/banner/security/mundane
@@ -197,7 +197,7 @@
 	name = "command banner"
 	desc = "The banner of Command, a staunch and ancient line of bueraucratic kings and queens."
 	//No icon state here since the default one is the NT banner
-	job_loyalties = list("Governor", "Prefect Pretorio", "Prefect Fectum", "Prefect Vigilum", "Prefect Scientia", "Prefect Medicus")
+	job_loyalties = list("Governor", "Prefect Pretorio", "Prefect Fectum", "Commander", "Prefect Scientia", "Prefect Medicus")
 	warcry = "Hail Empire!"
 
 /obj/item/banner/command/mundane

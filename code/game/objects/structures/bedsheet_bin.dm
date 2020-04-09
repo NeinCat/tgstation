@@ -152,11 +152,11 @@ LINEN BINS
 	dream_messages = list("authority", "a silvery ID", "healing", "life", "surgery", "a cat", "the Prefect Medicus")
 
 /obj/item/bedsheet/hos
-	name = "Prefect Vigilum's bedsheet"
+	name = "Commander's bedsheet"
 	desc = "It is decorated with a shield emblem. While crime doesn't sleep, you do, but you are still THE LAW!"
 	icon_state = "sheethos"
 	item_state = "sheethos"
-	dream_messages = list("authority", "a silvery ID", "handcuffs", "a baton", "a flashbang", "sunglasses", "the Prefect Vigilum")
+	dream_messages = list("authority", "a silvery ID", "handcuffs", "a baton", "a flashbang", "sunglasses", "the Commander")
 
 /obj/item/bedsheet/hop
 	name = "Prefect Pretorio's bedsheet"
